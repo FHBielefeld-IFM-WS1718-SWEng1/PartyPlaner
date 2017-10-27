@@ -6,11 +6,11 @@
 
 #### Webanwendung
 
-Die Anwendung soll von den gängigen Browsern korrekt dargestellt werden.  Design und Bedienung der Website entsprechen den aktuellen Technologien und sind intuitiv.
+Die Anwendung soll von den gängigen Browsern korrekt dargestellt werden.  Design und Bedienung der Website entsprechen den aktuellen Technologien und sind intuitiv. Die Webanwendung ist für mobile Geräte optimiert.
 
 #### App
 
-Eine native Lösung für Android und Apple soll angeboten werden. Design und Bedienung sollen dabei ebenfalls zeitgemäß und den Technologien angepasst sein.
+Eine native Lösung für Android und iOS soll angeboten werden. Design und Bedienung sollen dabei ebenfalls zeitgemäß und den Technologien angepasst sein.
 
 #### Datenbank
 
@@ -28,7 +28,17 @@ Es soll zwei Möglichkeiten geben sich an dem System anzumelden. Einmal als regi
 
 #### Rollen- / Rechtesystem
 
-Um das Planen von Partys einfacher zu machen, muss der Organisator die Möglichkeit haben, anderen Benutzern/Gästen verschiedene Rollen/Rechte für die Veranstaltung zuzuweisen. Dies soll über vorgefertigte Rollen oder über ein flexibel vom benutzereingestellbares Rechtesystem erfolgen.
+Der Organisator kann noch weiter User zu Organisatoren machen. Diese haben dann die gleichen Rechte.
+
+#### Planungssystem
+
+##### ToDo-Liste
+
+Der Organisator kann eine ToDo-Liste anlegen, damit er die Party planen kann.
+
+##### Kostenübersicht
+
+Es können Ausnahmen und Einnahmen protokolliert werden. Diese können in Übersichten eingesehen werden. Die verschiedenen Ein- / Ausgaben werden am Ende der Übersicht zusammengerechnet. Auch steht eine Gesamtübersicht zur Verfügung.
 
 #### Veranstaltung
 
@@ -38,13 +48,21 @@ Auf der Hauptseite der Veranstaltung müssen alle relevanten Informationen zur V
 
 Der Name der Veranstaltung.
 
+##### Beschreibung
+
+Der Organisator kann einen Beschreibungstext zu seiner Veranstaltung eingeben.
+
+##### Gastgeber / Ansprechpartner
+
+Der Gastgeber, bzw. die Ansprechpartner, sind zentral einsehbar.
+
 ##### Ort
 
-Ort der Veranstaltung. Hier muss nicht zwingend eine gültige Adresse eingegeben werden, damit auch benutzereigene Beschreibungen möglich sind. Wenn eine gültige Adresse eingegeben wurde, muss diese von Google Maps (Web, Android) oder Maps(Apple) verarbeitet werden können.
+Ort der Veranstaltung. Hier muss nicht zwingend eine gültige Adresse eingegeben werden, damit auch benutzereigene Beschreibungen möglich sind. Wenn eine gültige Adresse eingegeben wurde, muss diese von Google Maps (Web, Android) oder Maps(iOS) verarbeitet werden können.
 
 ##### Zeitpunkt
 
-Datum und Uhrzeit der Veranstaltung. Es muss eine Verbindung zu den Systemkalendern (Android,Apple) bestehen, damit der Termin direkt übertragen werden kann. Auch sollten die Termine in einer Übersicht im Benutzerprofil angezeigt werden (Kalenderwidget).
+Datum und Uhrzeit der Veranstaltung. Es muss eine Verbindung zu den Systemkalendern (Android,iOS) bestehen, damit der Termin direkt übertragen werden kann. Auch sollten die Termine in einer Übersicht im Benutzerprofil angezeigt werden (Kalenderwidget).
 
 ##### Galerie
 
@@ -66,13 +84,17 @@ Gäste können selbständig zu- oder absagen.
 
 Einladungen können sowohl über QR-Code, als auch über Link versendet werden. Die Einladungen können in Zeit und Menge beschränkt werden.
 
+##### Gästeliste
+
+Gäste können  die aktuelle Gästeliste einsehen.
+
+##### Planungsystem -><- Veranstaltung
+
+Es besteht die Möglichkeit, aus der Planungsübersicht Inhalte für die Veranstaltung zu erstellen.
+
 ## Optional
 
 ### Infrastruktur
-
-#### Webanwendung
-
-Es wird eine für mobile Geräte optimierte Website geschrieben.
 
 #### App
 
@@ -103,3 +125,7 @@ Es kann sich mit Social-Media-Plattformen verbunden werden.
 ##### Galerie
 
 Medien können kommentiert werden. Die Medien können auf Social-Media-Plattformen geteilt werden.
+
+##### Benachrichtigungssystem / Mail
+
+User erhalten entweder per Mail oder Push-Nachricht Erinnerungen zu der Veranstaltung.
