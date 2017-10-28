@@ -30,15 +30,15 @@
 - [x] Tim
 
 
-#Besprochene Themen
+# Besprochene Themen
 
-##Pflichtenheft
+## Pflichtenheft
 
 ### Falsche Bezeichnungen
 Umbennenung von Apple zu IOS in dem Document
 
 
-###Fehlende Einträge nachfügen
+### Fehlende Einträge nachfügen
 - Responsive Design nachtragen
 - Veranstaltung
   - Beschreibung
@@ -51,7 +51,7 @@ Umbennenung von Apple zu IOS in dem Document
   - e-mail
   - notification(IOS/Android)
 
-##Rollen
+## Rollen
 ### Gründung neuer Teams
 - Design
 - Server
@@ -102,7 +102,7 @@ IOS			Alex.B
 
 Andre.M
 
-###github
+### github
 
 Jonas
 

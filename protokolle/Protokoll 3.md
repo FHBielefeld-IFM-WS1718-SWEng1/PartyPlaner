@@ -32,7 +32,7 @@
 
 # Zusammenfassungen
 
-#####Verbesserungsvorschläge
+## Verbesserungsvorschläge
 
 - Fliesstext
 - nicht nur kopieren
@@ -41,7 +41,7 @@
 
 # Pflichtenheft
 
-##Mängel
+## Mängel
 
 - funktionale Anforderungen müssen im Vordergrund sein
   - Jede Funktion muss erwähnt werden
@@ -101,7 +101,7 @@ Das Partyplaner repo wird für die gesamte plannung des Projektes genutzt es ent
 
 Außerdem bekommt jedes Team ihr eigenes Repo 
 
-#Nächste Treffen
+# Nächste Treffen
 
 Ganze Projektteam
 Vorerst immer Freitags nach der Vorlesung gegen 10:00
