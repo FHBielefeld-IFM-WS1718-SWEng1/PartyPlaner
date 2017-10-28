@@ -1,10 +1,10 @@
 # Besprechungsprotokol Nr. 2
 
-**Projekt/Anlass**: Party-Planer, Wöchentlichestreffen
-**Datum/Uhrzeit**: 27.10.2017, 10:00 - 11:40 Uhr
-**Ort/Raum**: D328 
-**Verfasser**: Alexander Heinisch 
-**Datum**: 26.10.2017
+**Projekt/Anlass**: Party-Planer, Wöchentlichestreffen  
+**Datum/Uhrzeit**: 27.10.2017, 10:00 - 11:40 Uhr  
+**Ort/Raum**: D328  
+**Verfasser**: Alexander Heinisch  
+**Datum**: 26.10.2017  
 **Teilehmer:**
 
 - [x] Alex.B
@@ -89,12 +89,12 @@ Umbennenung von Apple zu IOS in dem Document
 
 ### Wahl der Teamleiter
 
-Design		Andre.K
-Server-Api	Alex.H
-WebTeam	Dianna
-Datenbank	Jonas
-Android		Malte
-IOS			Alex.B
+Design		Andre.K  
+Server-Api	Alex.H  
+WebTeam	Dianna  
+Datenbank	Jonas  
+Android		Malte  
+IOS			Alex.B  
 
 ## Vertreterwahl
 
@@ -124,7 +124,7 @@ nächste Woche übernehmen Henrick und Diana die Zusammenfassung
 
 Docute bei git-page eingestellt von Daniel.R
 
-### Ideen
+## Ideen
 
 - Tools für austauschen
   - Discord

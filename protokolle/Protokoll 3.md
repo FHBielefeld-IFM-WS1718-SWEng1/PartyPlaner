@@ -1,10 +1,10 @@
 # Besprechungsprotokol Nr. 3
 
-**Projekt/Anlass**: Party-Planer, 
-**Datum/Uhrzeit**: 27.10.2017, 14:00 - 15:00 Uhr
-**Ort/Raum**: D317
-**Verfasser**: Alexander Heinisch 
-**Datum**: 27.10.2017
+**Projekt/Anlass**: Party-Planer,  
+**Datum/Uhrzeit**: 27.10.2017, 14:00 - 15:00 Uhr  
+**Ort/Raum**: D317  
+**Verfasser**: Alexander Heinisch  
+**Datum**: 27.10.2017  
 **Teilehmer:**
 
 - [x] Alex.B
@@ -68,18 +68,18 @@ Wurde von Brunsmann vorgeschlagen zu entwickeln. Vorteil von mockups fehlende Fu
 
 Am ende des Meetings wurden Aufgaben für die unterschiedlichen Teams festgelegt.
 
-Android 	-	Beispiel app entwickeln
-IOS		-	Beispiel app entwickeln
-DB		-	System architektur entwickeln
-Web		-	HTML und CSS anschauen
-Design	-	Grundlagen Mockups entwickeln und dann an andere Teams teil Mockups verteilen
-Server	-	Struktur auf den Server plannen
+Android 	-	Beispiel app entwickeln  
+IOS		-	Beispiel app entwickeln  
+DB		-	System architektur entwickeln  
+Web		-	HTML und CSS anschauen  
+Design	-	Grundlagen Mockups entwickeln und dann an andere Teams teil Mockups verteilen  
+Server	-	Struktur auf den Server plannen  
 
 Außerdem soll **jedes** Teammitglied Ein Entwicklertagebuch führen.
 
-Wann wurde eine Aufgabe angefangen
-Was war diese Aufgabe
-Wie lange wurde für diese Aufgabe benötigt
+Wann wurde eine Aufgabe angefangen  
+Was war diese Aufgabe  
+Wie lange wurde für diese Aufgabe benötigt  
 
 bsp.:
 Am Freitag den 27.10.2017 Protokol Nr.2 angefertigt 1h.
