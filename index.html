@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>./docute</title>
+  <link rel="stylesheet" href="https://unpkg.com/docute@3/dist/docute.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script src="https://unpkg.com/docute@3/dist/docute.js"></script>
+  <script>
+    docute.init({
+		home: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/master/README.md',
+		nav: [
+			// Pflichtenheft
+			{title: 'Pflichtenheft', path: '/pflichtenheft', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/Pflichtenheft.md'},
+			// Teamverteilung
+			{title: 'Teamverteilung', path: '/teams', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/Teams.md'},
+			// Protokolle
+			{title: 'Protokolle', type: 'dropdown', items: [
+				{title: 'Protokoll 1', path: '/protokolle/protokoll1', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll%201.md'},
+				{title: 'Protokoll 2', path: '/protokolle/protokoll2', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll%202.md'},
+				{title: 'Protokoll 3', path: '/protokolle/protokoll3', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll%203.md'}
+			]}
+		]
+	})
+  </script>
+</body>
+</html>
