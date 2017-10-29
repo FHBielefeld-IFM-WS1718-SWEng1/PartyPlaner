@@ -30,18 +30,18 @@
 - [x] Tim
 
 
-# Zusammenfassungen
+## Zusammenfassungen
 
-## Verbesserungsvorschläge
+### Verbesserungsvorschläge
 
 - Fliesstext
 - nicht nur kopieren
 - Kategorien über die Vorlesung bilden
 - Notieren der Autoren der Zusammenfassung
 
-# Pflichtenheft
+## Pflichtenheft
 
-## Mängel
+### Mängel
 
 - funktionale Anforderungen müssen im Vordergrund sein
   - Jede Funktion muss erwähnt werden
@@ -50,21 +50,21 @@
 - Abstimmungen nicht genau genug erklärt
 - Infrastruktur fehlen weitere Grafiken
 
-## Verbesserungen
+### Verbesserungen
 
 - Systemarchitektur analyse hinzufügen
 - Bewertung und Einchecken von optional in Must-Have übernehmen
 
-## Gui Mockups
+### Gui Mockups
 
 Wurde von Brunsmann vorgeschlagen zu entwickeln. Vorteil von mockups fehlende Funktionalitäten können bemerkt werden und somit im Pflichtenheft eingetragen werden. Müssen für mobil und Web entwickelt werden. Design Team ist zuständig anzufangen und Aufgaben zu verteilen.
 
-### Vorgeschlagene Software
+#### Vorgeschlagene Software
 
 - Pencil https://pencil.evolus.vn/
 - Balsomiq https://balsamiq.com/
 
-# Aufgaben
+## Aufgaben
 
 Am ende des Meetings wurden Aufgaben für die unterschiedlichen Teams festgelegt.
 
@@ -86,11 +86,11 @@ Am Freitag den 27.10.2017 Protokol Nr.2 angefertigt 1h.
 Am Freitag den 27.10.2017 Protokol Nr.3 angefertigt 1h.
 .....
 
-# Teams
+## Teams
 
 Datenbank Team soll laut Brunsmann direkt in das Test Team überlaufen. Als Thema für die nächste Besprechung!
 
-# Git
+## Git
 
 Das Partyplaner repo wird für die gesamte plannung des Projektes genutzt es enthält
 
@@ -101,7 +101,7 @@ Das Partyplaner repo wird für die gesamte plannung des Projektes genutzt es ent
 
 Außerdem bekommt jedes Team ihr eigenes Repo 
 
-# Nächste Treffen
+## Nächste Treffen
 
 Ganze Projektteam
 Vorerst immer Freitags nach der Vorlesung gegen 10:00

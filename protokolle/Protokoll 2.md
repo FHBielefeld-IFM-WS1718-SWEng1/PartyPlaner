@@ -30,15 +30,15 @@
 - [x] Tim
 
 
-# Besprochene Themen
+## Besprochene Themen
 
-## Pflichtenheft
+### Pflichtenheft
 
-### Falsche Bezeichnungen
+#### Falsche Bezeichnungen
 Umbennenung von Apple zu IOS in dem Document
 
 
-### Fehlende Einträge nachfügen
+#### Fehlende Einträge nachfügen
 - Responsive Design nachtragen
 - Veranstaltung
   - Beschreibung
@@ -51,43 +51,43 @@ Umbennenung von Apple zu IOS in dem Document
   - e-mail
   - notification(IOS/Android)
 
-## Rollen
-### Gründung neuer Teams
+### Rollen
+#### Gründung neuer Teams
 - Design
 - Server
 - Android
 - IOS
 
-### Aufgaben der Teams
+#### Aufgaben der Teams
 
-#### Design
+##### Design
 
 - Entwerfen von Design für Web/IOS/Android
 - Ansprechpartner zu UI-Design
 
-#### Server-API
+##### Server-API
 
 - Erstellen von Server Software
 - bestimmte Api entwickeln damit Clienten auf die Datenbank zugreifen könne
 
-#### WebTeam
+##### WebTeam
 
 - Erstellen der html seiten
 - Api aufrufe um an Daten zu kommen
 
-#### Datenbank
+##### Datenbank
 
 - Plannen der Datenbank (Diagramme)
 - Datenbank einrichten
 - Views erstellen
 - Verwaltung
 
-#### Android/IOS
+##### Android/IOS
 
 - Client erstellen
 - Api für datenbank einträge nutzen
 
-### Wahl der Teamleiter
+#### Wahl der Teamleiter
 
 Design		Andre.K  
 Server-Api	Alex.H  
@@ -96,35 +96,35 @@ Datenbank	Jonas
 Android		Malte  
 IOS			Alex.B  
 
-## Vertreterwahl
+### Vertreterwahl
 
-### Projektleiter
+#### Projektleiter
 
 Andre.M
 
-### github
+#### github
 
 Jonas
 
-## Teammitglieder
+### Teammitglieder
 
-### Wechsel
+#### Wechsel
 
 - Dario Server-Api -> IOS
 - Jendrik Server-Api -> IOS
 - Florian.W Android -> Server-Api
 
-### Neu
+#### Neu
 
 - Nikita Server-Api
 
-## Zusammenfassungen
+### Zusammenfassungen
 
 nächste Woche übernehmen Henrick und Diana die Zusammenfassung
 
 Docute bei git-page eingestellt von Daniel.R
 
-## Ideen
+### Ideen
 
 - Tools für austauschen
   - Discord
