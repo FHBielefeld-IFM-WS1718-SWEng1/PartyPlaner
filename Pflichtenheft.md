@@ -1,5 +1,119 @@
 # Pflichtenheft
 
+## Funktionale Anforderungen
+
+### Grundfunktionen
+
+- Einloggen
+- "Passwort vergessen"-Funktion
+- Ausloggen
+- Impressum anzeigen
+- Hilfeseite anzeigen
+
+#### Kontaktformular
+
+- Kontaktformular anzeigen
+- Kontaktformular absenden
+
+#### Benutzerverwaltung
+
+- Benutzer erstellen
+- E-Mail validieren
+- Benutzerprofil verwalten/ändern
+- Benutzerprofil löschen
+
+#### Push-Nachrichten
+
+- Push-Nachrichten automatisch versenden
+
+### Veranstaltung
+
+#### Allgemein
+
+- Veranstaltung erstellen
+- Veranstaltung verwalten
+- Berechtigungen verwalten
+- Veranstaltung ändern
+- Veranstaltung anzeigen (Gast, Registriert, Organisator)
+
+#### Einladungen
+
+- Einladen via QR-Code
+- Einladen via Weblink
+- (Einladungen zurücknehmen?)
+- Zu- und Absagen (Gast, Registriert)
+- Gästeliste anzeigen
+
+#### Aufgaben
+
+- Aufgaben anzeigen
+- Aufgaben verwalten
+- Aufgaben verteilen
+- Aufgaben übernehmen
+
+#### ToDo-Liste
+
+- ToDo-Liste anzeigen
+- ToDo-Liste verwalten
+
+#### Kostenübersicht
+
+- Kostenübersicht anzeigen
+- Kostenübersicht bearbeiten
+
+#### Galerie
+
+- Galerieübersicht (alle verfügbaren Galerien) anzeigen
+- Startseite (einer bestimmten Galerie) anzeigen
+- Fotos hochladen
+- Fotos herunterladen
+- Fotos anzeigen
+- (Fotos kommentieren?)
+
+#### Kommunikation
+
+- Kommentar erstellen 
+- Kommentar bearbeiten
+- Kommentar löschen
+
+#### Abstimmungen
+
+- Abstimmung erstellen
+- Abstimmung bearbeiten
+- Abstimmung anzeigen
+- Abstimmen
+
+#### Bewertung
+
+- Bewertung anzeigen
+- Bewertung abgeben
+- Bewertung ändern
+
+#### Einchecken
+
+- Übersicht anzeigen
+- Gast-QR-Code anzeigen
+- QR-Code scannen
+- Gast einchecken
+
+
+## Nicht-Funktionale Anforderungen
+
+### Server
+
+### Datenbank
+
+### App
+
+### Webanwendung
+
+## Systemarchitekturdiagramm
+
+## Mock-Ups
+
+
+
+
 ## Must Have's
 
 ### Infrastruktur
