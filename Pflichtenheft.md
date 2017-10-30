@@ -4,11 +4,19 @@
 
 ### Grundfunktionen
 
+#### Allgemein
+
 - Einloggen
 - "Passwort vergessen"-Funktion
 - Ausloggen
+
+#### Impressum
+
 - Impressum anzeigen
-- Hilfeseite anzeigen
+
+#### Hilfe
+
+- Hilfe anzeigen
 
 #### Kontaktformular
 
@@ -18,7 +26,6 @@
 #### Benutzerverwaltung
 
 - Benutzer erstellen
-- E-Mail validieren
 - Benutzerprofil verwalten/ändern
 - Benutzerprofil löschen
 
@@ -32,9 +39,15 @@
 
 - Veranstaltung erstellen
 - Veranstaltung verwalten
-- Berechtigungen verwalten
 - Veranstaltung ändern
 - Veranstaltung anzeigen (Gast, Registriert, Organisator)
+- Gästeliste
+
+#### Berechtigungen
+
+- Berechtigungen erteilen
+- Berechtigungen entziehen
+- Berechtigungen anzeigen
 
 #### Einladungen
 
@@ -63,11 +76,11 @@
 
 #### Galerie
 
-- Galerieübersicht (alle verfügbaren Galerien) anzeigen
 - Startseite (einer bestimmten Galerie) anzeigen
 - Fotos hochladen
 - Fotos herunterladen
 - Fotos anzeigen
+- (Galerieübersicht (alle verfügbaren Galerien) anzeigen)
 - (Fotos kommentieren?)
 
 #### Kommunikation
@@ -75,6 +88,8 @@
 - Kommentar erstellen 
 - Kommentar bearbeiten
 - Kommentar löschen
+- (Privatchats)
+- (Gruppenchats)
 
 #### Abstimmungen
 
@@ -97,6 +112,11 @@
 - Gast einchecken
 
 
+#### (Social-Media)
+
+- Über Social-Media-Profil anmelden
+- Bilder / Veranstaltung per Social-Media teilen
+
 ## Nicht-Funktionale Anforderungen
 
 ### Server
@@ -105,18 +125,21 @@
 
 ### App
 
+- Android
+- iOS
+- (für Tablets optimiert)
+
 ### Webanwendung
+
+- Desktopversion
+- mobile Version
 
 ## Systemarchitekturdiagramm
 
-## Mock-Ups
 
+## Detailbeschreibung
 
-
-
-## Must Have's
-
-### Infrastruktur
+### Nicht-Funktionale Anforderungen
 
 #### Webanwendung
 
@@ -126,6 +149,8 @@ Die Anwendung soll von den gängigen Browsern korrekt dargestellt werden.  Desig
 
 Eine native Lösung für Android und iOS soll angeboten werden. Design und Bedienung sollen dabei ebenfalls zeitgemäß und den Technologien angepasst sein.
 
+Optional sind die Apps auch für Tablets optimiert.
+
 #### Datenbank
 
 Die Verwaltung der Daten soll ein entsprechendes Datenbankmanagmentsystem übernehmen. Es muss ausreichend dimensioniert sein, damit ausreichend Daten gespeichert werden können, sowie das Abrufen und Schreiben von Daten zügig erfolgt.
@@ -134,112 +159,138 @@ Die Verwaltung der Daten soll ein entsprechendes Datenbankmanagmentsystem übern
 
 Die Hauptanwendung soll auf einem Server laufen. Auch der Server muss ausreichend Ressourcen bereitstellen, damit ein Betrieb von mehreren Clients  gleichzeitig möglich wird.
 
-### Funktionen
+### Funktionale Anforderungen
 
-#### Benutzersystem
+#### Grundfunktionen
 
-Es soll zwei Möglichkeiten geben sich an dem System anzumelden. Einmal als registrierter Benutzer und einmal als Gast. Als registrierter Benutzer erhält man ein Benutzerprofil, über das man seine persönlichen Daten verwalten kann. Hierzu zählen Name,Adresse,Foto,vergangene Veranstaltungen, zukünftige Veranstaltungen... Als Gast hat man nur Zugriff auf eine Veranstaltung, muss dafür aber auch nur einen Namen angeben.
+##### Allgemein
 
-#### Rollen- / Rechtesystem
+###### Einloggen
 
-Der Organisator kann noch weiter User zu Organisatoren machen. Diese haben dann die gleichen Rechte.
+Es ist möglich sich zum Beginn als Gastuser oder registrierter User anzumelden. Bei der Anmeldung als registrierter Benutzer gibt es einen Dialog, falls man sein Passwort vergessen hat.
 
-#### Planungssystem
+###### Ausloggen
 
-##### ToDo-Liste
+Es ist zu jeder Zeit möglich sich aus der Anwendung auszuloggen.
 
-Der Organisator kann eine ToDo-Liste anlegen, damit er die Party planen kann.
+##### Impressum
 
-##### Kostenübersicht
+Das Impressum muss jeder Zeit erreichbar sein.
 
-Es können Ausnahmen und Einnahmen protokolliert werden. Diese können in Übersichten eingesehen werden. Die verschiedenen Ein- / Ausgaben werden am Ende der Übersicht zusammengerechnet. Auch steht eine Gesamtübersicht zur Verfügung.
+##### Hilfe
+
+Die Hilfe zur Anwendung muss jederzeit erreichbar sein.
+
+##### Kontaktformular
+
+Zusammenfassung der Kontaktdaten des Entwicklers. Hierzu gehören Firmenname, E-Mail, Adresse, Telefon und Angaben zur Erreichbarkeit.
+
+##### Benutzerverwaltung
+
+Es soll zwei Möglichkeiten geben sich an dem System anzumelden. Einmal als registrierter Benutzer und einmal als Gast. Als registrierter Benutzer erhält man ein Benutzerprofil, über das man seine persönlichen Daten verwalten kann. Hierzu zählen Name,Adresse,Foto,vergangene Veranstaltungen, zukünftige Veranstaltungen... Auch muss man hier die Möglichkeit haben, den Benutzer zu löschen.
+
+Für die Erstellung eines Profiles muss ein entsprechender Dialog existieren, in dem die oben genannten Daten abgefragt werden. 
+
+Als Gast hat man nur Zugriff auf eine Veranstaltung, muss dafür aber auch nur einen Namen angeben.
+
+Wie man sich einloggen möchte, muss auf der Anmeldeseite abgefragt werden. Auf dieser Seite muss auch einen Dialog geben, falls ein registrierter Benutzer sein Passwort vergessen hat.
+
+Es muss jeder Zeit möglich sein sich auszuloggen.
+
+##### Push-Nachrichten
+
+User erhalten per Push-Nachricht Erinnerungen zu ihren Veranstaltungen auf das Smartphone.
 
 #### Veranstaltung
 
-Auf der Hauptseite der Veranstaltung müssen alle relevanten Informationen zur Verfügung stehen.
+##### Allgemein
 
-##### Name
+In der Veranstalung müssen die folgenden Informationen jederzeit jedem Gast/ Organisator zu jeder Zeit zur Verfügung stehen. Auch müssen diese Informationen von den Organisatoren erstell- bzw. änderbar sein.
 
-Der Name der Veranstaltung.
+###### Name
 
-##### Beschreibung
+Der Name der Veranstaltung. 
 
-Der Organisator kann einen Beschreibungstext zu seiner Veranstaltung eingeben.
+###### Beschreibung
 
-##### Gastgeber / Ansprechpartner
+Ein freier Beschreibungstext zur Veranstaltung.
 
-Der Gastgeber, bzw. die Ansprechpartner, sind zentral einsehbar.
+###### Gastgeber / Ansprechpartner
 
-##### Ort
+Hier stehen der Gastgeber, bzw. die Organisatoren.
+
+###### Ort
 
 Ort der Veranstaltung. Hier muss nicht zwingend eine gültige Adresse eingegeben werden, damit auch benutzereigene Beschreibungen möglich sind. Wenn eine gültige Adresse eingegeben wurde, muss diese von Google Maps (Web, Android) oder Maps(iOS) verarbeitet werden können.
 
-##### Zeitpunkt
+###### Zeitpunkt
 
 Datum und Uhrzeit der Veranstaltung. Es muss eine Verbindung zu den Systemkalendern (Android,iOS) bestehen, damit der Termin direkt übertragen werden kann. Auch sollten die Termine in einer Übersicht im Benutzerprofil angezeigt werden (Kalenderwidget).
 
-##### Galerie
+###### Gästeliste
 
-Hier können je nach Wunsch Medien hoch- oder runtergeladen werden.
+Es gibt eine Übersicht, in der die Gästeliste für alle einsehbar angezeigt wird.
+
+##### Berechtigungen
+
+Der Organisator kann andere Gäste zu Organisatoren machen oder andere auf den Status eines normalen Gastes zurücksetzen.
+
+Auch muss es eine Ansicht geben, in der alle Berechtigungen aufgelistet sind.
+
+##### Einladungen
+
+Einladungen können sowohl über QR-Code, als auch über Link versendet werden. Die Einladungen können in Zeit und Menge der Zusagen beschränkt werden.
+
+Es gibt ein Menü, in dem die Gäste Zu- oder Absagen können. Auch eine Übersicht über den aktuellen Status der Gästeliste muss es geben.
+
+Optional kann implementiert werden, dass Einladungen auch wieder zurückgenommen werden können.
 
 ##### Aufgaben
 
 Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion sollen zum Beispiel Mitbring-Buffets organisiert werden. Die Aufgaben können vom Organisator zugeteilt oder freiwillig von einem Gast übernommen werden.
 
-##### Kommunikation
+##### ToDo-Liste
 
-In der Veranstaltung können Beiträge geschrieben und kommentiert werden.
+Die ToDo-Liste ist nur von dem Organisator einsehbar. Dieser kann die ToDo-Liste verwalten und Punkte hinzufügen oder löschen. Auch können bereits nortierte Punkte als erledigt markiert werden.
 
-##### Zu- / Absagen
+##### Kostenübersicht
 
-Gäste können selbständig zu- oder absagen. 
-
-##### Einladungen
-
-Einladungen können sowohl über QR-Code, als auch über Link versendet werden. Die Einladungen können in Zeit und Menge beschränkt werden.
-
-##### Gästeliste
-
-Gäste können  die aktuelle Gästeliste einsehen.
-
-##### Planungsystem -><- Veranstaltung
-
-Es besteht die Möglichkeit, aus der Planungsübersicht Inhalte für die Veranstaltung zu erstellen.
-
-## Optional
-
-### Infrastruktur
-
-#### App
-
-Die Apps werden zusätzlich noch für Tablets optimiert.
-
-### Funktionen
-
-##### Kommunikation
-
-Es können Gruppenchats innerhalb einer Veranstaltung erstellt werden. Auch können Mitglieder andere Mitglieder in Gruppenchats oder Beiträgen verlinken. Auch die Möglichkeit eines Privatchats wird angeboten.
-
-##### Einchecken
-
-Gäste können bei der Veranstaltung über das Einscannen eines QR-Codes einchecken. So kann man gucken, wer alles da ist, bzw. war, und wer noch erwartet wird.
-
-##### Bewertung
-
-Die Veranstaltung kann im Nachhinein von den Gästen bewertet werden. Hierfür kann entweder die Standardvorlage benutzt werden oder der Gastgeber kann eine eigene Umfrage erstellen.
-
-##### Abstimmungen
-
-In der Veranstaltung können Abstimmungen durchgeführt werden.
-
-##### Social-Network
-
-Es kann sich mit Social-Media-Plattformen verbunden werden.
+Die Kostenübersicht ist nur von dem Organisator einsehbar. Dieser kann hier jede Ausgabe und Einnahme mitprotokollieren und erhält eine Gesamtsumme der Ein- oder Ausgaben.
 
 ##### Galerie
 
-Medien können kommentiert werden. Die Medien können auf Social-Media-Plattformen geteilt werden.
+Pro Veranstaltung gibt es eine Galerie.  Diese besitzt einen Startbildschirm, in dem alle Bilder als Vorschau angezeigt werden. Die Bilder können dann ausgewählt werden und in groß angeguckt werden.
 
-##### Benachrichtigungssystem / Mail
+Auch werden hier Aktionen zum Up- oder Download von Bildern angeboten.
 
-User erhalten entweder per Mail oder Push-Nachricht Erinnerungen zu der Veranstaltung.
+Optional kann auch eine Übersicht aller Galerien für einen Benutzer implementiert werden. Auch das Kommentieren von Fotos ist optional.
+
+##### Kommunikation
+
+In der Veranstaltung können Beiträge geschrieben, verändert oder kommentiert werden.
+
+Optional können auch Chats unter registrierten Usern oder Gruppenchat implementiert werden.
+
+##### Abstimmung
+
+Es gibt eine Übersicht aller laufenden und vergangenen Abstimmungen zur Veranstaltung. Bei Auswahl einer Abstimmung, kann hier jeder Gast abstimmen.
+
+Der Organisator kann Abstimmungen erstellen. Dazu kann er eine Fragestellung eingeben und die Laufzeit der Abstimmung auswählen. Nach Ablauf der Laufzeit wird automatisch eine Auswertung erstellt und angezeigt. Auch hat der Organisator hier die Möglichkeit die Abstimmung nachträglich zu verändern oder zu löschen.
+
+##### Bewertung
+
+Nach der Veranstaltung können die Gäste eine Bewertung der Veranstaltung abgeben. Diese Bewertung kann nachträglich verändert werden.
+
+##### Einchecken
+
+Das Einchecken kann ebenfalls von der Anwendung übernommen werden. Hierfür können Gäste sich auf dem Smartphone einen QR-Code anzeigen lassen. Dieser kann dann von dem Gastgeber per Smartphone eingelesen werden.
+
+Auch eine Übersicht zu allen Gästen wird angezeigt.
+
+##### Social-Network
+
+Dieser Menüpunkt kann optional implementiert werden.
+
+Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch können Bilder oder Veranstaltungen in Social-Media-Plattformen geteilt werden.
+
+
