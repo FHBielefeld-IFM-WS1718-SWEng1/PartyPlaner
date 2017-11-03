@@ -7,7 +7,6 @@
 #### Allgemein
 
 - Einloggen
-- "Passwort vergessen"-Funktion
 - Ausloggen
 
 #### Impressum
@@ -28,6 +27,15 @@
 - Benutzer erstellen
 - Benutzerprofil verwalten/ändern
 - Benutzerprofil löschen
+
+#### Benutzerprofil
+
+- Alle Veranstaltungen anzeigen
+- Meine erstellten Veranstaltungen anzeigen
+- Meine Einladungen anzeigen
+- Meine Kontakte anzeigen
+- Profil als Kontakt hinzufügen / entfreunden
+- Profil suchen
 
 #### Push-Nachrichten
 
@@ -53,6 +61,7 @@
 
 - Einladen via QR-Code
 - Einladen via Weblink
+- Einladen via Profil
 - (Einladungen zurücknehmen?)
 - Zu- und Absagen (Gast, Registriert)
 - Gästeliste anzeigen
@@ -169,7 +178,7 @@ Die Hauptanwendung muss auf einem Server laufen. Auch der Server muss ausreichen
 
 ###### Einloggen
 
-Es ist möglich sich zum Beginn als Gastuser oder registrierter User anzumelden. Bei der Anmeldung als registrierter Benutzer gibt es einen Dialog, falls man sein Passwort vergessen hat.
+Es ist möglich sich zum Beginn als Gastuser oder registrierter User anzumelden.
 
 ###### Ausloggen
 
@@ -198,6 +207,12 @@ Als Gast hat man nur Zugriff auf eine Veranstaltung, muss dafür aber auch nur e
 Wie man sich einloggen möchte, muss auf der Anmeldeseite abgefragt werden. Auf dieser Seite muss auch einen Dialog geben, falls ein registrierter Benutzer sein Passwort vergessen hat.
 
 Es muss jeder Zeit möglich sein sich auszuloggen.
+
+##### Benutzerprofil
+
+Es muss eine Übersicht geben, wo der User all seine Veranstaltungen auf denen er war oder auch kommende sehen kann. Auch muss es eine Übersicht aller aktuellen Einladungen geben und der Veranstaltungen, die man selber erstellt hat.
+
+Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hinzuzufügen, hat man auf fremden Profilen die Möglichkeit, diesen als Kontakt zu makieren oder demakieren. Damit man fremde Kontakte finden kann, muss es eine Suchfunktion geben.
 
 ##### Push-Nachrichten
 
@@ -241,7 +256,7 @@ Auch muss es eine Ansicht geben, in der alle Berechtigungen aufgelistet sind.
 
 ##### Einladungen
 
-Einladungen können sowohl über QR-Code, als auch über Link versendet werden. Die Einladungen können in Zeit und Menge der Zusagen beschränkt werden.
+Einladungen können sowohl über QR-Code, als auch über Link versendet werden. Die Einladungen können in Zeit und Menge der Zusagen beschränkt werden. Ebenfalls muss man direkt Benutzerprofile einladen können.
 
 Es gibt ein Menü, in dem die Gäste Zu- oder Absagen können. Auch eine Übersicht über den aktuellen Status der Gästeliste muss es geben.
 
