@@ -145,21 +145,21 @@
 
 #### Webanwendung
 
-Die Anwendung soll von den gängigen Browsern korrekt dargestellt werden.  Design und Bedienung der Website entsprechen den aktuellen Technologien und sind intuitiv. Die Webanwendung ist für mobile Geräte optimiert.
+Die Anwendung muss von den gängigen Browsern korrekt dargestellt werden.  Design und Bedienung der Website entsprechen den aktuellen Technologien und sind intuitiv. Die Webanwendung ist für mobile Geräte optimiert.
 
 #### App
 
-Eine native Lösung für Android und iOS soll angeboten werden. Design und Bedienung sollen dabei ebenfalls zeitgemäß und den Technologien angepasst sein.
+Eine native Lösung für Android und iOS muss angeboten werden. Design und Bedienung müssen dabei ebenfalls zeitgemäß und den Technologien angepasst sein.
 
 Optional sind die Apps auch für Tablets optimiert.
 
 #### Datenbank
 
-Die Verwaltung der Daten soll ein entsprechendes Datenbankmanagmentsystem übernehmen. Es muss ausreichend dimensioniert sein, damit ausreichend Daten gespeichert werden können, sowie das Abrufen und Schreiben von Daten zügig erfolgt.
+Die Verwaltung der Daten muss ein entsprechendes Datenbankmanagmentsystem übernehmen. Es muss ausreichend dimensioniert sein, damit ausreichend Daten gespeichert werden können, sowie das Abrufen und Schreiben von Daten zügig erfolgt.
 
 #### Server
 
-Die Hauptanwendung soll auf einem Server laufen. Auch der Server muss ausreichend Ressourcen bereitstellen, damit ein Betrieb von mehreren Clients  gleichzeitig möglich wird.
+Die Hauptanwendung muss auf einem Server laufen. Auch der Server muss ausreichend Ressourcen bereitstellen, damit ein Betrieb von mehreren Clients  gleichzeitig möglich wird.
 
 ### Funktionale Anforderungen
 
@@ -189,7 +189,7 @@ Zusammenfassung der Kontaktdaten des Entwicklers. Hierzu gehören Firmenname, E-
 
 ##### Benutzerverwaltung
 
-Es soll zwei Möglichkeiten geben sich an dem System anzumelden. Einmal als registrierter Benutzer und einmal als Gast. Als registrierter Benutzer erhält man ein Benutzerprofil, über das man seine persönlichen Daten verwalten kann. Hierzu zählen Name,Adresse,Foto,vergangene Veranstaltungen, zukünftige Veranstaltungen... Auch muss man hier die Möglichkeit haben, den Benutzer zu löschen.
+Es muss zwei Möglichkeiten geben sich an dem System anzumelden. Einmal als registrierter Benutzer und einmal als Gast. Als registrierter Benutzer erhält man ein Benutzerprofil, über das man seine persönlichen Daten verwalten kann. Hierzu zählen Name,Adresse,Foto,vergangene Veranstaltungen, zukünftige Veranstaltungen... Auch muss man hier die Möglichkeit haben, den Benutzer zu löschen.
 
 Für die Erstellung eines Profiles muss ein entsprechender Dialog existieren, in dem die oben genannten Daten abgefragt werden. 
 
@@ -227,7 +227,7 @@ Ort der Veranstaltung. Hier muss nicht zwingend eine gültige Adresse eingegeben
 
 ###### Zeitpunkt
 
-Datum und Uhrzeit der Veranstaltung. Es muss eine Verbindung zu den Systemkalendern (Android,iOS) bestehen, damit der Termin direkt übertragen werden kann. Auch sollten die Termine in einer Übersicht im Benutzerprofil angezeigt werden (Kalenderwidget).
+Datum und Uhrzeit der Veranstaltung. Es muss eine Verbindung zu den Systemkalendern (Android,iOS) bestehen, damit der Termin direkt übertragen werden kann. Auch müssen die Termine in einer Übersicht im Benutzerprofil angezeigt werden (Kalenderwidget).
 
 ###### Gästeliste
 
@@ -249,7 +249,7 @@ Optional kann implementiert werden, dass Einladungen auch wieder zurückgenommen
 
 ##### Aufgaben
 
-Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion sollen zum Beispiel Mitbring-Buffets organisiert werden. Die Aufgaben können vom Organisator zugeteilt oder freiwillig von einem Gast übernommen werden.
+Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion können zum Beispiel Mitbring-Buffets organisiert werden. Die Aufgaben können vom Organisator zugeteilt oder freiwillig von einem Gast übernommen werden.
 
 ##### ToDo-Liste
 
