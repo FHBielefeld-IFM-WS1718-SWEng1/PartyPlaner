@@ -62,7 +62,7 @@ Einladungen an nicht mitglieder der App soll möglich sein
 - soll wird gegen muss ausgetauscht
 - Berchtigungen nicht eindeutig
 - Alle Veranstaltungen anzeigen fehlt
-- Kontakte fehlen noch gesammt
+- Kontakte fehlen noch gesamt
 
 ## Systemarchitektur
 
