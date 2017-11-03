@@ -210,9 +210,9 @@ Es muss jeder Zeit möglich sein sich auszuloggen.
 
 ##### Benutzerprofil
 
-Es muss eine Übersicht geben, wo der User all seine Veranstaltungen auf denen er war oder auch kommende sehen kann. Auch muss es eine Übersicht aller aktuellen Einladungen geben und der Veranstaltungen, die man selber erstellt hat.
+Es muss eine Übersicht geben, wo der User all seine Veranstaltungen auf denen er war oder auch Kommende sehen kann. Auch muss es eine Übersicht aller aktuellen Einladungen und der Veranstaltungen, die man selber erstellt hat, geben.
 
-Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hinzuzufügen, hat man auf fremden Profilen die Möglichkeit, diesen als Kontakt zu makieren oder demakieren. Damit man fremde Kontakte finden kann, muss es eine Suchfunktion geben.
+Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hinzuzufügen, hat man auf fremden Profilen die Möglichkeit, diesen als Kontakt zu markieren oder demarkieren. Damit man fremde Kontakte finden kann, muss es eine Suchfunktion geben.
 
 ##### Push-Nachrichten
 
@@ -222,7 +222,7 @@ User erhalten per Push-Nachricht Erinnerungen zu ihren Veranstaltungen auf das S
 
 ##### Allgemein
 
-In der Veranstalung müssen die folgenden Informationen jederzeit jedem Gast/ Organisator zu jeder Zeit zur Verfügung stehen. Auch müssen diese Informationen von den Organisatoren erstell- bzw. änderbar sein.
+In der Veranstalung müssen die folgenden Informationen jederzeit jedem Gast/ Organisator zur Verfügung stehen. Auch müssen diese Informationen von den Organisatoren erstell- bzw. änderbar sein.
 
 ###### Name
 
