@@ -136,6 +136,8 @@
 
 ## Systemarchitekturdiagramm
 
+![Systemarchitektur](/Systemarchitektur.jpg)
+
 
 ## Detailbeschreibung
 
