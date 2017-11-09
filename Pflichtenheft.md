@@ -322,115 +322,115 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ##### Einloggen
 
-![Index](img/mockup/Website/Einloggen.png)
+![Einloggen](img/mockup/Website/Einloggen.png)
 
 ##### Registrieren
 
-![Index](img/mockup/Website/Registrieren.png)
+![Registrieren](img/mockup/Website/Registrieren.png)
 
 ##### Einladung Login
 
-![Index](img/mockup/Website/Einladung Login.png)
+![Einladung Login](img/mockup/Website/Einladung Login.png)
 
 ##### Einladung annehmen
 
-![Index](img/mockup/Website/Einladung annehmen.png)
+![Einladung annehmen](img/mockup/Website/Einladung annehmen.png)
 
 #### Home
 
 #####Hauptseite
 
-![Index](img/mockup/Website/Home.png)
+![Hauptseite](img/mockup/Website/Home.png)
 
 ##### Glocke offen
 
-![Index](img/mockup/Website/Glocke offen.png)
+![Glocke offen](img/mockup/Website/Glocke offen.png)
 
 #### Profil
 
 ##### Hauptseite
 
-![Index](img/mockup/Website/Profil.png)
+![Hauptseite](img/mockup/Website/Profil.png)
 
 ##### Kontakt hinzufügen
 
-![Index](img/mockup/Website/Profil Kontakt hinzufügen.png)
+![Kontakt hinzufügen](img/mockup/Website/Profil Kontakt hinzufügen.png)
 
 #### Veranstaltung
 
 ##### Übersicht
 
-![Index](img/mockup/Website/Eigene Veranstaltungen.png)
+![Übersicht](img/mockup/Website/Eigene Veranstaltungen.png)
 
 ##### Galerie
 
-![Index](img/mockup/Website/Party Galerie.png)
+![Galerie](img/mockup/Website/Party Galerie.png)
 
 ##### Bild ansehen
 
-![Index](img/mockup/Website/Galerie Bild.png)
+![Bild ansehen](img/mockup/Website/Galerie Bild.png)
 
 ##### Kommentare
 
-![Index](img/mockup/Website/Party Kommentare.png)
+![Kommentare](img/mockup/Website/Party Kommentare.png)
 
 ##### Aufgabenliste
 
-![Index](img/mockup/Website/Party Aufgabenliste.png)
+![Aufgabenliste](img/mockup/Website/Party Aufgabenliste.png)
 
 ##### Gästeliste
 
-![Index](img/mockup/Website/Party Gästeliste.png)
+![Gästeliste](img/mockup/Website/Party Gästeliste.png)
 
 ##### Abstimmungen
 
-![Index](img/mockup/Website/Party Abstimmungen.png)
+![Abstimmungen](img/mockup/Website/Party Abstimmungen.png)
 
 ##### Abstimmung ansehen
 
-![Index](img/mockup/Website/Party Abstimmung ansehen.png)
+![Abstimmung ansehen](img/mockup/Website/Party Abstimmung ansehen.png)
 
 ##### Bewertung
 
-![Index](img/mockup/Website/Party Bewertung.png)
+![Bewertung](img/mockup/Website/Party Bewertung.png)
 
 #### Eigene Veranstaltung 
 
 ##### Gäste einladen
 
-![Index](img/mockup/Website/Party EV Gäste einladen.png)
+![Gäste einladen](img/mockup/Website/Party EV Gäste einladen.png)
 
 ##### Kommentare
 
-![Index](img/mockup/Website/Party EV Kommentare.png)
+![Kommentare](img/mockup/Website/Party EV Kommentare.png)
 
 ##### Aufgabenliste
 
-![Index](img/mockup/Website/Party EV Aufgabenliste.png)
+![Aufgabenliste](img/mockup/Website/Party EV Aufgabenliste.png)
 
 ##### Kostenübersicht
 
-![Index](img/mockup/Website/Party EV ToDoListe_Kostenübersicht.png)
+![Kostenübersicht](img/mockup/Website/Party EV ToDoListe_Kostenübersicht.png)
 
 ##### Gästeliste
 
-![Index](img/mockup/Website/Party EV Gästeliste.png)
+![Gästeliste](img/mockup/Website/Party EV Gästeliste.png)
 
 ##### Gästeliste einchecken
 
-![Index](img/mockup/Website/Party EV Gästeliste einchecken.png)
+![Gästeliste einchecken](img/mockup/Website/Party EV Gästeliste einchecken.png)
 
 ##### Abstimmungen
 
-![Index](img/mockup/Website/Party EV Abstimmungen.png)
+![Abstimmungen](img/mockup/Website/Party EV Abstimmungen.png)
 
 ##### Abstimmung erstellen
 
-![Index](img/mockup/Website/Party EV Abstimmung erstellen.png)
+![Abstimmung erstellen](img/mockup/Website/Party EV Abstimmung erstellen.png)
 
 ##### Abstimmung ansehen
 
-![Index](img/mockup/Website/Party EV Abstimmung ansehen.png)
+![Abstimmung ansehen](img/mockup/Website/Party EV Abstimmung ansehen.png)
 
 ### App
 
@@ -442,56 +442,56 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ##### Registrieren
 
-![Index](img/mockup/App/Registrieren.png)
+![Registrieren](img/mockup/App/Registrieren.png)
 
 ##### Home
 
-![Index](img/mockup/App/Home.png)
+![Home](img/mockup/App/Home.png)
 
 ##### Menü
 
-![Index](img/mockup/App/Menü geöffnet.png)
+![Menü](img/mockup/App/Menü geöffnet.png)
 
 ##### Impressum
 
-![Index](img/mockup/App/Über uns.png)
+![Impresssum](img/mockup/App/Über uns.png)
 
 #### Profil
 
 ##### Eigenes Profil
 
-![Index](img/mockup/App/Eigenes Profil.png)
+![Profil](img/mockup/App/Eigenes Profil.png)
 
 ##### Fremdes Profil
 
-![Index](img/mockup/App/Profil von wem anderes.png)
+![fremdes Profil](img/mockup/App/Profil von wem anderes.png)
 
 ##### Kontakte
 
-![Index](img/mockup/App/Kontakte.png)
+![Kontakte](img/mockup/App/Kontakte.png)
 
 ##### Kontaktformular
 
-![Index](img/mockup/App/Kontaktformular.png)
+![Kontaktformular](img/mockup/App/Kontaktformular.png)
 
 #### Veranstaltung
 
 ##### Übersicht
 
-![Index](img/mockup/App/Eigene Veranstaltungen.png)
+![Übersicht](img/mockup/App/Eigene Veranstaltungen.png)
 
 ##### Veranstaltung anschauen
 
-![Index](img/mockup/App/Veranstaltung anschauen.png)
+![Veranstaltung](img/mockup/App/Veranstaltung anschauen.png)
 
 ##### Veranstaltung bearbeiten
 
-![Index](img/mockup/App/Veranstaltung bearbeiten.png)
+![Veranstaltung bearbeiten](img/mockup/App/Veranstaltung bearbeiten.png)
 
 ##### Abstimmung ansehen
 
-![Index](img/mockup/App/Veranstaltung Abstimmung ansehen.png)
+![Abstimmung](img/mockup/App/Veranstaltung Abstimmung ansehen.png)
 
 ##### Abstimmung erstellen
 
-![Index](img/mockup/App/Veranstaltung Abstimmung erstellen.png)
+![Abstimmung erstellen](img/mockup/App/Veranstaltung Abstimmung erstellen.png)
