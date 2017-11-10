@@ -1,7 +1,7 @@
 # Besprechungsprotokol Nr. 7
 
 **Projekt/Anlass**: Party-Planer,  
-**Datum/Uhrzeit**: 27.10.2017, 14:00 - 15:30 Uhr  
+**Datum/Uhrzeit**: 10.11.2017, 14:00 - 15:30 Uhr  
 **Ort/Raum**: D317  
 **Verfasser**: Alexander Heinisch  
 **Datum**: 10.11.2017  

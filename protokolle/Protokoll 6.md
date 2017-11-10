@@ -1,7 +1,7 @@
 # Besprechungsprotokol Nr. 6
 
 **Projekt/Anlass**: Party-Planer,  
-**Datum/Uhrzeit**: 27.10.2017, 10:00 - 11:00 Uhr  
+**Datum/Uhrzeit**: 10.11.2017, 10:00 - 11:00 Uhr  
 **Ort/Raum**: D327  
 **Verfasser**: Alexander Heinisch  
 **Datum**: 10.11.2017  
