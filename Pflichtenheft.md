@@ -495,3 +495,75 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 ##### Abstimmung erstellen
 
 ![Abstimmung erstellen](img/mockup/App/Veranstaltung Abstimmung erstellen.png)
+
+## Glossar
+
+### Abstimmung
+
+Kurze Meinungsabfrage zu einem bestimmten Thema. Enthält vorgegebene Möglichkeiten der Meinungsäußerung.
+
+### Ausloggen
+
+Abmelden von der Anwendung.
+
+### Chat
+
+Virtueller Raum, indem sich die Teilnehmer Nachrichten schicken können. Diese sind nicht von externen sichtbar.
+
+### Einloggen
+
+Anmeldung bei der Anwendung.
+
+### Galerie
+
+Übersicht über alle Fotos zu einer Veranstaltung.
+
+### Gast
+
+Besucher einer Party ohne organisatorischen Aufgaben.
+
+### Gästeliste
+
+Übersicht über alle Gäste, die zu der Party zugesagt haben.
+
+Der Organisator kann ebenfalls noch die Absagen und die nicht beantworteten Einladungen einsehen.
+
+### Kommentar
+
+Öffentlich einsehbare Bemerkung zu einer Sache. Kommentare können von allen Personen mit Zugriff auf das Element gelesen und beantwortet werden.
+
+### Kontakt
+
+Ein als bekannt markierter User. Kontakte sind meistens Freunde, die die Anwendung ebenfalls benutzen.
+
+### Kostenübersicht
+
+Übersicht über alle Ein- und Ausnahmen einer Veranstaltung.
+
+### Organisator
+
+Eine Person, die die Organisation der Party übernimmt. Diese koordiniert alle Aufgaben und legt auch die Eckdaten (z.B. Datum und Ort) fest.
+
+### Party
+
+Eine Party ist eine einzelne, im privaten Rahmen stattfindende Fästlichkeit. Eine Party ist eine einmalige Sache, d.h. es ist keine sich wiederholende Veranstaltung. Die Gäste sind dem Gastgeber alle (außer eventuell diverse Mitbringsel von anderen Gästen) bekannt und auch von ihm persönlich eingeladen worde.
+
+### Profil
+
+Kontaktseite zu einer Person. Hier stehen die persönlichen Daten zu dem User, sowie Kontaktmöglichkeiten und Fotos von ihm.
+
+### Registrieren
+
+Erstmalige und einmalige Eingabe von Userdaten. Diese werden benötigt, damit das Profil eindeutig zugeordnet werden kann.
+
+### Social Media
+
+Soziale Plattformen zum Austauschen von Nachrichten. Hierzu zählen zum Beispiel Facebook und Google+.
+
+### To-Do-Liste
+
+Liste mit allen Tätigkeiten, die entweder bereits erledigt sind oder noch erledigt werden müssen.
+
+### Veranstaltung
+
+Äquivalent verwendet zu "Party"
