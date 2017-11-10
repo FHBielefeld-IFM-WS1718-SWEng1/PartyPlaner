@@ -48,7 +48,7 @@
 - Veranstaltung erstellen
 - Veranstaltung verwalten
 - Veranstaltung ändern
-- Veranstaltung anzeigen (Gast, Registriert, Organisator)
+- Veranstaltung anzeigen --> Gast, Organisator
 - Gästeliste
 
 #### Berechtigungen
@@ -63,7 +63,7 @@
 - Einladen via Weblink
 - Einladen via Profil
 - (Einladungen zurücknehmen?)
-- Zu- und Absagen (Gast, Registriert)
+- Zu- und Absagen --> User, (Gast)
 - Gästeliste anzeigen
 
 #### Aufgaben
@@ -123,8 +123,8 @@
 
 #### (Social-Media)
 
-- Über Social-Media-Profil anmelden
-- Bilder / Veranstaltung per Social-Media teilen
+- (Über Social-Media-Profil anmelden)
+- (Bilder / Veranstaltung per Social-Media teilen)
 
 ## Nicht-Funktionale Anforderungen
 
@@ -178,7 +178,7 @@ Die Hauptanwendung muss auf einem Server laufen. Auch der Server muss ausreichen
 
 ###### Einloggen
 
-Es ist möglich sich zum Beginn als Gastuser oder registrierter User anzumelden.
+Es ist möglich sich als registrierter Benutzer einzuloggen. Zusätzlich kann ein Einloggen als Gastuser möglich sein.
 
 ###### Ausloggen
 
@@ -198,11 +198,11 @@ Zusammenfassung der Kontaktdaten des Entwicklers. Hierzu gehören Firmenname, E-
 
 ##### Benutzerverwaltung
 
-Es muss zwei Möglichkeiten geben sich an dem System anzumelden. Einmal als registrierter Benutzer und einmal als Gast. Als registrierter Benutzer erhält man ein Benutzerprofil, über das man seine persönlichen Daten verwalten kann. Hierzu zählen Name,Adresse,Foto,vergangene Veranstaltungen, zukünftige Veranstaltungen... Auch muss man hier die Möglichkeit haben, den Benutzer zu löschen.
+Man muss sich registrieren können. Als registrierter Benutzer erhält man ein Benutzerprofil, über das man seine persönlichen Daten verwalten kann. Hierzu zählen Name,Adresse,Foto,vergangene Veranstaltungen, zukünftige Veranstaltungen... Auch muss man hier die Möglichkeit haben, den Benutzer zu löschen.
 
 Für die Erstellung eines Profiles muss ein entsprechender Dialog existieren, in dem die oben genannten Daten abgefragt werden. 
 
-Als Gast hat man nur Zugriff auf eine Veranstaltung, muss dafür aber auch nur einen Namen angeben.
+Zusätzlich kann man auch die Anmeldung als Gast umsetzen. Als Gast hat man nur Zugriff auf eine Veranstaltung, muss dafür aber auch nur einen Namen angeben.
 
 Wie man sich einloggen möchte, muss auf der Anmeldeseite abgefragt werden. Auf dieser Seite muss auch einen Dialog geben, falls ein registrierter Benutzer sein Passwort vergessen hat.
 
