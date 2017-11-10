@@ -1,10 +1,10 @@
 # Besprechungsprotokol Nr. 4
 
-**Projekt/Anlass**: Party-Planer, Wöchentliches Meeting
-**Datum/Uhrzeit**: 27.10.2017, 10:00 - 11:30 Uhr
-**Ort/Raum**: D328
-**Verfasser**: Alexander Heinisch 
-**Datum**: 03.11.2017
+**Projekt/Anlass**: Party-Planer, Wöchentliches Meeting  
+**Datum/Uhrzeit**: 27.10.2017, 10:00 - 11:30 Uhr  
+**Ort/Raum**: D328  
+**Verfasser**: Alexander Heinisch  
+**Datum**: 03.11.2017  
 **Teilehmer:**
 
 - [x] Alex.B

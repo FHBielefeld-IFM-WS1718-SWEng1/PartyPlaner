@@ -1,10 +1,10 @@
 # Besprechungsprotokol Nr. 5
 
-**Projekt/Anlass**: Party-Planer, 
-**Datum/Uhrzeit**: 27.10.2017, 14:00 - 15:30 Uhr
-**Ort/Raum**: D317
-**Verfasser**: Alexander Heinisch 
-**Datum**: 03.11.2017
+**Projekt/Anlass**: Party-Planer,  
+**Datum/Uhrzeit**: 27.10.2017, 14:00 - 15:30 Uhr  
+**Ort/Raum**: D317  
+**Verfasser**: Alexander Heinisch  
+**Datum**: 03.11.2017  
 **Teilehmer:**
 
 - [x] Alex.B
@@ -87,4 +87,4 @@ Alex H.:
 
 - Rest API und verwenden Präsentation sowie crash kurs zu JSON
 - Beispiel Daten Api entwickeln
--  
+- ​
