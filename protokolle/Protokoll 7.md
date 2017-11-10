@@ -64,7 +64,7 @@ Die Mitglieder die noch nicht ihre Praktikumstagebücher hochgeladen haben werde
 
 - User Storys als Tabelle
 
-  - | Name | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
+| Name | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
     | ---- | ----- | -------------------------- | ------- | --------- | --------- |
     |      |       |                            |         |           |           |
 
