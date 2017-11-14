@@ -314,7 +314,7 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ### Website
 
-####Startseite
+#### Startseite
 
 ##### Index
 
@@ -338,7 +338,7 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 #### Home
 
-#####Hauptseite
+##### Hauptseite
 
 ![Hauptseite](img/mockup/Website/Home.png)
 
