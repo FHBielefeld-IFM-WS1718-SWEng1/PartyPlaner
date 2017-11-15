@@ -498,17 +498,49 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ## Glossar
 
+### Absage
+
+Der Gast plant auf keinen Fall zu der Veranstaltung zu kommen.
+
 ### Abstimmung
 
 Kurze Meinungsabfrage zu einem bestimmten Thema. Enthält vorgegebene Möglichkeiten der Meinungsäußerung.
+
+### Aufgabe
+
+Tätigkeit, welche für eine Veranstaltung getan werden muss. Können von allen Gästen oder dem Organisator erledigt werden.
 
 ### Ausloggen
 
 Abmelden von der Anwendung.
 
+### Berechtigung
+
+Definiert die möglichen Handlungen innerhalb einer Veranstaltung.
+
+### Beschreibung
+
+Freier Text ohne irgendwelche Vorgaben zu der Veranstaltung. Der Organisator kann sich hier einfach etwas ausdenken.
+
+### Bewertung
+
+Kurze Meinungsabgabe zu der Veranstaltung nach vorgegebenen Möglichkeiten. Die Möglichkeiten (Daumen hoch/runter) werden von dem Dienst vorgegeben.
+
+### Browser
+
+Programm zum Anzeigen von Internetseiten.
+
 ### Chat
 
 Virtueller Raum, indem sich die Teilnehmer Nachrichten schicken können. Diese sind nicht von externen sichtbar.
+
+### Einchecken
+
+Der Gast ist auf der Party angekommen.
+
+### Einladung
+
+Offizielle Bitte um Teilnahme bei der Veranstaltung. Geht vom Organisator aus und enthält die wichtigstens Informationen zu der Veranstaltung.
 
 ### Einloggen
 
@@ -528,6 +560,14 @@ Besucher einer Party ohne organisatorischen Aufgaben.
 
 Der Organisator kann ebenfalls noch die Absagen und die nicht beantworteten Einladungen einsehen.
 
+### Gruppenchat
+
+Chat zwischen mehreren Usern. Nur die Teilnehmer des Chats können an diesem teilnehmen oder ihn einsehen.
+
+### Impressum
+
+Angaben über Verlag, Autor, Betreiber der Anwendung.
+
 ### Kommentar
 
 Öffentlich einsehbare Bemerkung zu einer Sache. Kommentare können von allen Personen mit Zugriff auf das Element gelesen und beantwortet werden.
@@ -536,9 +576,21 @@ Der Organisator kann ebenfalls noch die Absagen und die nicht beantworteten Einl
 
 Ein als bekannt markierter User. Kontakte sind meistens Freunde, die die Anwendung ebenfalls benutzen.
 
+### Kontaktformular
+
+Vorgegebenes Formular, über das man direkt mit dem Betreiber des Dienstes kommunizieren kann.
+
+### Kosten
+
+Einzelne Ausgaben, die für die Veranstaltung getätigt worden sind.
+
 ### Kostenübersicht
 
 Übersicht über alle Ein- und Ausnahmen einer Veranstaltung.
+
+### Laufzeit
+
+Zeit zwischen Start und einem festen Endpunkt einer Abstimmung.
 
 ### Organisator
 
@@ -547,6 +599,10 @@ Eine Person, die die Organisation der Party übernimmt. Diese koordiniert alle A
 ### Party
 
 Eine Party ist eine einzelne, im privaten Rahmen stattfindende Festlichkeit. Eine Party ist eine einmalige Sache, d.h. es ist keine sich wiederholende Veranstaltung. Die Gäste sind dem Gastgeber alle (außer eventuell diverse Mitbringsel von anderen Gästen) bekannt und auch von ihm persönlich eingeladen worde.
+
+### Privatchat
+
+Zwei User schreiben sich untereinander. Dieser Chat ist von anderen Personen nicht einsehbar.
 
 ### Profil
 
@@ -567,3 +623,23 @@ Liste mit allen Tätigkeiten, die entweder bereits erledigt sind oder noch erled
 ### Veranstaltung
 
 Äquivalent verwendet zu "Party"
+
+### Wann?
+
+Zeit und Datum der Veranstaltung
+
+### Was?
+
+Titel der Veranstaltung.
+
+### Webanwendung
+
+Anwendungen, die über das Internet erreicht werden kann.
+
+### Wer?
+
+Organisator der Veranstaltung
+
+### Zusage
+
+Der Gast plant auf die Veranstaltung zu kommen.
