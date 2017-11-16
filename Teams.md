@@ -12,7 +12,7 @@
   - ZF03 - Michael, Florian.W, Jan.A
   - ZF04 - Jan.T, Florian.B, Marc
 
-###Teams
+### Teams
 
 |    *20*     |    API    |   WEB   |   iOS   | Android |    DB     |
 | :---------: | :-------: | :-----: | :-----: | :-----: | :-------: |
