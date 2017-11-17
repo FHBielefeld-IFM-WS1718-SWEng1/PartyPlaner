@@ -217,8 +217,6 @@ Zusammenfassung der Kontaktdaten des Entwicklers. Hierzu gehören Firmenname, E-
 | Kontakformular anzeigen  | User  | mir das Kontaktformular anzeigen lassen | ich mein Anliegen an den Betreiber formulieren kann | Kontaktformular einsehbar | muss      |
 | Kontaktformular bedienen | User  | das Kontaktformular absenden            | der Betreiber mein Anliegen bearbeiten kann | Kontaktformular nutzbar   | muss      |
 
-
-
 ##### Benutzerverwaltung
 
 Man muss sich registrieren können. Als registrierter Benutzer erhält man ein Benutzerprofil, über das man seine persönlichen Daten verwalten kann. Hierzu zählen Name,Adresse,Foto,vergangene Veranstaltungen, zukünftige Veranstaltungen... Auch muss man hier die Möglichkeit haben, den Benutzer zu löschen.
@@ -243,16 +241,14 @@ Es muss eine Übersicht geben, wo der User all seine Veranstaltungen auf denen e
 
 Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hinzuzufügen, hat man auf fremden Profilen die Möglichkeit, diesen als Kontakt zu markieren oder demarkieren. Damit man fremde Kontakte finden kann, muss es eine Suchfunktion geben.
 
-| Name                               | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz             | Priorität |
-| ---------------------------------- | ----- | ---------------------------------------- | ---------------------------------------- | --------------------- | --------- |
-| Alle Veranstaltungen anzeigen      | User  | mir all meine Veranstaltungen anzeigen lassen | ich einen Überblick über alle Veranstaltungen bekomme | Übersicht einsehbar   | muss      |
-| Erstellte Veranstaltungen anzeigen | User  | mir all meine selber erstellten Veranstaltungen anzeigen lassen | ich mir einen Überblick über diese verschaffen kann | Übersicht einsehbar   | muss      |
-| Einladungen anzeigen               | User  | mir meine Einladungen anzeigen lassen    | ich den Überblick habe, wo ich noch eingeladen bin | Einladungen einsehbar | muss      |
-| Kontakte anzeigen                  | User  | mir meine Kontakte anzeigen lassen       | ich weiß, mit wem ich alles befreundet bin | Kontakte anzeigbar    | muss      |
-| Kontakt hinzufügen                 | User  | einen anderen User als Kontakt hinzufügen | ich mit diesem auf der Platform befreundet bin | Kontakt hinzufügen    | muss      |
-| Profil suchen                      | User  | ein anderen User suchen                  | mit diesem interagieren kann             | Profil suchbar        | muss      |
-
-
+| Name                               | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                  | Priorität |
+| ---------------------------------- | ----- | ---------------------------------------- | ---------------------------------------- | -------------------------- | --------- |
+| Alle Veranstaltungen anzeigen      | User  | mir all meine Veranstaltungen anzeigen lassen | ich einen Überblick über alle Veranstaltungen bekomme | Übersicht einsehbar        | muss      |
+| Erstellte Veranstaltungen anzeigen | User  | mir all meine selber erstellten Veranstaltungen anzeigen lassen | ich mir einen Überblick über diese verschaffen kann | Übersicht einsehbar        | muss      |
+| Einladungen anzeigen               | User  | mir meine Einladungen anzeigen lassen    | ich den Überblick habe, wo ich noch eingeladen bin | Einladungen einsehbar      | muss      |
+| Kontakte anzeigen                  | User  | mir meine Kontakte anzeigen lassen       | ich weiß, mit wem ich alles befreundet bin | Kontakte anzeigbar         | muss      |
+| Kontakt hinzufügen                 | User  | einen anderen User als Kontakt hinzufügen | ich mit diesem auf der Platform befreundet bin | Kontakt hinzufügen möglich | muss      |
+| Profil suchen                      | User  | ein anderen User suchen                  | mit diesem interagieren kann             | Profil suchbar             | muss      |
 
 ##### Push-Nachrichten
 
@@ -261,8 +257,6 @@ User erhalten per Push-Nachricht Erinnerungen zu ihren Veranstaltungen auf das S
 | Name                     | Rolle | In meiner Rolle möchte ich     | so dass                       | Akzeptanz                | Priorität |
 | ------------------------ | ----- | ------------------------------ | ----------------------------- | ------------------------ | --------- |
 | Push-Nachricht empfangen | User  | ich Push-Nachrichten empfangen | ich an Termine erinnert werde | Push-Nachricht erhaltbar | Muss      |
-
-
 
 #### Veranstaltung
 
@@ -344,13 +338,13 @@ Es gibt ein Menü, in dem die Gäste Zu- oder Absagen können. Auch eine Übersi
 
 Optional kann implementiert werden, dass Einladungen auch wieder zurückgenommen werden können.
 
-| Name         | Rolle       | In meiner Rolle möchte ich               | so dass                               | Akzeptanz                 | Priorität |
-| ------------ | ----------- | ---------------------------------------- | ------------------------------------- | ------------------------- | --------- |
-| QR-Code      | Organisator | Einladungen via QR-Code verschicken können | ich Menschen einladen kann            | Code verschickbar         | Muss      |
-| Weblink      | Organisator | Einladungen via Weblink verschicken      | ich menschen einladen kann            | Weblink verschickbar      | Muss      |
-| Profil       | Organisator | Einladungen via Profil verschicken       | ich andere User einladen kann         | Einladung via Profil      | Muss      |
-| Zurücknehmen | Organisator | Einladungen zurücknehmen                 | ich die Einladungen verwalten kann    | Einladung zurücknehmen    | Soll      |
-| Übersicht    | Organisator | eine Übersicht über alle Eingeladene und deren Status habe | ich die Einladungen koordinieren kann | Übersicht der Einladungen | Muss      |
+| Name         | Rolle       | In meiner Rolle möchte ich               | so dass                               | Akzeptanz                           | Priorität |
+| ------------ | ----------- | ---------------------------------------- | ------------------------------------- | ----------------------------------- | --------- |
+| QR-Code      | Organisator | Einladungen via QR-Code verschicken können | ich Menschen einladen kann            | Code verschickbar                   | Muss      |
+| Weblink      | Organisator | Einladungen via Weblink verschicken      | ich menschen einladen kann            | Weblink verschickbar                | Muss      |
+| Profil       | Organisator | Einladungen via Profil verschicken       | ich andere User einladen kann         | Einladung via Profil möglich        | Muss      |
+| Zurücknehmen | Organisator | Einladungen zurücknehmen                 | ich die Einladungen verwalten kann    | Einladung zurücknehmbar             | Soll      |
+| Übersicht    | Organisator | eine Übersicht über alle Eingeladene und deren Status habe | ich die Einladungen koordinieren kann | Übersicht der Einladungen anzeigbar | Muss      |
 
 ##### Aufgaben
 
@@ -392,10 +386,10 @@ Optional kann auch eine Übersicht aller Galerien für einen Benutzer implementi
 | Name                | Rolle | In meiner Rolle möchte ich         | so dass                                  | Akzeptanz            | Priorität |
 | ------------------- | ----- | ---------------------------------- | ---------------------------------------- | -------------------- | --------- |
 | Startseite anzeigen | Gast  | die Startseite einer Galerie sehen | ich einen ersten Eindruck der Bilder erhalte | Startseite anzeigbar | Muss      |
-| Foto anzeigen       | Gast  | mir einzelne Fotos anzeigen lassen | ich mir diese genauer angucken kann      | Foto anzeigen        | Muss      |
-| Fotos hochladen     | Gast  | Fotos hochladen können             | ich meine Fotos mit anderen teilen kann  | Fotos hochladen      | Muss      |
-| Fotos downloaden    | Gast  | Fotos downloaden können            | ich bestimmte Fotos sichern kann         | Fotos downloaden     | Muss      |
-| Fotos kommentieren  | Gast  | Fotos kommentieren können          | ich mit anderen zu dem Foto interagieren kann | Fotos kommentieren   | Soll      |
+| Foto anzeigen       | Gast  | mir einzelne Fotos anzeigen lassen | ich mir diese genauer angucken kann      | Foto anzeigbar       | Muss      |
+| Fotos hochladen     | Gast  | Fotos hochladen können             | ich meine Fotos mit anderen teilen kann  | Fotos hochladbar     | Muss      |
+| Fotos downloaden    | Gast  | Fotos downloaden können            | ich bestimmte Fotos sichern kann         | Fotos downloadbar    | Muss      |
+| Fotos kommentieren  | Gast  | Fotos kommentieren können          | ich mit anderen zu dem Foto interagieren kann | Fotos kommentierbar  | Soll      |
 
 ##### Kommunikation
 
@@ -403,13 +397,13 @@ In der Veranstaltung können Beiträge geschrieben, verändert oder kommentiert 
 
 Optional können auch Chats unter registrierten Usern oder Gruppenchat implementiert werden.
 
-| Name         | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz            | Priorität |
-| ------------ | ----- | ---------------------------------------- | ---------------------------------------- | -------------------- | --------- |
-| erstellen    | Gast  | Kommentare zur Veranstaltung erstellen können | ich mit anderen Gästen interagieren kann | Kommentar erstelbbar | Muss      |
-| bearbeiten   | Gast  | meine Kommentare bearbeiten können       | ich Fehler korrigieren kann              | Kommentar bearbeiten | Muss      |
-| löschen      | Gast  | meine Kommentare löschen können          | diese nicht mehr lesbar sind             | Kommentar löschen    | Muss      |
-| Privatchats  | User  | mit einem anderen User schreiben können  | wir privat kommunizieren können          | Privatchats möglich  | Soll      |
-| Gruppenchats | User  | mit einer Gruppe von anderen Usern schreiben können | wir privat kommunizieren können          | Gruppenchats möglich | Soll      |
+| Name         | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz             | Priorität |
+| ------------ | ----- | ---------------------------------------- | ---------------------------------------- | --------------------- | --------- |
+| erstellen    | Gast  | Kommentare zur Veranstaltung erstellen können | ich mit anderen Gästen interagieren kann | Kommentar erstelbar   | Muss      |
+| bearbeiten   | Gast  | meine Kommentare bearbeiten können       | ich Fehler korrigieren kann              | Kommentar bearbeitbar | Muss      |
+| löschen      | Gast  | meine Kommentare löschen können          | diese nicht mehr lesbar sind             | Kommentar löschbar    | Muss      |
+| Privatchats  | User  | mit einem anderen User schreiben können  | wir privat kommunizieren können          | Privatchats möglich   | Soll      |
+| Gruppenchats | User  | mit einer Gruppe von anderen Usern schreiben können | wir privat kommunizieren können          | Gruppenchats möglich  | Soll      |
 
 ##### Abstimmung
 
@@ -431,7 +425,7 @@ Nach der Veranstaltung können die Gäste eine Bewertung der Veranstaltung abgeb
 | Name       | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz             | Priorität |
 | ---------- | ----- | --------------------------------------- | ---------------------------------------- | --------------------- | --------- |
 | anzeigen   | Gast  | das Ergebniss sehen                     | ich sehen kann, wie andere die Party fanden | Bewertung anzeigbar   | Soll      |
-| abgeben    | Gast  | eine Bewertung zur Party abgeben können | ich meine Meinung mitteilen kann         | Bewertung abgebar     | Soll      |
+| abgeben    | Gast  | eine Bewertung zur Party abgeben können | ich meine Meinung mitteilen kann         | Bewertung abgebbar    | Soll      |
 | bearbeiten | Gast  | eine Bewertung ändern können            | ich Meinung ändern kann                  | Bewertung bearbeitbar | Soll      |
 
 ##### Einchecken
@@ -440,11 +434,11 @@ Das Einchecken kann ebenfalls von der Anwendung übernommen werden. Hierfür kö
 
 Auch eine Übersicht zu allen Gästen wird angezeigt.
 
-| Name       | Rolle       | In meiner Rolle möchte ich           | so dass                    | Akzeptanz          | Priorität |
-| ---------- | ----------- | ------------------------------------ | -------------------------- | ------------------ | --------- |
-| Gast_QR    | Gast        | meinen Gast-QR-Code anzeigen lassen  | ich einchecken kann        | QR-Eincheckbar     | Soll      |
-| Scannen    | Organisator | Gast-QR-Codes einscannen können      | ich Gäste einchecken kann  | Scannen möglich    | Soll      |
-| Einchecken | Organisator | Gäste auch manuell einchecken können | die Gästeliste aktuell ist | Manuell einchecken | Soll      |
+| Name       | Rolle       | In meiner Rolle möchte ich           | so dass                    | Akzeptanz                  | Priorität |
+| ---------- | ----------- | ------------------------------------ | -------------------------- | -------------------------- | --------- |
+| Gast_QR    | Gast        | meinen Gast-QR-Code anzeigen lassen  | ich einchecken kann        | QR-Eincheckbar             | Soll      |
+| Scannen    | Organisator | Gast-QR-Codes einscannen können      | ich Gäste einchecken kann  | Scannen möglich            | Soll      |
+| Einchecken | Organisator | Gäste auch manuell einchecken können | die Gästeliste aktuell ist | Manuell einchecken möglich | Soll      |
 
 ##### Social-Network
 
