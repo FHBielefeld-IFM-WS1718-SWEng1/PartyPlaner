@@ -459,7 +459,7 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ## ER-Modell
 
-![ER-Modell](img/diagramme/erm.jpg)
+![ER-Modell](img/datenbank/erm.jpg)
 
 ## Mockups
 
