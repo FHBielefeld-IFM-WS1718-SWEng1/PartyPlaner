@@ -194,7 +194,7 @@ Es ist zu jeder Zeit möglich sich aus der Anwendung auszuloggen.
 
 ##### Impressum
 
-Das Impressum muss jeder Zeit erreichbar sein.
+Das Impressum muss jeder Zeit erreichbar sein. Es enthält den Namen des Betreibers, Adresse und Kontaktmöglichkeiten.
 
 | Name               | Rolle | In meiner Rolle möchte ich        | so dass                                  | Akzeptanz           | Priorität |
 | ------------------ | ----- | --------------------------------- | ---------------------------------------- | ------------------- | --------- |
