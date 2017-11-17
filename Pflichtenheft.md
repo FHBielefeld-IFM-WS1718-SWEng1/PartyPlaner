@@ -365,7 +365,7 @@ Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion könne
 
 ##### ToDo-Liste
 
-Die ToDo-Liste ist nur von dem Organisator einsehbar. Dieser kann die ToDo-Liste verwalten und Punkte hinzufügen oder löschen. Auch können bereits nortierte Punkte als erledigt markiert werden.
+Die ToDo-Liste ist nur von dem Organisator einsehbar. Dieser kann die ToDo-Liste verwalten und Punkte hinzufügen oder löschen. Auch können bereits nortierte Punkte als erledigt markiert werden. Die ToDo-Liste muss von allen Organisatoren der Party verwaltbar sein. Es gibt pro Party maximal eine ToDo-Liste. Die Punkte stehen alle auf einer Ebene.
 
 | Name      | Rolle       | In meiner Rolle möchte ich         | so dass                                  | Akzeptanz       | Priorität |
 | --------- | ----------- | ---------------------------------- | ---------------------------------------- | --------------- | --------- |
