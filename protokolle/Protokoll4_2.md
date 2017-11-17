@@ -1,4 +1,4 @@
-# Besprechungsprotokol Nr. 7
+# Besprechungsprotokol Nr. 4.2
 
 **Projekt/Anlass**: Party-Planer,  
 **Datum/Uhrzeit**: 10.11.2017, 14:00 - 15:30 Uhr  
@@ -65,8 +65,8 @@ Die Mitglieder die noch nicht ihre Praktikumstagebücher hochgeladen haben werde
 - User Storys als Tabelle
 
 | Name | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
-    | ---- | ----- | -------------------------- | ------- | --------- | --------- |
-    |      |       |                            |         |           |           |
+| ---- | ----- | -------------------------- | ------- | --------- | --------- |
+|      |       |                            |         |           |           |
 
 ### Webfrontend
 

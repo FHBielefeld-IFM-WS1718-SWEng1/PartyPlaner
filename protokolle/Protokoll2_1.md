@@ -1,4 +1,4 @@
-# Besprechungsprotokol Nr. 2
+# Besprechungsprotokol Nr. 2.1
 
 **Projekt/Anlass**: Party-Planer, Wöchentlichestreffen  
 **Datum/Uhrzeit**: 27.10.2017, 10:00 - 11:40 Uhr  

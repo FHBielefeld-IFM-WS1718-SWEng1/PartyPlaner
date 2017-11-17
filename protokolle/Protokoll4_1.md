@@ -1,4 +1,4 @@
-# Besprechungsprotokol Nr. 6
+# Besprechungsprotokol Nr. 4.1
 
 **Projekt/Anlass**: Party-Planer,  
 **Datum/Uhrzeit**: 10.11.2017, 10:00 - 11:00 Uhr  

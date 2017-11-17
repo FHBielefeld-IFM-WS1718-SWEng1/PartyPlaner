@@ -1,4 +1,4 @@
-# Besprechungsprotokol Nr. 4
+# Besprechungsprotokol Nr. 3.1
 
 **Projekt/Anlass**: Party-Planer, Wöchentliches Meeting  
 **Datum/Uhrzeit**: 03.11.2017, 10:00 - 11:30 Uhr  

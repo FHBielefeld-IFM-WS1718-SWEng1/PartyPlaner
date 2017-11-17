@@ -1,4 +1,4 @@
-# Besprechungsprotokol Nr. 3
+# Besprechungsprotokol Nr. 2.2
 
 **Projekt/Anlass**: Party-Planer,  
 **Datum/Uhrzeit**: 27.10.2017, 14:00 - 15:00 Uhr  
