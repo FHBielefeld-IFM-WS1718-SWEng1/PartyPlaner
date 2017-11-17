@@ -457,6 +457,10 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 | anmelden | User  | mich über andere Social-Media-Profile anmelden | ich möglichst wenige Profile habe        | Anmelden möglich | Soll      |
 | teilen   | User  | Inhalte auf anderen Plattformen teilen   | möglichst viele Menschen an meinen Erlebnissen teilhaben | Inhalte teilbar  | Soll      |
 
+## ER-Modell
+
+![ER-Modell](img/diagramme/erm.jpg)
+
 ## Mockups
 
 ### Website
