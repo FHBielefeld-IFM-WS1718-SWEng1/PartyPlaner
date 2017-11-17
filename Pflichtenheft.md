@@ -180,42 +180,42 @@ Die Hauptanwendung muss auf einem Server laufen. Auch der Server muss ausreichen
 
 Es ist möglich sich als registrierter Benutzer einzuloggen. Zusätzlich kann ein Einloggen als Gastuser möglich sein.
 
-| Name      | Rolle | In meiner Rolle möchte ich | so dass                               | Akzeptanz | Priorität |
-| --------- | ----- | -------------------------- | ------------------------------------- | --------- | --------- |
-| Einloggen | User  | mich einloggen             | ich auf meinen Account zugreifen kann |           |           |
+| Name      | Rolle | In meiner Rolle möchte ich | so dass                               | Akzeptanz        | Priorität |
+| --------- | ----- | -------------------------- | ------------------------------------- | ---------------- | --------- |
+| Einloggen | User  | mich einloggen             | ich auf meinen Account zugreifen kann | anmelden möglich | muss      |
 
 ###### Ausloggen
 
 Es ist zu jeder Zeit möglich sich aus der Anwendung auszuloggen.
 
-| Name      | Rolle | In meiner Rolle möchte ich | so dass                            | Akzeptanz | Priorität |
-| --------- | ----- | -------------------------- | ---------------------------------- | --------- | --------- |
-| Ausloggen | User  | mich ausloggen             | ich nicht dauerhaft angemeldet bin |           |           |
+| Name      | Rolle | In meiner Rolle möchte ich | so dass                            | Akzeptanz        | Priorität |
+| --------- | ----- | -------------------------- | ---------------------------------- | ---------------- | --------- |
+| Ausloggen | User  | mich ausloggen             | ich nicht dauerhaft angemeldet bin | abmelden möglich | muss      |
 
 ##### Impressum
 
 Das Impressum muss jeder Zeit erreichbar sein.
 
-| Name               | Rolle | In meiner Rolle möchte ich        | so dass                                  | Akzeptanz | Priorität |
-| ------------------ | ----- | --------------------------------- | ---------------------------------------- | --------- | --------- |
-| Impressum anzeigen | User  | mir das Impressum anzeigen lassen | ich weitere Informationen zum Betreiber des Dienstes erhalte |           |           |
+| Name               | Rolle | In meiner Rolle möchte ich        | so dass                                  | Akzeptanz           | Priorität |
+| ------------------ | ----- | --------------------------------- | ---------------------------------------- | ------------------- | --------- |
+| Impressum anzeigen | User  | mir das Impressum anzeigen lassen | ich weitere Informationen zum Betreiber des Dienstes erhalte | Impressum einsehbar | muss      |
 
 ##### Hilfe
 
 Die Hilfe zur Anwendung muss jederzeit erreichbar sein.
 
-| Name           | Rolle | In meiner Rolle möchte ich    | so dass                                  | Akzeptanz | Prioritöt |
-| -------------- | ----- | ----------------------------- | ---------------------------------------- | --------- | --------- |
-| Hilfe anzeigen | User  | mir die Hilfe anzeigen lassen | ich Probleme möglichst alleine lösen kann |           |           |
+| Name           | Rolle | In meiner Rolle möchte ich    | so dass                                  | Akzeptanz       | Prioritöt |
+| -------------- | ----- | ----------------------------- | ---------------------------------------- | --------------- | --------- |
+| Hilfe anzeigen | User  | mir die Hilfe anzeigen lassen | ich Probleme möglichst alleine lösen kann | Hilfe einsehbar | muss      |
 
 ##### Kontaktformular
 
 Zusammenfassung der Kontaktdaten des Entwicklers. Hierzu gehören Firmenname, E-Mail, Adresse, Telefon und Angaben zur Erreichbarkeit.
 
-| Name                     | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz | Priorität |
-| ------------------------ | ----- | --------------------------------------- | ---------------------------------------- | --------- | --------- |
-| Kontakformular anzeigen  | User  | mir das Kontaktformular anzeigen lassen | ich mein Anliegen an den Betreiber formulieren kann |           |           |
-| Kontaktformular bedienen | User  | das Kontaktformular absenden            | der Betreiber mein Anliegen bearbeiten kann |           |           |
+| Name                     | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz                 | Priorität |
+| ------------------------ | ----- | --------------------------------------- | ---------------------------------------- | ------------------------- | --------- |
+| Kontakformular anzeigen  | User  | mir das Kontaktformular anzeigen lassen | ich mein Anliegen an den Betreiber formulieren kann | Kontaktformular einsehbar | muss      |
+| Kontaktformular bedienen | User  | das Kontaktformular absenden            | der Betreiber mein Anliegen bearbeiten kann | Kontaktformular nutzbar   | muss      |
 
 
 
@@ -231,11 +231,11 @@ Wie man sich einloggen möchte, muss auf der Anmeldeseite abgefragt werden. Auf 
 
 Es muss jeder Zeit möglich sein sich auszuloggen.
 
-| Name               | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz | Priorität |
-| ------------------ | ----- | --------------------------------------- | ---------------------------------------- | --------- | --------- |
-| Benutzer erstellen | User  | mir ein Benutzerprofil erstellen können | ich alle Funktionen der Anwendung nutzen kann |           |           |
-| Benutzer verwalten | User  | mein Benutzerprofil verwalten können    | ich Änderungen durchführen kann          |           |           |
-| Benutzer löschen   | User  | mein Benutzerprofil löschen können      | ich meine Profil und alle Daten entfernen kann |           |           |
+| Name               | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz            | Priorität |
+| ------------------ | ----- | --------------------------------------- | ---------------------------------------- | -------------------- | --------- |
+| Benutzer erstellen | User  | mir ein Benutzerprofil erstellen können | ich alle Funktionen der Anwendung nutzen kann | Registration möglich | muss      |
+| Benutzer verwalten | User  | mein Benutzerprofil verwalten können    | ich Änderungen durchführen kann          | Benutzer verwaltbar  | muss      |
+| Benutzer löschen   | User  | mein Benutzerprofil löschen können      | ich meine Profil und alle Daten entfernen kann | Benutzer löschbar    | muss      |
 
 ##### Benutzerprofil
 
@@ -243,14 +243,14 @@ Es muss eine Übersicht geben, wo der User all seine Veranstaltungen auf denen e
 
 Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hinzuzufügen, hat man auf fremden Profilen die Möglichkeit, diesen als Kontakt zu markieren oder demarkieren. Damit man fremde Kontakte finden kann, muss es eine Suchfunktion geben.
 
-| Name                               | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz | Priorität |
-| ---------------------------------- | ----- | ---------------------------------------- | ---------------------------------------- | --------- | --------- |
-| Alle Veranstaltungen anzeigen      | User  | mir all meine Veranstaltungen anzeigen lassen | ich einen Überblick über alle Veranstaltungen bekomme |           |           |
-| Erstellte Veranstaltungen anzeigen | User  | mir all meine selber erstellten Veranstaltungen anzeigen lassen | ich mir einen Überblick über diese verschaffen kann |           |           |
-| Einladungen anzeigen               | User  | mir meine Einladungen anzeigen lassen    | ich den Überblick habe, wo ich noch eingeladen bin |           |           |
-| Kontakte anzeigen                  | User  | mir meine Kontakte anzeigen lassen       | ich weiß, mit wem ich alles befreundet bin |           |           |
-| Kontakt hinzufügen                 | User  | einen anderen User als Kontakt hinzufügen | ich mit diesem auf der Platform befreundet bin |           |           |
-| Profil suchen                      | User  | ein anderen User suchen                  | mit diesem interagieren kann             |           |           |
+| Name                               | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz             | Priorität |
+| ---------------------------------- | ----- | ---------------------------------------- | ---------------------------------------- | --------------------- | --------- |
+| Alle Veranstaltungen anzeigen      | User  | mir all meine Veranstaltungen anzeigen lassen | ich einen Überblick über alle Veranstaltungen bekomme | Übersicht einsehbar   | muss      |
+| Erstellte Veranstaltungen anzeigen | User  | mir all meine selber erstellten Veranstaltungen anzeigen lassen | ich mir einen Überblick über diese verschaffen kann | Übersicht einsehbar   | muss      |
+| Einladungen anzeigen               | User  | mir meine Einladungen anzeigen lassen    | ich den Überblick habe, wo ich noch eingeladen bin | Einladungen einsehbar | muss      |
+| Kontakte anzeigen                  | User  | mir meine Kontakte anzeigen lassen       | ich weiß, mit wem ich alles befreundet bin | Kontakte anzeigbar    | muss      |
+| Kontakt hinzufügen                 | User  | einen anderen User als Kontakt hinzufügen | ich mit diesem auf der Platform befreundet bin | Kontakt hinzufügen    | muss      |
+| Profil suchen                      | User  | ein anderen User suchen                  | mit diesem interagieren kann             | Profil suchbar        | muss      |
 
 
 
@@ -258,9 +258,9 @@ Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hin
 
 User erhalten per Push-Nachricht Erinnerungen zu ihren Veranstaltungen auf das Smartphone.
 
-| Name                     | Rolle | In meiner Rolle möchte ich     | so dass                       | Akzeptanz | Priorität |
-| ------------------------ | ----- | ------------------------------ | ----------------------------- | --------- | --------- |
-| Push-Nachricht empfangen | User  | ich Push-Nachrichten empfangen | ich an Termine erinnert werde |           |           |
+| Name                     | Rolle | In meiner Rolle möchte ich     | so dass                       | Akzeptanz                | Priorität |
+| ------------------------ | ----- | ------------------------------ | ----------------------------- | ------------------------ | --------- |
+| Push-Nachricht empfangen | User  | ich Push-Nachrichten empfangen | ich an Termine erinnert werde | Push-Nachricht erhaltbar | Muss      |
 
 
 
@@ -274,55 +274,55 @@ In der Veranstalung müssen die folgenden Informationen jederzeit jedem Gast/ Or
 
 Der Name der Veranstaltung. 
 
-| Name           | Rolle       | In meiner Rolle möchte ich               | so dass                          | Akzeptanz | Priorität |
-| -------------- | ----------- | ---------------------------------------- | -------------------------------- | --------- | --------- |
-| Name anzeigen  | Gast        | mir den Namen der Veranstaltung anzeigen lassen | ich weiß, wie die Party heisst   |           |           |
-| Name verwalten | Organisator | den Namen der Änderung ändern können     | jeder weiß, wie die Party heisst |           |           |
+| Name           | Rolle       | In meiner Rolle möchte ich               | so dass                          | Akzeptanz       | Priorität |
+| -------------- | ----------- | ---------------------------------------- | -------------------------------- | --------------- | --------- |
+| Name anzeigen  | Gast        | mir den Namen der Veranstaltung anzeigen lassen | ich weiß, wie die Party heisst   | Name anzeigbar  | Muss      |
+| Name verwalten | Organisator | den Namen der Änderung ändern können     | jeder weiß, wie die Party heisst | Name verwaltbar | Muss      |
 
 ###### Beschreibung
 
 Ein freier Beschreibungstext zur Veranstaltung.
 
-| Name                   | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz | Priorität |
-| ---------------------- | ----------- | ---------------------------------------- | ---------------------------------------- | --------- | --------- |
-| Beschreibung anzeigen  | Gast        | Mir die Beschreibung zur Party anzeigen lassen | ich weitere Informationen erhalte        |           |           |
-| Beschreibung verändern | Organisator | die Beschreibung verändern können        | ich weitere Informationen mitteilen kann |           |           |
+| Name                   | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                | Priorität |
+| ---------------------- | ----------- | ---------------------------------------- | ---------------------------------------- | ------------------------ | --------- |
+| Beschreibung anzeigen  | Gast        | Mir die Beschreibung zur Party anzeigen lassen | ich weitere Informationen erhalte        | Beschreibung lesbar      | Muss      |
+| Beschreibung verändern | Organisator | die Beschreibung verändern können        | ich weitere Informationen mitteilen kann | Beschreibung veränderbar | Muss      |
 
 ###### Gastgeber / Ansprechpartner
 
 Hier stehen der Gastgeber, bzw. die Organisatoren.
 
-| Name              | Rolle | In meiner Rolle möchte ich | so dass                               | Akzeptanz | Priorität |
-| ----------------- | ----- | -------------------------- | ------------------------------------- | --------- | --------- |
-| Gastgeber ansehen | Gast  | Mir die Gastgeber ansehen  | ich weiß, wer der Ansprechpartner ist |           |           |
+| Name              | Rolle | In meiner Rolle möchte ich | so dass                               | Akzeptanz           | Priorität |
+| ----------------- | ----- | -------------------------- | ------------------------------------- | ------------------- | --------- |
+| Gastgeber ansehen | Gast  | Mir die Gastgeber ansehen  | ich weiß, wer der Ansprechpartner ist | Gastgeber einsehbar | Muss      |
 
 ###### Ort
 
 Ort der Veranstaltung. Hier muss nicht zwingend eine gültige Adresse eingegeben werden, damit auch benutzereigene Beschreibungen möglich sind. Wenn eine gültige Adresse eingegeben wurde, muss diese von Google Maps (Web, Android) oder Maps(iOS) verarbeitet werden können.
 
-| Name                 | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz | Priorität |
-| -------------------- | ----------- | ---------------------------------------- | ---------------------------------------- | --------- | --------- |
-| Ort anzeigen         | Gast        | Mir den Ort anzeigen lassen              | ich weiß, wo die Party stattfindet       |           |           |
-| Ort in Maps aufrufen | Gast        | Mir den Ort in einer Kartenanwendung anzeigen lassen | ich die Navi-Funktionen dieser Dienste nutzen kann |           |           |
-| Ort verwalten        | Organisator | den Ort verändern können                 | jeder weiß, wo die Party stattfindet     |           |           |
+| Name                 | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz             | Priorität |
+| -------------------- | ----------- | ---------------------------------------- | ---------------------------------------- | --------------------- | --------- |
+| Ort anzeigen         | Gast        | Mir den Ort anzeigen lassen              | ich weiß, wo die Party stattfindet       | Ort anzeigbar         | Muss      |
+| Ort in Maps aufrufen | Gast        | Mir den Ort in einer Kartenanwendung anzeigen lassen | ich die Navi-Funktionen dieser Dienste nutzen kann | Ort in Apps aufrufbar | Muss      |
+| Ort verwalten        | Organisator | den Ort verändern können                 | jeder weiß, wo die Party stattfindet     | Ort veränderbar       | Muss      |
 
 ###### Zeitpunkt
 
 Datum und Uhrzeit der Veranstaltung. Es muss eine Verbindung zu den Systemkalendern (Android,iOS) bestehen, damit der Termin direkt übertragen werden kann. Auch müssen die Termine in einer Übersicht im Benutzerprofil angezeigt werden (Kalenderwidget).
 
-| Name            | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz | Priorität |
-| --------------- | ----------- | ---------------------------------------- | ---------------------------------------- | --------- | --------- |
-| Zeit anzeigen   | Gast        | mir Datum und Zeit anzeigen lassen       | ich weiß, wann die Party stattfindet     |           |           |
-| Zeit übertragen | Gast        | Mir Datum und Uhrzeit in Systemkalender übertragen | ich die party in meinem allgemeinen Kalender sehe |           |           |
-| Zeit ändern     | Organisator | Datum und Uhrzeit ändern können          | jeder weiß, wann die Party stattfindet   |           |           |
+| Name            | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz        | Priorität |
+| --------------- | ----------- | ---------------------------------------- | ---------------------------------------- | ---------------- | --------- |
+| Zeit anzeigen   | Gast        | mir Datum und Zeit anzeigen lassen       | ich weiß, wann die Party stattfindet     | Zeit einsehbar   | Muss      |
+| Zeit übertragen | Gast        | Mir Datum und Uhrzeit in Systemkalender übertragen | ich die party in meinem allgemeinen Kalender sehe | Zeit übertragbar | Muss      |
+| Zeit ändern     | Organisator | Datum und Uhrzeit ändern können          | jeder weiß, wann die Party stattfindet   | Zeit änderbar    | Muss      |
 
 ###### Gästeliste
 
 Es gibt eine Übersicht, in der die Gästeliste für alle einsehbar angezeigt wird.
 
-| Name                | Rolle | In meiner Rolle möchte ich         | so dass                       | Akzeptanz | Priorität |
-| ------------------- | ----- | ---------------------------------- | ----------------------------- | --------- | --------- |
-| Gästeliste anzeigen | Gast  | mir die Gästeliste angucken können | ich weiß, wer zur Party kommt |           |           |
+| Name                | Rolle | In meiner Rolle möchte ich         | so dass                       | Akzeptanz            | Priorität |
+| ------------------- | ----- | ---------------------------------- | ----------------------------- | -------------------- | --------- |
+| Gästeliste anzeigen | Gast  | mir die Gästeliste angucken können | ich weiß, wer zur Party kommt | Gästeliste einsehbar | Muss      |
 
 ##### Berechtigungen
 
@@ -330,11 +330,11 @@ Der Organisator kann andere Gäste zu Organisatoren machen oder andere auf den S
 
 Auch muss es eine Ansicht geben, in der alle Berechtigungen aufgelistet sind.
 
-| Name                     | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz | Priorität |
-| ------------------------ | ----------- | ---------------------------------------- | ---------------------------------------- | --------- | --------- |
-| Berechtigungen erteilen  | Organisator | andere Gäste ebenfalls zu Organisatoren ernennen können | ich nicht alles alleine organisieren muss |           |           |
-| Berechtigungen entziehen | Organisator | andere Organisatoren wieder zu Gästen zurückstufen | ich die Berechtigungen verwalten kann    |           |           |
-| Berechtigungen anzeigen  | Organisator | mir alle Berechtigungen zur Veranstaltung anzeigen lassen | ich diese anschließend verwalten kann    |           |           |
+| Name                     | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                 | Priorität |
+| ------------------------ | ----------- | ---------------------------------------- | ---------------------------------------- | ------------------------- | --------- |
+| Berechtigungen erteilen  | Organisator | andere Gäste ebenfalls zu Organisatoren ernennen können | ich nicht alles alleine organisieren muss | Berechtigungen erteilbar  | Muss      |
+| Berechtigungen entziehen | Organisator | andere Organisatoren wieder zu Gästen zurückstufen | ich die Berechtigungen verwalten kann    | Berechtigungen entziehbar | Muss      |
+| Berechtigungen anzeigen  | Organisator | mir alle Berechtigungen zur Veranstaltung anzeigen lassen | ich diese anschließend verwalten kann    | Berechtigungen anzeigbar  | Muss      |
 
 ##### Einladungen
 
@@ -344,42 +344,42 @@ Es gibt ein Menü, in dem die Gäste Zu- oder Absagen können. Auch eine Übersi
 
 Optional kann implementiert werden, dass Einladungen auch wieder zurückgenommen werden können.
 
-| Name         | Rolle       | In meiner Rolle möchte ich               | so dass                               | Akzeptanz | Priorität |
-| ------------ | ----------- | ---------------------------------------- | ------------------------------------- | --------- | --------- |
-| QR-Code      | Organisator | Einladungen via QR-Code verschicken können | ich Menschen einladen kann            |           |           |
-| Weblink      | Organisator | Einladungen via Weblink verschicken      | ich menschen einladen kann            |           |           |
-| Profil       | Organisator | Einladungen via Profil verschicken       | ich andere User einladen kann         |           |           |
-| Zurücknehmen | Organisator | Einladungen zurücknehmen                 | ich die Einladungen verwalten kann    |           |           |
-| Übersicht    | Organisator | eine Übersicht über alle Eingeladene und deren Status habe | ich die Einladungen koordinieren kann |           |           |
+| Name         | Rolle       | In meiner Rolle möchte ich               | so dass                               | Akzeptanz                 | Priorität |
+| ------------ | ----------- | ---------------------------------------- | ------------------------------------- | ------------------------- | --------- |
+| QR-Code      | Organisator | Einladungen via QR-Code verschicken können | ich Menschen einladen kann            | Code verschickbar         | Muss      |
+| Weblink      | Organisator | Einladungen via Weblink verschicken      | ich menschen einladen kann            | Weblink verschickbar      | Muss      |
+| Profil       | Organisator | Einladungen via Profil verschicken       | ich andere User einladen kann         | Einladung via Profil      | Muss      |
+| Zurücknehmen | Organisator | Einladungen zurücknehmen                 | ich die Einladungen verwalten kann    | Einladung zurücknehmen    | Soll      |
+| Übersicht    | Organisator | eine Übersicht über alle Eingeladene und deren Status habe | ich die Einladungen koordinieren kann | Übersicht der Einladungen | Muss      |
 
 ##### Aufgaben
 
 Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion können zum Beispiel Mitbring-Buffets organisiert werden. Die Aufgaben können vom Organisator zugeteilt oder freiwillig von einem Gast übernommen werden.
 
-| Name       | Rolle       | In meiner Rolle möchte ich | so dass                                 | Akzeptanz | Priorität |
-| ---------- | ----------- | -------------------------- | --------------------------------------- | --------- | --------- |
-| anzeigen   | Gast        | alle Aufgaben einsehen     | ich eine übernehmen kann                |           |           |
-| verwalten  | Organisator | die Aufgaben verwalten     | ich die Aufgaben anlegen/entfernen kann |           |           |
-| verteilen  | Organisator | anderen Aufgaben zuweisen  | ich die Aufgaben koordienieren kann     |           |           |
-| übernehmen | Gast        | Aufgaben übernehmen können | dem Gastgeber helfen kann               |           |           |
+| Name       | Rolle       | In meiner Rolle möchte ich | so dass                                 | Akzeptanz           | Priorität |
+| ---------- | ----------- | -------------------------- | --------------------------------------- | ------------------- | --------- |
+| anzeigen   | Gast        | alle Aufgaben einsehen     | ich eine übernehmen kann                | Aufgabe übernehmbar | Muss      |
+| verwalten  | Organisator | die Aufgaben verwalten     | ich die Aufgaben anlegen/entfernen kann | Aufgabe verwaltbar  | Muss      |
+| verteilen  | Organisator | anderen Aufgaben zuweisen  | ich die Aufgaben koordienieren kann     | Aufgabe verteilbar  | Muss      |
+| übernehmen | Gast        | Aufgaben übernehmen können | dem Gastgeber helfen kann               | Aufgabe übernehmbar | Muss      |
 
 ##### ToDo-Liste
 
 Die ToDo-Liste ist nur von dem Organisator einsehbar. Dieser kann die ToDo-Liste verwalten und Punkte hinzufügen oder löschen. Auch können bereits nortierte Punkte als erledigt markiert werden.
 
-| Name      | Rolle       | In meiner Rolle möchte ich         | so dass                                  | Akzeptanz | Priorität |
-| --------- | ----------- | ---------------------------------- | ---------------------------------------- | --------- | --------- |
-| anzeigen  | Organisator | mir die ToDo-Liste anzeigen lassen | ich den Überblick über die Planung behalte |           |           |
-| verwalten | Organisator | die ToDo-Liste verwalten           | ich Punkte hinzufügen / entfernen kann   |           |           |
+| Name      | Rolle       | In meiner Rolle möchte ich         | so dass                                  | Akzeptanz       | Priorität |
+| --------- | ----------- | ---------------------------------- | ---------------------------------------- | --------------- | --------- |
+| anzeigen  | Organisator | mir die ToDo-Liste anzeigen lassen | ich den Überblick über die Planung behalte | ToDo anzeigbar  | Muss      |
+| verwalten | Organisator | die ToDo-Liste verwalten           | ich Punkte hinzufügen / entfernen kann   | ToDo verwaltbar | Muss      |
 
 ##### Kostenübersicht
 
 Die Kostenübersicht ist nur von dem Organisator einsehbar. Dieser kann hier jede Ausgabe und Einnahme mitprotokollieren und erhält eine Gesamtsumme der Ein- oder Ausgaben.
 
-| Name      | Rolle       | In meiner Rolle möchte ich         | so dass                             | Akzeptanz | Priorität |
-| --------- | ----------- | ---------------------------------- | ----------------------------------- | --------- | --------- |
-| anzeigen  | Organisator | mir alle bisherigen Kosten ansehen | ich über alle Kosten informiert bin |           |           |
-| verwalten | Organisator | neue Kosten hinzufügen             | ich die Liste aktuell halten kann   |           |           |
+| Name      | Rolle       | In meiner Rolle möchte ich         | so dass                             | Akzeptanz         | Priorität |
+| --------- | ----------- | ---------------------------------- | ----------------------------------- | ----------------- | --------- |
+| anzeigen  | Organisator | mir alle bisherigen Kosten ansehen | ich über alle Kosten informiert bin | Kosten anzeigbar  | Muss      |
+| verwalten | Organisator | neue Kosten hinzufügen             | ich die Liste aktuell halten kann   | Kosten verwaltbar | Muss      |
 
 ##### Galerie
 
@@ -389,13 +389,13 @@ Auch werden hier Aktionen zum Up- oder Download von Bildern angeboten.
 
 Optional kann auch eine Übersicht aller Galerien für einen Benutzer implementiert werden. Auch das Kommentieren von Fotos ist optional.
 
-| Name                | Rolle | In meiner Rolle möchte ich         | so dass                                  | Akzeptanz | Priorität |
-| ------------------- | ----- | ---------------------------------- | ---------------------------------------- | --------- | --------- |
-| Startseite anzeigen | Gast  | die Startseite einer Galerie sehen | ich einen ersten Eindruck der Bilder erhalte |           |           |
-| Foto anzeigen       | Gast  | mir einzelne Fotos anzeigen lassen | ich mir diese genauer angucken kann      |           |           |
-| Fotos hochladen     | Gast  | Fotos hochladen können             | ich meine Fotos mit anderen teilen kann  |           |           |
-| Fotos downloaden    | Gast  | Fotos downloaden können            | ich bestimmte Fotos sichern kann         |           |           |
-| Fotos kommentieren  | Gast  | Fotos kommentieren können          | ich mit anderen zu dem Foto interagieren kann |           |           |
+| Name                | Rolle | In meiner Rolle möchte ich         | so dass                                  | Akzeptanz            | Priorität |
+| ------------------- | ----- | ---------------------------------- | ---------------------------------------- | -------------------- | --------- |
+| Startseite anzeigen | Gast  | die Startseite einer Galerie sehen | ich einen ersten Eindruck der Bilder erhalte | Startseite anzeigbar | Muss      |
+| Foto anzeigen       | Gast  | mir einzelne Fotos anzeigen lassen | ich mir diese genauer angucken kann      | Foto anzeigen        | Muss      |
+| Fotos hochladen     | Gast  | Fotos hochladen können             | ich meine Fotos mit anderen teilen kann  | Fotos hochladen      | Muss      |
+| Fotos downloaden    | Gast  | Fotos downloaden können            | ich bestimmte Fotos sichern kann         | Fotos downloaden     | Muss      |
+| Fotos kommentieren  | Gast  | Fotos kommentieren können          | ich mit anderen zu dem Foto interagieren kann | Fotos kommentieren   | Soll      |
 
 ##### Kommunikation
 
@@ -403,13 +403,13 @@ In der Veranstaltung können Beiträge geschrieben, verändert oder kommentiert 
 
 Optional können auch Chats unter registrierten Usern oder Gruppenchat implementiert werden.
 
-| Name         | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz | Priorität |
-| ------------ | ----- | ---------------------------------------- | ---------------------------------------- | --------- | --------- |
-| erstellen    | Gast  | Kommentare zur Veranstaltung erstellen können | ich mit anderen Gästen interagieren kann |           |           |
-| bearbeiten   | Gast  | meine Kommentare bearbeiten können       | ich Fehler korrigieren kann              |           |           |
-| löschen      | Gast  | meine Kommentare löschen können          | diese nicht mehr lesbar sind             |           |           |
-| Privatchats  | User  | mit einem anderen User schreiben können  | wir privat kommunizieren können          |           |           |
-| Gruppenchats | User  | mit einer Gruppe von anderen Usern schreiben können | wir privat kommunizieren können          |           |           |
+| Name         | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz            | Priorität |
+| ------------ | ----- | ---------------------------------------- | ---------------------------------------- | -------------------- | --------- |
+| erstellen    | Gast  | Kommentare zur Veranstaltung erstellen können | ich mit anderen Gästen interagieren kann | Kommentar erstelbbar | Muss      |
+| bearbeiten   | Gast  | meine Kommentare bearbeiten können       | ich Fehler korrigieren kann              | Kommentar bearbeiten | Muss      |
+| löschen      | Gast  | meine Kommentare löschen können          | diese nicht mehr lesbar sind             | Kommentar löschen    | Muss      |
+| Privatchats  | User  | mit einem anderen User schreiben können  | wir privat kommunizieren können          | Privatchats möglich  | Soll      |
+| Gruppenchats | User  | mit einer Gruppe von anderen Usern schreiben können | wir privat kommunizieren können          | Gruppenchats möglich | Soll      |
 
 ##### Abstimmung
 
@@ -417,22 +417,22 @@ Es gibt eine Übersicht aller laufenden und vergangenen Abstimmungen zur Veranst
 
 Der Organisator kann Abstimmungen erstellen. Dazu kann er eine Fragestellung eingeben und die Laufzeit der Abstimmung auswählen. Nach Ablauf der Laufzeit wird automatisch eine Auswertung erstellt und angezeigt. Auch hat der Organisator hier die Möglichkeit die Abstimmung nachträglich zu verändern oder zu löschen.
 
-| Name       | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz | Priorität |
-| ---------- | ----------- | ---------------------------------------- | ---------------------------------------- | --------- | --------- |
-| erstellen  | Organisator | Abstimmungen in der Veranstaltung erstellen können | ich andere Meinungen abfragen kann       |           |           |
-| bearbeiten | Organisator | Abstimmungen bearbeiten können           | ich das beste Ergebniss halte            |           |           |
-| anzeigen   | Gast        | mir Abstimmungen ansehen können          | ich sehe, wo meine Meinung benötigt wird |           |           |
-| abstimmen  | Gast        | abstimmen können                         | ich meine Meinung mitteilen kann         |           |           |
+| Name       | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz              | Priorität |
+| ---------- | ----------- | ---------------------------------------- | ---------------------------------------- | ---------------------- | --------- |
+| erstellen  | Organisator | Abstimmungen in der Veranstaltung erstellen können | ich andere Meinungen abfragen kann       | Abstimmung erstellbar  | Muss      |
+| bearbeiten | Organisator | Abstimmungen bearbeiten können           | ich das beste Ergebniss halte            | Abstimmung bearbeitbar | Muss      |
+| anzeigen   | Gast        | mir Abstimmungen ansehen können          | ich sehe, wo meine Meinung benötigt wird | Abstimmung anzeigbar   | Muss      |
+| abstimmen  | Gast        | abstimmen können                         | ich meine Meinung mitteilen kann         | Abstimmen möglich      | Muss      |
 
 ##### Bewertung
 
 Nach der Veranstaltung können die Gäste eine Bewertung der Veranstaltung abgeben. Diese Bewertung kann nachträglich verändert werden.
 
-| Name       | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz | Priorität |
-| ---------- | ----- | --------------------------------------- | ---------------------------------------- | --------- | --------- |
-| anzeigen   | Gast  | das Ergebniss sehen                     | ich sehen kann, wie andere die Party fanden |           |           |
-| abgeben    | Gast  | eine Bewertung zur Party abgeben können | ich meine Meinung mitteilen kann         |           |           |
-| bearbeiten | Gast  | eine Bewertung ändern können            | ich Meinung ändern kann                  |           |           |
+| Name       | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz             | Priorität |
+| ---------- | ----- | --------------------------------------- | ---------------------------------------- | --------------------- | --------- |
+| anzeigen   | Gast  | das Ergebniss sehen                     | ich sehen kann, wie andere die Party fanden | Bewertung anzeigbar   | Soll      |
+| abgeben    | Gast  | eine Bewertung zur Party abgeben können | ich meine Meinung mitteilen kann         | Bewertung abgebar     | Soll      |
+| bearbeiten | Gast  | eine Bewertung ändern können            | ich Meinung ändern kann                  | Bewertung bearbeitbar | Soll      |
 
 ##### Einchecken
 
@@ -440,11 +440,11 @@ Das Einchecken kann ebenfalls von der Anwendung übernommen werden. Hierfür kö
 
 Auch eine Übersicht zu allen Gästen wird angezeigt.
 
-| Name       | Rolle       | In meiner Rolle möchte ich           | so dass                    | Akzeptanz | Priorität |
-| ---------- | ----------- | ------------------------------------ | -------------------------- | --------- | --------- |
-| Gast_QR    | Gast        | meinen Gast-QR-Code anzeigen lassen  | ich einchecken kann        |           |           |
-| Scannen    | Organisator | Gast-QR-Codes einscannen können      | ich Gäste einchecken kann  |           |           |
-| Einchecken | Organisator | Gäste auch manuell einchecken können | die Gästeliste aktuell ist |           |           |
+| Name       | Rolle       | In meiner Rolle möchte ich           | so dass                    | Akzeptanz          | Priorität |
+| ---------- | ----------- | ------------------------------------ | -------------------------- | ------------------ | --------- |
+| Gast_QR    | Gast        | meinen Gast-QR-Code anzeigen lassen  | ich einchecken kann        | QR-Eincheckbar     | Soll      |
+| Scannen    | Organisator | Gast-QR-Codes einscannen können      | ich Gäste einchecken kann  | Scannen möglich    | Soll      |
+| Einchecken | Organisator | Gäste auch manuell einchecken können | die Gästeliste aktuell ist | Manuell einchecken | Soll      |
 
 ##### Social-Network
 
@@ -452,10 +452,10 @@ Dieser Menüpunkt kann optional implementiert werden.
 
 Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch können Bilder oder Veranstaltungen in Social-Media-Plattformen geteilt werden.
 
-| Name     | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz | Priorität |
-| -------- | ----- | ---------------------------------------- | ---------------------------------------- | --------- | --------- |
-| anmelden | User  | mich über andere Social-Media-Profile anmelden | ich möglichst wenige Profile habe        |           |           |
-| teilen   | User  | Inhalte auf anderen Plattformen teilen   | möglichst viele Menschen an meinen Erlebnissen teilhaben |           |           |
+| Name     | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz        | Priorität |
+| -------- | ----- | ---------------------------------------- | ---------------------------------------- | ---------------- | --------- |
+| anmelden | User  | mich über andere Social-Media-Profile anmelden | ich möglichst wenige Profile habe        | Anmelden möglich | Soll      |
+| teilen   | User  | Inhalte auf anderen Plattformen teilen   | möglichst viele Menschen an meinen Erlebnissen teilhaben | Inhalte teilbar  | Soll      |
 
 ## Mockups
 
