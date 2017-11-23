@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+  <title>./docute</title>
+  <link rel="stylesheet" href="https://unpkg.com/docute@3/dist/docute.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script src="https://unpkg.com/docute@3/dist/docute.js"></script>
+  <script>
+    docute.init({
+		home: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/master/README.md',
+		nav: [
+			// Pflichtenheft
+			{title: 'Pflichtenheft', path: '/pflichtenheft', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/Pflichtenheft.md'},
+			// Teamverteilung
+			{title: 'Teamverteilung', path: '/teams', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/Teams.md'},
+			// Protokolle
+			{title: 'Protokolle', type: 'dropdown', items: [
+				{title: 'Protokoll 1', path: '/protokolle/protokoll1', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll1.md'},
+				{title: 'Protokoll 2.1', path: '/protokolle/protokoll2_1', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll2_1.md'},
+				{title: 'Protokoll 2.2', path: '/protokolle/protokoll2_2', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll2_2.md'},
+				{title: 'Protokoll 3.1', path: '/protokolle/protokoll3_1', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll3_1.md'},
+				{title: 'Protokoll 3.2', path: '/protokolle/protokoll3_2', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll3_2.md'},
+				{title: 'Protokoll 4.1', path: '/protokolle/protokoll4_1', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll4_1md'},
+				{title: 'Protokoll 4.2', path: '/protokolle/protokoll4_2', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll4_2.md'},
+				{title: 'Protokoll 5.1', path: '/protokolle/protokoll5_1', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll5_1md'},
+				{title: 'Protokoll 5.2', path: '/protokolle/protokoll5_2', source: 'https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/protokoll/protokolle/Protokoll5_2.md'}
+			]},
+			// Praktikumstagebücher
+			{title: 'Praktikumstagebücher', type: 'dropdown', items: [
+				{title: 'Augstein, Jan', path: '/tagebuch/jaugstein', source: 'https://raw.githubusercontent.com/jaugstein/Tagebuch/master/README.md'},
+				{title: 'Bergmann, Alex', path: '/tagebuch/abergmann', source: 'https://raw.githubusercontent.com/abergy/SE-Projekttagebuch/master/README.md'},
+				{title: 'Buller, Florian', path: '/tagebuch/fbuller', source: 'https://raw.githubusercontent.com/fbuller/engineeringUserProtokoll/master/README.md'},
+				{title: 'Heinisch, Alexander', path: '/tagebuch/aheinisch', source: 'https://raw.githubusercontent.com/AHeinisch/tagebuch/master/README.md'},
+				{title: 'Kirsch, André', path: '/tagebuch/akirsch', source: 'https://raw.githubusercontent.com/AKirsch1/SE-Protokoll/master/README.md'},
+				{title: 'Kirzhner, Diana', path: '/tagebuch/dkirzhner', source: 'https://raw.githubusercontent.com/dkirshner/Tagebuch/master/Tagebuch.md'},
+				{title: 'Leunig, Dario', path: '/tagebuch/dleunig', source: 'https://raw.githubusercontent.com/dleunig/SE-Projekttagebuch/master/README.md'},
+				{title: 'Lötkemann, Nikita', path: '/tagebuch/nloetkemann', source: 'https://raw.githubusercontent.com/nloetkemann/Tagebuch/master/Tagebuch.md'},
+				{title: 'Matutat, Andre', path: '/tagebuch/amatutat', source: 'https://raw.githubusercontent.com/AMatutat/AndreMatutat_TagebuchSE/master/README.md'},
+				{title: 'Meier, Tim', path: '/tagebuch/tmeier', source: 'https://raw.githubusercontent.com/TSMeier/SE-Protokoll/master/README.md'},
+				{title: 'Müller, Jendrik', path: '/tagebuch/jmueller', source: 'https://raw.githubusercontent.com/jmueller19/Praktikumstagebuch/master/README.md'},
+				{title: 'Nickel, Michael', path: '/tagebuch/mnickel', source: 'https://raw.githubusercontent.com/MiNickel/Protokoll/master/README.md'},
+				{title: 'Poppe, Patrick', path: '/tagebuch/ppoppe', source: 'https://raw.githubusercontent.com/ppoppe1/TagebuchSE/master/README.md'},
+				{title: 'Raddatz, Jonas', path: '/tagebuch/jraddatz', source: 'https://raw.githubusercontent.com/jraddatz/SWEng-Tagebuch/master/README.md'},
+				{title: 'Räder, Daniel', path: '/tagebuch/draeder', source: 'https://raw.githubusercontent.com/draeder94/SWEng-Protokoll/master/README.md'},
+				{title: 'Riechmann, Malte', path: '/tagebuch/mriechmann', source: 'https://raw.githubusercontent.com/MRiechmann1/SE-Protokoll/master/README.md'},
+				{title: 'Schröder, Hendrik', path: '/tagebuch/hschroeder', source: 'https://raw.githubusercontent.com/hschroeder4/test/master/README.md'},
+				{title: 'Schwettmann, Marc', path: '/tagebuch/mschwettmann', source: 'https://raw.githubusercontent.com/mschwettmann1/SWEng-Tagebuch/master/README.md'},
+				{title: 'Tschech, Jan', path: '/tagebuch/jtschech', source: 'https://raw.githubusercontent.com/JanTsc/SeTagebuchJanTschech/master/README.md'},
+				{title: 'Wiese, Florian', path: '/tagebuch/fwiese', source: 'https://raw.githubusercontent.com/fwiese1/diary/master/README.md'}
+			]}
+		]
+	})
+  </script>
+</body>
+</html>
