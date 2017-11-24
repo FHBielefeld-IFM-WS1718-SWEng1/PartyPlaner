@@ -208,6 +208,8 @@ Die Hilfe zur Anwendung muss jederzeit erreichbar sein.
 | -------------- | ----- | ----------------------------- | ---------------------------------------- | --------------- | --------- |
 | Hilfe anzeigen | User  | mir die Hilfe anzeigen lassen | ich Probleme möglichst alleine lösen kann | Hilfe einsehbar | muss      |
 
+![ER-Modell](img/use_case/Grundfunktionen.png)
+
 ##### Kontaktformular
 
 Zusammenfassung der Kontaktdaten des Entwicklers. Hierzu gehören Firmenname, E-Mail, Adresse, Telefon und Angaben zur Erreichbarkeit.
@@ -235,6 +237,8 @@ Es muss jeder Zeit möglich sein sich auszuloggen.
 | Benutzer verwalten | User  | mein Benutzerprofil verwalten können    | ich Änderungen durchführen kann          | Benutzer verwaltbar  | muss      |
 | Benutzer löschen   | User  | mein Benutzerprofil löschen können      | ich meine Profil und alle Daten entfernen kann | Benutzer löschbar    | muss      |
 
+![ER-Modell](img/use_case/Benutzerverwaltung.png)
+
 ##### Benutzerprofil
 
 Es muss eine Übersicht geben, wo der User all seine Veranstaltungen auf denen er war oder auch Kommende sehen kann. Auch muss es eine Übersicht aller aktuellen Einladungen und der Veranstaltungen, die man selber erstellt hat, geben.
@@ -249,6 +253,8 @@ Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hin
 | Kontakte anzeigen                  | User  | mir meine Kontakte anzeigen lassen       | ich weiß, mit wem ich alles befreundet bin | Kontakte anzeigbar         | muss      |
 | Kontakt hinzufügen                 | User  | einen anderen User als Kontakt hinzufügen | ich mit diesem auf der Platform befreundet bin | Kontakt hinzufügen möglich | muss      |
 | Profil suchen                      | User  | ein anderen User suchen                  | mit diesem interagieren kann             | Profil suchbar             | muss      |
+
+![ER-Modell](img/use_case/Benutzerprofil.png)
 
 ##### Push-Nachrichten
 
@@ -318,6 +324,8 @@ Es gibt eine Übersicht, in der die Gästeliste für alle einsehbar angezeigt wi
 | ------------------- | ----- | ---------------------------------- | ----------------------------- | -------------------- | --------- |
 | Gästeliste anzeigen | Gast  | mir die Gästeliste angucken können | ich weiß, wer zur Party kommt | Gästeliste einsehbar | Muss      |
 
+![ER-Modell](img/use_case/Veranstaltung.png)
+
 ##### Berechtigungen
 
 Der Organisator kann andere Gäste zu Organisatoren machen oder andere auf den Status eines normalen Gastes zurücksetzen.
@@ -329,6 +337,8 @@ Auch muss es eine Ansicht geben, in der alle Berechtigungen aufgelistet sind.
 | Berechtigungen erteilen  | Organisator | andere Gäste ebenfalls zu Organisatoren ernennen können | ich nicht alles alleine organisieren muss | Berechtigungen erteilbar  | Muss      |
 | Berechtigungen entziehen | Organisator | andere Organisatoren wieder zu Gästen zurückstufen | ich die Berechtigungen verwalten kann    | Berechtigungen entziehbar | Muss      |
 | Berechtigungen anzeigen  | Organisator | mir alle Berechtigungen zur Veranstaltung anzeigen lassen | ich diese anschließend verwalten kann    | Berechtigungen anzeigbar  | Muss      |
+
+![ER-Modell](img/use_case/Berechtigungen.png)
 
 ##### Einladungen
 
@@ -346,6 +356,8 @@ Optional kann implementiert werden, dass Einladungen auch wieder zurückgenommen
 | Zurücknehmen | Organisator | Einladungen zurücknehmen                 | ich die Einladungen verwalten kann    | Einladung zurücknehmbar             | Soll      |
 | Übersicht    | Organisator | eine Übersicht über alle Eingeladene und deren Status habe | ich die Einladungen koordinieren kann | Übersicht der Einladungen anzeigbar | Muss      |
 
+![ER-Modell](img/use_case/Einladungen.png)
+
 ##### Aufgaben
 
 Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion können zum Beispiel Mitbring-Buffets organisiert werden. Die Aufgaben können vom Organisator zugeteilt oder freiwillig von einem Gast übernommen werden.
@@ -357,6 +369,8 @@ Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion könne
 | verteilen  | Organisator | anderen Aufgaben zuweisen  | ich die Aufgaben koordienieren kann     | Aufgabe verteilbar  | Muss      |
 | übernehmen | Gast        | Aufgaben übernehmen können | dem Gastgeber helfen kann               | Aufgabe übernehmbar | Muss      |
 
+![ER-Modell](img/use_case/Aufgabenverwaltung.png)
+
 ##### ToDo-Liste
 
 Die ToDo-Liste ist nur von dem Organisator einsehbar. Dieser kann die ToDo-Liste verwalten und Punkte hinzufügen oder löschen. Auch können bereits nortierte Punkte als erledigt markiert werden. Die ToDo-Liste muss von allen Organisatoren der Party verwaltbar sein. Es gibt pro Party maximal eine ToDo-Liste. Die Punkte stehen alle auf einer Ebene.
@@ -366,6 +380,8 @@ Die ToDo-Liste ist nur von dem Organisator einsehbar. Dieser kann die ToDo-Liste
 | anzeigen  | Organisator | mir die ToDo-Liste anzeigen lassen | ich den Überblick über die Planung behalte | ToDo anzeigbar  | Muss      |
 | verwalten | Organisator | die ToDo-Liste verwalten           | ich Punkte hinzufügen / entfernen kann   | ToDo verwaltbar | Muss      |
 
+![ER-Modell](img/use_case/ToDo.png)
+
 ##### Kostenübersicht
 
 Die Kostenübersicht ist nur von dem Organisator einsehbar. Dieser kann hier jede Ausgabe und Einnahme mitprotokollieren und erhält eine Gesamtsumme der Ein- oder Ausgaben.
@@ -374,6 +390,8 @@ Die Kostenübersicht ist nur von dem Organisator einsehbar. Dieser kann hier jed
 | --------- | ----------- | ---------------------------------- | ----------------------------------- | ----------------- | --------- |
 | anzeigen  | Organisator | mir alle bisherigen Kosten ansehen | ich über alle Kosten informiert bin | Kosten anzeigbar  | Muss      |
 | verwalten | Organisator | neue Kosten hinzufügen             | ich die Liste aktuell halten kann   | Kosten verwaltbar | Muss      |
+
+![ER-Modell](img/use_case/Kostenübersicht.png)
 
 ##### Galerie
 
@@ -391,6 +409,8 @@ Optional kann auch eine Übersicht aller Galerien für einen Benutzer implementi
 | Fotos downloaden    | Gast  | Fotos downloaden können            | ich bestimmte Fotos sichern kann         | Fotos downloadbar    | Muss      |
 | Fotos kommentieren  | Gast  | Fotos kommentieren können          | ich mit anderen zu dem Foto interagieren kann | Fotos kommentierbar  | Soll      |
 
+![ER-Modell](img/use_case/Galerie.png)
+
 ##### Kommunikation
 
 In der Veranstaltung können Beiträge geschrieben, verändert oder kommentiert werden.
@@ -405,6 +425,8 @@ Optional können auch Chats unter registrierten Usern oder Gruppenchat implement
 | Privatchats  | User  | mit einem anderen User schreiben können  | wir privat kommunizieren können          | Privatchats möglich   | Soll      |
 | Gruppenchats | User  | mit einer Gruppe von anderen Usern schreiben können | wir privat kommunizieren können          | Gruppenchats möglich  | Soll      |
 
+![ER-Modell](img/use_case/Kommunikation.png)
+
 ##### Abstimmung
 
 Es gibt eine Übersicht aller laufenden und vergangenen Abstimmungen zur Veranstaltung. Bei Auswahl einer Abstimmung, kann hier jeder Gast abstimmen.
@@ -418,6 +440,8 @@ Der Organisator kann Abstimmungen erstellen. Dazu kann er eine Fragestellung ein
 | anzeigen   | Gast        | mir Abstimmungen ansehen können          | ich sehe, wo meine Meinung benötigt wird | Abstimmung anzeigbar   | Muss      |
 | abstimmen  | Gast        | abstimmen können                         | ich meine Meinung mitteilen kann         | Abstimmen möglich      | Muss      |
 
+![ER-Modell](img/use_case/Abstimmungen.png)
+
 ##### Bewertung
 
 Nach der Veranstaltung können die Gäste eine Bewertung der Veranstaltung abgeben. Diese Bewertung kann nachträglich verändert werden.
@@ -427,6 +451,8 @@ Nach der Veranstaltung können die Gäste eine Bewertung der Veranstaltung abgeb
 | anzeigen   | Gast  | das Ergebniss sehen                     | ich sehen kann, wie andere die Party fanden | Bewertung anzeigbar   | Soll      |
 | abgeben    | Gast  | eine Bewertung zur Party abgeben können | ich meine Meinung mitteilen kann         | Bewertung abgebbar    | Soll      |
 | bearbeiten | Gast  | eine Bewertung ändern können            | ich Meinung ändern kann                  | Bewertung bearbeitbar | Soll      |
+
+![ER-Modell](img/use_case/Bewertung.png)
 
 ##### Einchecken
 
@@ -439,6 +465,8 @@ Auch eine Übersicht zu allen Gästen wird angezeigt.
 | Gast_QR    | Gast        | meinen Gast-QR-Code anzeigen lassen  | ich einchecken kann        | QR-Eincheckbar             | Soll      |
 | Scannen    | Organisator | Gast-QR-Codes einscannen können      | ich Gäste einchecken kann  | Scannen möglich            | Soll      |
 | Einchecken | Organisator | Gäste auch manuell einchecken können | die Gästeliste aktuell ist | Manuell einchecken möglich | Soll      |
+
+![ER-Modell](img/use_case/Einchecken.png)
 
 ##### Social-Network
 
