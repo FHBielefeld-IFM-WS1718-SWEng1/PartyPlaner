@@ -32,9 +32,6 @@
 
 ## weitere Vorgehen
 
-- webapi nutzen von orm anstelle von sql
-- Frontends sollen auch user anlegen ermöglichen
-- sollen auch user anzeigen können bzw (login ermöglichen)
 - Travis ci einrichten
   - yaml
 - ANDROID
@@ -57,6 +54,8 @@
   - Dario, Alex B., Jonas
 - API
   - entwickeln der Schnittstellen
+  - nutzen von orm anstelle von sql
+  - sollen auch user anzeigen können bzw (login ermöglichen)
 - Pflichtenheft 
   - aktivitätsdiagramme
     - Schritt für SChritt Vorgehensmodell als Aktivitätsdiagram
