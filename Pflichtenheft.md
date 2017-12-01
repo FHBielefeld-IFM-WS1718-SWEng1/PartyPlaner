@@ -172,6 +172,8 @@ Die Hauptanwendung muss auf einem Server laufen. Auch der Server muss ausreichen
 
 ### Funktionale Anforderungen
 
+![Aktivitätsdiagramm](img/use_case/aktivitaetsdiagramm.jpg)
+
 #### Grundfunktionen
 
 ##### Allgemein
