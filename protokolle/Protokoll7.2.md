@@ -67,14 +67,10 @@
 - Login umsetzen
 - Registrieren entwickeln
 
-### Protokoll
-
-- Teilmeeting?
-
 ### Zusammenfassungen
 
-- Patrick P. und Jendrik
+- wird übernommen von: Patrick P. und Jendrik
 
 ### AnalyseKlassendiagramm
 
-- Jan T., Marc und Florian B.
+- wird übernommen von: Jan T., Marc und Florian B.

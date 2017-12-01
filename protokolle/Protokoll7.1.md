@@ -1,7 +1,7 @@
 # Besprechungsprotokol Nr. 7.1
 
 **Projekt/Anlass**: Party-Planer,  
-**Datum/Uhrzeit**: 24.11.2017, 9:45 - 10:15 Uhr  
+**Datum/Uhrzeit**: 01.12.2017, 9:45 - 10:15 Uhr  
 **Ort/Raum**: D327  
 **Verfasser**: Alexander Heinisch  
 **Datum**: 01.12.2017  
@@ -19,7 +19,7 @@
 - [x] Florian.W
 - [x] Hendrik
 - [x] Jan.A
-- [ ] Jan.T
+- [x] Jan.T
 - [x] Jendrik
 - [x] Jonas
 - [x] Malte
@@ -30,8 +30,53 @@
 - [x] Tim
 
 
-Besprechung von Zielen und Fehlenden Mitteln
+## Besprechung über Fortschritt und nächste Ziele:
 
-Biild eingfügen
+### Web
 
-Aufteilen in die Teams
+| Fortschritt  | Nächste     |
+| ------------ | ----------- |
+| Mockups 100% | JSON Server |
+
+### IOS
+
+| Fortschritt                              | Nächste     |
+| ---------------------------------------- | ----------- |
+| Views<br />- Login<br />- Register<br />- Übersicht Parties | JSON Server |
+| Login Test                               | Mockups     |
+
+### Android
+
+| Fortschritt | Nächste     |
+| ----------- | ----------- |
+| Mockups 90% | JSON Server |
+|             | Login       |
+
+### API
+
+| Fortschritt                | Nächste                       |
+| -------------------------- | ----------------------------- |
+| nodejs eingerichtet        | Schnittstellen konkretisieren |
+| mocha eingerichtet         | - Routen                      |
+| orm / datenbank verbindung | - JSON                        |
+
+### DB
+
+| Fortschritt  | Nächste |
+| ------------ | ------- |
+| ERM 80%      | <--     |
+| Tabellen 40% | <--     |
+
+### Test
+
+| Fortschritt    | Nächste |
+| -------------- | ------- |
+| API ( Travis ) | IOS     |
+|                | Android |
+|                | Web     |
+
+## Besprechungen in den Teams vortgesetzt
+
+### Teamleiter treffen 
+
+Es wurde besprochen wie die Daten den Frontends zur verfügung gestellt werden sollen und auch wie die möglichen JSON aussehen müssen. Während dessen wurde auch mit der Datenbank abgeglichen welche Tabellen noch benötigt werden und welche derzeit zur verfügung stehen.
