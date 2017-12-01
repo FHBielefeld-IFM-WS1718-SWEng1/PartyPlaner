@@ -184,6 +184,8 @@ Es ist möglich sich als registrierter Benutzer einzuloggen. Zusätzlich kann ei
 | --------- | ----- | -------------------------- | ------------------------------------- | ---------------- | --------- |
 | Einloggen | User  | mich einloggen             | ich auf meinen Account zugreifen kann | anmelden möglich | muss      |
 
+![Aktivitätsdiagramm Einloggen](img/Aktivitaetsdiagramme/Einloggen.png)
+
 ###### Ausloggen
 
 Es ist zu jeder Zeit möglich sich aus der Anwendung auszuloggen.
@@ -239,6 +241,10 @@ Es muss jeder Zeit möglich sein sich auszuloggen.
 
 ![ER-Modell](img/use_case/Benutzerverwaltung.png)
 
+![Aktivitätsdiagramm Benutzer erstellen](img/Aktivitaetsdiagramme/BenutzerErstellen.png)
+
+![Aktivitätsdiagramm Benutzerverwaltung](img/Aktivitaetsdiagramme/Benutzerverwaltung.png)
+
 ##### Benutzerprofil
 
 Es muss eine Übersicht geben, wo der User all seine Veranstaltungen auf denen er war oder auch Kommende sehen kann. Auch muss es eine Übersicht aller aktuellen Einladungen und der Veranstaltungen, die man selber erstellt hat, geben.
@@ -255,6 +261,8 @@ Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hin
 | Profil suchen                      | User  | ein anderen User suchen                  | mit diesem interagieren kann             | Profil suchbar             | muss      |
 
 ![ER-Modell](img/use_case/Benutzerprofil.png)
+
+![Aktivitätsdiagramm Profil als Kontakt hinzufügen](img/Aktivitaetsdiagramme/profil_als_kontakt_hinzufügen.png)
 
 ##### Push-Nachrichten
 
@@ -324,7 +332,9 @@ Es gibt eine Übersicht, in der die Gästeliste für alle einsehbar angezeigt wi
 | ------------------- | ----- | ---------------------------------- | ----------------------------- | -------------------- | --------- |
 | Gästeliste anzeigen | Gast  | mir die Gästeliste angucken können | ich weiß, wer zur Party kommt | Gästeliste einsehbar | Muss      |
 
-![ER-Modell](img/use_case/Veranstaltung.png)
+![ER-Modell](img/use_case/Veranstaltung_Gast.jpg)
+
+![ER-Modell](img/use_case/Veranstaltung_Organisator.jpg)
 
 ##### Berechtigungen
 
@@ -348,13 +358,14 @@ Es gibt ein Menü, in dem die Gäste Zu- oder Absagen können. Auch eine Übersi
 
 Optional kann implementiert werden, dass Einladungen auch wieder zurückgenommen werden können.
 
-| Name         | Rolle       | In meiner Rolle möchte ich               | so dass                               | Akzeptanz                           | Priorität |
-| ------------ | ----------- | ---------------------------------------- | ------------------------------------- | ----------------------------------- | --------- |
-| QR-Code      | Organisator | Einladungen via QR-Code verschicken können | ich Menschen einladen kann            | Code verschickbar                   | Muss      |
-| Weblink      | Organisator | Einladungen via Weblink verschicken      | ich menschen einladen kann            | Weblink verschickbar                | Muss      |
-| Profil       | Organisator | Einladungen via Profil verschicken       | ich andere User einladen kann         | Einladung via Profil möglich        | Muss      |
-| Zurücknehmen | Organisator | Einladungen zurücknehmen                 | ich die Einladungen verwalten kann    | Einladung zurücknehmbar             | Soll      |
-| Übersicht    | Organisator | eine Übersicht über alle Eingeladene und deren Status habe | ich die Einladungen koordinieren kann | Übersicht der Einladungen anzeigbar | Muss      |
+| Name          | Rolle       | In meiner Rolle möchte ich               | so dass                               | Akzeptanz                           | Priorität |
+| ------------- | ----------- | ---------------------------------------- | ------------------------------------- | ----------------------------------- | --------- |
+| QR-Code       | Organisator | Einladungen via QR-Code verschicken können | ich Menschen einladen kann            | Code verschickbar                   | Muss      |
+| Weblink       | Organisator | Einladungen via Weblink verschicken      | ich menschen einladen kann            | Weblink verschickbar                | Muss      |
+| Profil        | Organisator | Einladungen via Profil verschicken       | ich andere User einladen kann         | Einladung via Profil möglich        | Muss      |
+| Zurücknehmen  | Organisator | Einladungen zurücknehmen                 | ich die Einladungen verwalten kann    | Einladung zurücknehmbar             | Soll      |
+| Übersicht     | Organisator | eine Übersicht über alle Eingeladene und deren Status habe | ich die Einladungen koordinieren kann | Übersicht der Einladungen anzeigbar | Muss      |
+| Zu- / Absagen | Gast        | Einladungen zu- oder absagen             | ich meinen Status mitteilen kann      |                                     |           |
 
 ![ER-Modell](img/use_case/Einladungen.png)
 
@@ -370,6 +381,8 @@ Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion könne
 | übernehmen | Gast        | Aufgaben übernehmen können | dem Gastgeber helfen kann               | Aufgabe übernehmbar | Muss      |
 
 ![ER-Modell](img/use_case/Aufgabenverwaltung.png)
+
+![Aktivitätsdiagramm Aufgabenverwaltung](img/Aktivitaetsdiagramme/Aufgabenverwaltung.png)
 
 ##### ToDo-Liste
 
