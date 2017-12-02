@@ -145,7 +145,7 @@
 
 ## Systemarchitekturdiagramm
 
-![Systemarchitektur](img/sysarch/Systemarchitektur.jpg)
+![Systemarchitektur](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/sysarch/Systemarchitektur.jpg)
 
 
 ## Detailbeschreibung
@@ -172,7 +172,7 @@ Die Hauptanwendung muss auf einem Server laufen. Auch der Server muss ausreichen
 
 ### Funktionale Anforderungen
 
-![Aktivitätsdiagramm](img/use_case/aktivitaetsdiagramm.jpg)
+![Aktivitätsdiagramm](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/aktivitaetsdiagramm.jpg)
 
 #### Grundfunktionen
 
@@ -186,7 +186,7 @@ Es ist möglich sich als registrierter Benutzer einzuloggen. Zusätzlich kann ei
 | --------- | ----- | -------------------------- | ------------------------------------- | ---------------- | --------- |
 | Einloggen | User  | mich einloggen             | ich auf meinen Account zugreifen kann | anmelden möglich | muss      |
 
-![Aktivitätsdiagramm Einloggen](img/Aktivitaetsdiagramme/Einloggen.png)
+![Aktivitätsdiagramm Einloggen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/Aktivitaetsdiagramme/Einloggen.png)
 
 ###### Ausloggen
 
@@ -212,7 +212,7 @@ Die Hilfe zur Anwendung muss jederzeit erreichbar sein.
 | -------------- | ----- | ----------------------------- | ---------------------------------------- | --------------- | --------- |
 | Hilfe anzeigen | User  | mir die Hilfe anzeigen lassen | ich Probleme möglichst alleine lösen kann | Hilfe einsehbar | muss      |
 
-![ER-Modell](img/use_case/Grundfunktionen.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Grundfunktionen.png)
 
 ##### Kontaktformular
 
@@ -241,11 +241,11 @@ Es muss jeder Zeit möglich sein sich auszuloggen.
 | Benutzer verwalten | User  | mein Benutzerprofil verwalten können    | ich Änderungen durchführen kann          | Benutzer verwaltbar  | muss      |
 | Benutzer löschen   | User  | mein Benutzerprofil löschen können      | ich meine Profil und alle Daten entfernen kann | Benutzer löschbar    | muss      |
 
-![ER-Modell](img/use_case/Benutzerverwaltung.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Benutzerverwaltung.png)
 
-![Aktivitätsdiagramm Benutzer erstellen](img/Aktivitaetsdiagramme/BenutzerErstellen.png)
+![Aktivitätsdiagramm Benutzer erstellen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/Aktivitaetsdiagramme/BenutzerErstellen.png)
 
-![Aktivitätsdiagramm Benutzerverwaltung](img/Aktivitaetsdiagramme/Benutzerverwaltung.png)
+![Aktivitätsdiagramm Benutzerverwaltung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/Aktivitaetsdiagramme/Benutzerverwaltung.png)
 
 ##### Benutzerprofil
 
@@ -262,9 +262,9 @@ Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hin
 | Kontakt hinzufügen                 | User  | einen anderen User als Kontakt hinzufügen | ich mit diesem auf der Platform befreundet bin | Kontakt hinzufügen möglich | muss      |
 | Profil suchen                      | User  | ein anderen User suchen                  | mit diesem interagieren kann             | Profil suchbar             | muss      |
 
-![ER-Modell](img/use_case/Benutzerprofil.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Benutzerprofil.png)
 
-![Aktivitätsdiagramm Profil als Kontakt hinzufügen](img/Aktivitaetsdiagramme/profil_als_kontakt_hinzufügen.png)
+![Aktivitätsdiagramm Profil als Kontakt hinzufügen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/Aktivitaetsdiagramme/profil_als_kontakt_hinzufügen.png)
 
 ##### Push-Nachrichten
 
@@ -334,9 +334,9 @@ Es gibt eine Übersicht, in der die Gästeliste für alle einsehbar angezeigt wi
 | ------------------- | ----- | ---------------------------------- | ----------------------------- | -------------------- | --------- |
 | Gästeliste anzeigen | Gast  | mir die Gästeliste angucken können | ich weiß, wer zur Party kommt | Gästeliste einsehbar | Muss      |
 
-![ER-Modell](img/use_case/Veranstaltung_Gast.jpg)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Veranstaltung_Gast.jpg)
 
-![ER-Modell](img/use_case/Veranstaltung_Organisator.jpg)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Veranstaltung_Organisator.jpg)
 
 ##### Berechtigungen
 
@@ -350,7 +350,7 @@ Auch muss es eine Ansicht geben, in der alle Berechtigungen aufgelistet sind.
 | Berechtigungen entziehen | Organisator | andere Organisatoren wieder zu Gästen zurückstufen | ich die Berechtigungen verwalten kann    | Berechtigungen entziehbar | Muss      |
 | Berechtigungen anzeigen  | Organisator | mir alle Berechtigungen zur Veranstaltung anzeigen lassen | ich diese anschließend verwalten kann    | Berechtigungen anzeigbar  | Muss      |
 
-![ER-Modell](img/use_case/Berechtigungen.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Berechtigungen.png)
 
 ##### Einladungen
 
@@ -369,7 +369,7 @@ Optional kann implementiert werden, dass Einladungen auch wieder zurückgenommen
 | Übersicht     | Organisator | eine Übersicht über alle Eingeladene und deren Status habe | ich die Einladungen koordinieren kann | Übersicht der Einladungen anzeigbar | Muss      |
 | Zu- / Absagen | Gast        | Einladungen zu- oder absagen             | ich meinen Status mitteilen kann      |                                     |           |
 
-![ER-Modell](img/use_case/Einladungen.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Einladungen.png)
 
 ##### Aufgaben
 
@@ -382,9 +382,9 @@ Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion könne
 | verteilen  | Organisator | anderen Aufgaben zuweisen  | ich die Aufgaben koordienieren kann     | Aufgabe verteilbar  | Muss      |
 | übernehmen | Gast        | Aufgaben übernehmen können | dem Gastgeber helfen kann               | Aufgabe übernehmbar | Muss      |
 
-![ER-Modell](img/use_case/Aufgabenverwaltung.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Aufgabenverwaltung.png)
 
-![Aktivitätsdiagramm Aufgabenverwaltung](img/Aktivitaetsdiagramme/Aufgabenverwaltung.png)
+![Aktivitätsdiagramm Aufgabenverwaltung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/Aktivitaetsdiagramme/Aufgabenverwaltung.png)
 
 ##### ToDo-Liste
 
@@ -395,7 +395,7 @@ Die ToDo-Liste ist nur von dem Organisator einsehbar. Dieser kann die ToDo-Liste
 | anzeigen  | Organisator | mir die ToDo-Liste anzeigen lassen | ich den Überblick über die Planung behalte | ToDo anzeigbar  | Muss      |
 | verwalten | Organisator | die ToDo-Liste verwalten           | ich Punkte hinzufügen / entfernen kann   | ToDo verwaltbar | Muss      |
 
-![ER-Modell](img/use_case/ToDo.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/ToDo.png)
 
 ##### Kostenübersicht
 
@@ -406,7 +406,7 @@ Die Kostenübersicht ist nur von dem Organisator einsehbar. Dieser kann hier jed
 | anzeigen  | Organisator | mir alle bisherigen Kosten ansehen | ich über alle Kosten informiert bin | Kosten anzeigbar  | Muss      |
 | verwalten | Organisator | neue Kosten hinzufügen             | ich die Liste aktuell halten kann   | Kosten verwaltbar | Muss      |
 
-![ER-Modell](img/use_case/Kostenübersicht.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Kostenübersicht.png)
 
 ##### Galerie
 
@@ -424,7 +424,7 @@ Optional kann auch eine Übersicht aller Galerien für einen Benutzer implementi
 | Fotos downloaden    | Gast  | Fotos downloaden können            | ich bestimmte Fotos sichern kann         | Fotos downloadbar    | Muss      |
 | Fotos kommentieren  | Gast  | Fotos kommentieren können          | ich mit anderen zu dem Foto interagieren kann | Fotos kommentierbar  | Soll      |
 
-![ER-Modell](img/use_case/Galerie.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Galerie.png)
 
 ##### Kommunikation
 
@@ -440,7 +440,7 @@ Optional können auch Chats unter registrierten Usern oder Gruppenchat implement
 | Privatchats  | User  | mit einem anderen User schreiben können  | wir privat kommunizieren können          | Privatchats möglich   | Soll      |
 | Gruppenchats | User  | mit einer Gruppe von anderen Usern schreiben können | wir privat kommunizieren können          | Gruppenchats möglich  | Soll      |
 
-![ER-Modell](img/use_case/Kommunikation.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Kommunikation.png)
 
 ##### Abstimmung
 
@@ -455,7 +455,7 @@ Der Organisator kann Abstimmungen erstellen. Dazu kann er eine Fragestellung ein
 | anzeigen   | Gast        | mir Abstimmungen ansehen können          | ich sehe, wo meine Meinung benötigt wird | Abstimmung anzeigbar   | Muss      |
 | abstimmen  | Gast        | abstimmen können                         | ich meine Meinung mitteilen kann         | Abstimmen möglich      | Muss      |
 
-![ER-Modell](img/use_case/Abstimmungen.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Abstimmungen.png)
 
 ##### Bewertung
 
@@ -467,7 +467,7 @@ Nach der Veranstaltung können die Gäste eine Bewertung der Veranstaltung abgeb
 | abgeben    | Gast  | eine Bewertung zur Party abgeben können | ich meine Meinung mitteilen kann         | Bewertung abgebbar    | Soll      |
 | bearbeiten | Gast  | eine Bewertung ändern können            | ich Meinung ändern kann                  | Bewertung bearbeitbar | Soll      |
 
-![ER-Modell](img/use_case/Bewertung.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Bewertung.png)
 
 ##### Einchecken
 
@@ -481,7 +481,7 @@ Auch eine Übersicht zu allen Gästen wird angezeigt.
 | Scannen    | Organisator | Gast-QR-Codes einscannen können      | ich Gäste einchecken kann  | Scannen möglich            | Soll      |
 | Einchecken | Organisator | Gäste auch manuell einchecken können | die Gästeliste aktuell ist | Manuell einchecken möglich | Soll      |
 
-![ER-Modell](img/use_case/Einchecken.png)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Einchecken.png)
 
 ##### Social-Network
 
@@ -496,7 +496,7 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ## ER-Modell
 
-![ER-Modell](img/datenbank/erm.jpg)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/datenbank/erm.jpg)
 
 ## Mockups
 
@@ -506,119 +506,119 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ##### Index
 
-![Index](img/mockup/Website/Index.png)
+![Index](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Index.png)
 
 ##### Einloggen
 
-![Einloggen](img/mockup/Website/Einloggen.png)
+![Einloggen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Einloggen.png)
 
 ##### Registrieren
 
-![Registrieren](img/mockup/Website/Registrieren.png)
+![Registrieren](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Registrieren.png)
 
 ##### Einladung Login
 
-![Einladung Login](img/mockup/Website/Einladung Login.png)
+![Einladung Login](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Einladung Login.png)
 
 ##### Einladung annehmen
 
-![Einladung annehmen](img/mockup/Website/Einladung annehmen.png)
+![Einladung annehmen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Einladung annehmen.png)
 
 #### Home
 
 ##### Hauptseite
 
-![Hauptseite](img/mockup/Website/Home.png)
+![Hauptseite](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Home.png)
 
 ##### Glocke offen
 
-![Glocke offen](img/mockup/Website/Glocke offen.png)
+![Glocke offen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Glocke offen.png)
 
 #### Profil
 
 ##### Hauptseite
 
-![Hauptseite](img/mockup/Website/Profil.png)
+![Hauptseite](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Profil.png)
 
 ##### Kontakt hinzufügen
 
-![Kontakt hinzufügen](img/mockup/Website/Profil Kontakt hinzufügen.png)
+![Kontakt hinzufügen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Profil Kontakt hinzufügen.png)
 
 #### Veranstaltung
 
 ##### Übersicht
 
-![Übersicht](img/mockup/Website/Eigene Veranstaltungen.png)
+![Übersicht](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Eigene Veranstaltungen.png)
 
 ##### Galerie
 
-![Galerie](img/mockup/Website/Party Galerie.png)
+![Galerie](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party Galerie.png)
 
 ##### Bild ansehen
 
-![Bild ansehen](img/mockup/Website/Galerie Bild.png)
+![Bild ansehen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Galerie Bild.png)
 
 ##### Kommentare
 
-![Kommentare](img/mockup/Website/Party Kommentare.png)
+![Kommentare](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party Kommentare.png)
 
 ##### Aufgabenliste
 
-![Aufgabenliste](img/mockup/Website/Party Aufgabenliste.png)
+![Aufgabenliste](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party Aufgabenliste.png)
 
 ##### Gästeliste
 
-![Gästeliste](img/mockup/Website/Party Gästeliste.png)
+![Gästeliste](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party Gästeliste.png)
 
 ##### Abstimmungen
 
-![Abstimmungen](img/mockup/Website/Party Abstimmungen.png)
+![Abstimmungen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party Abstimmungen.png)
 
 ##### Abstimmung ansehen
 
-![Abstimmung ansehen](img/mockup/Website/Party Abstimmung ansehen.png)
+![Abstimmung ansehen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party Abstimmung ansehen.png)
 
 ##### Bewertung
 
-![Bewertung](img/mockup/Website/Party Bewertung.png)
+![Bewertung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party Bewertung.png)
 
 #### Eigene Veranstaltung 
 
 ##### Gäste einladen
 
-![Gäste einladen](img/mockup/Website/Party EV Gäste einladen.png)
+![Gäste einladen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Gäste einladen.png)
 
 ##### Kommentare
 
-![Kommentare](img/mockup/Website/Party EV Kommentare.png)
+![Kommentare](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Kommentare.png)
 
 ##### Aufgabenliste
 
-![Aufgabenliste](img/mockup/Website/Party EV Aufgabenliste.png)
+![Aufgabenliste](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Aufgabenliste.png)
 
 ##### Kostenübersicht
 
-![Kostenübersicht](img/mockup/Website/Party EV ToDoListe_Kostenübersicht.png)
+![Kostenübersicht](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV ToDoListe_Kostenübersicht.png)
 
 ##### Gästeliste
 
-![Gästeliste](img/mockup/Website/Party EV Gästeliste.png)
+![Gästeliste](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Gästeliste.png)
 
 ##### Gästeliste einchecken
 
-![Gästeliste einchecken](img/mockup/Website/Party EV Gästeliste einchecken.png)
+![Gästeliste einchecken](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Gästeliste einchecken.png)
 
 ##### Abstimmungen
 
-![Abstimmungen](img/mockup/Website/Party EV Abstimmungen.png)
+![Abstimmungen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Abstimmungen.png)
 
 ##### Abstimmung erstellen
 
-![Abstimmung erstellen](img/mockup/Website/Party EV Abstimmung erstellen.png)
+![Abstimmung erstellen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Abstimmung erstellen.png)
 
 ##### Abstimmung ansehen
 
-![Abstimmung ansehen](img/mockup/Website/Party EV Abstimmung ansehen.png)
+![Abstimmung ansehen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Abstimmung ansehen.png)
 
 ### App
 
@@ -626,63 +626,63 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ##### Index
 
-![Index](img/mockup/App/Index.png)
+![Index](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Index.png)
 
 ##### Registrieren
 
-![Registrieren](img/mockup/App/Registrieren.png)
+![Registrieren](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Registrieren.png)
 
 ##### Home
 
-![Home](img/mockup/App/Home.png)
+![Home](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Home.png)
 
 ##### Menü
 
-![Menü](img/mockup/App/Menü geöffnet.png)
+![Menü](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Menü geöffnet.png)
 
 ##### Impressum
 
-![Impresssum](img/mockup/App/Über uns.png)
+![Impresssum](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Über uns.png)
 
 #### Profil
 
 ##### Eigenes Profil
 
-![Profil](img/mockup/App/Eigenes Profil.png)
+![Profil](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Eigenes Profil.png)
 
 ##### Fremdes Profil
 
-![fremdes Profil](img/mockup/App/Profil von wem anderes.png)
+![fremdes Profil](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Profil von wem anderes.png)
 
 ##### Kontakte
 
-![Kontakte](img/mockup/App/Kontakte.png)
+![Kontakte](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Kontakte.png)
 
 ##### Kontaktformular
 
-![Kontaktformular](img/mockup/App/Kontaktformular.png)
+![Kontaktformular](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Kontaktformular.png)
 
 #### Veranstaltung
 
 ##### Übersicht
 
-![Übersicht](img/mockup/App/Eigene Veranstaltungen.png)
+![Übersicht](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Eigene Veranstaltungen.png)
 
 ##### Veranstaltung anschauen
 
-![Veranstaltung](img/mockup/App/Veranstaltung anschauen.png)
+![Veranstaltung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Veranstaltung anschauen.png)
 
 ##### Veranstaltung bearbeiten
 
-![Veranstaltung bearbeiten](img/mockup/App/Veranstaltung bearbeiten.png)
+![Veranstaltung bearbeiten](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Veranstaltung bearbeiten.png)
 
 ##### Abstimmung ansehen
 
-![Abstimmung](img/mockup/App/Veranstaltung Abstimmung ansehen.png)
+![Abstimmung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Veranstaltung Abstimmung ansehen.png)
 
 ##### Abstimmung erstellen
 
-![Abstimmung erstellen](img/mockup/App/Veranstaltung Abstimmung erstellen.png)
+![Abstimmung erstellen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Veranstaltung Abstimmung erstellen.png)
 
 ## Glossar
 
