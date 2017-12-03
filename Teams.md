@@ -11,6 +11,9 @@
   - ZF02 - Hendrik , Diana
   - ZF03 - Michael, Florian.W, Jan.A
   - ZF04 - Jan.T, Florian.B, Marc
+  - ZF05 - Florian B., Florian W.
+  - ZF06 - Alex B., Dario, Jonas
+  - ZF07 - Patrick P., Jendrik
 
 ### Teams
 
