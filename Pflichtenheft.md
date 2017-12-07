@@ -212,7 +212,7 @@ Die Hilfe zur Anwendung muss jederzeit erreichbar sein.
 | -------------- | ----- | ----------------------------- | ---------------------------------------- | --------------- | --------- |
 | Hilfe anzeigen | User  | mir die Hilfe anzeigen lassen | ich Probleme möglichst alleine lösen kann | Hilfe einsehbar | muss      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Grundfunktionen.png)
+![Use Case Grundfunktionen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Grundfunktionen.jpg)
 
 ##### Kontaktformular
 
@@ -241,7 +241,7 @@ Es muss jeder Zeit möglich sein sich auszuloggen.
 | Benutzer verwalten | User  | mein Benutzerprofil verwalten können    | ich Änderungen durchführen kann          | Benutzer verwaltbar  | muss      |
 | Benutzer löschen   | User  | mein Benutzerprofil löschen können      | ich meine Profil und alle Daten entfernen kann | Benutzer löschbar    | muss      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Benutzerverwaltung.png)
+![Use Case Benutzerverwaltung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Benutzerverwaltung.jpg)
 
 ![Aktivitätsdiagramm Benutzer erstellen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/Aktivitaetsdiagramme/BenutzerErstellen.png)
 
@@ -262,7 +262,7 @@ Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hin
 | Kontakt hinzufügen                 | User  | einen anderen User als Kontakt hinzufügen | ich mit diesem auf der Platform befreundet bin | Kontakt hinzufügen möglich | muss      |
 | Profil suchen                      | User  | ein anderen User suchen                  | mit diesem interagieren kann             | Profil suchbar             | muss      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Benutzerprofil.png)
+![Use Case Grundfunktionen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Benutzerprofil.jpg)
 
 ![Aktivitätsdiagramm Profil als Kontakt hinzufügen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/Aktivitaetsdiagramme/profil_als_kontakt_hinzufügen.png)
 
@@ -334,9 +334,7 @@ Es gibt eine Übersicht, in der die Gästeliste für alle einsehbar angezeigt wi
 | ------------------- | ----- | ---------------------------------- | ----------------------------- | -------------------- | --------- |
 | Gästeliste anzeigen | Gast  | mir die Gästeliste angucken können | ich weiß, wer zur Party kommt | Gästeliste einsehbar | Muss      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Veranstaltung_Gast.jpg)
-
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Veranstaltung_Organisator.jpg)
+![Use Case Veranstaltung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Veranstaltung.jpg)
 
 ##### Berechtigungen
 
@@ -350,7 +348,7 @@ Auch muss es eine Ansicht geben, in der alle Berechtigungen aufgelistet sind.
 | Berechtigungen entziehen | Organisator | andere Organisatoren wieder zu Gästen zurückstufen | ich die Berechtigungen verwalten kann    | Berechtigungen entziehbar | Muss      |
 | Berechtigungen anzeigen  | Organisator | mir alle Berechtigungen zur Veranstaltung anzeigen lassen | ich diese anschließend verwalten kann    | Berechtigungen anzeigbar  | Muss      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Berechtigungen.png)
+![Use Case Berechtigungen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Berechtigung.jpg)
 
 ##### Einladungen
 
@@ -369,7 +367,7 @@ Optional kann implementiert werden, dass Einladungen auch wieder zurückgenommen
 | Übersicht     | Organisator | eine Übersicht über alle Eingeladene und deren Status habe | ich die Einladungen koordinieren kann | Übersicht der Einladungen anzeigbar | Muss      |
 | Zu- / Absagen | Gast        | Einladungen zu- oder absagen             | ich meinen Status mitteilen kann      |                                     |           |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Einladungen.png)
+![Use Case Einladungen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Einladungen.jpg)
 
 ##### Aufgaben
 
@@ -382,7 +380,7 @@ Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion könne
 | verteilen  | Organisator | anderen Aufgaben zuweisen  | ich die Aufgaben koordienieren kann     | Aufgabe verteilbar  | Muss      |
 | übernehmen | Gast        | Aufgaben übernehmen können | dem Gastgeber helfen kann               | Aufgabe übernehmbar | Muss      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Aufgabenverwaltung.png)
+![Use Case Aufgaben](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Aufgaben.jpg)
 
 ![Aktivitätsdiagramm Aufgabenverwaltung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/Aktivitaetsdiagramme/Aufgabenverwaltung.png)
 
@@ -395,7 +393,7 @@ Die ToDo-Liste ist nur von dem Organisator einsehbar. Dieser kann die ToDo-Liste
 | anzeigen  | Organisator | mir die ToDo-Liste anzeigen lassen | ich den Überblick über die Planung behalte | ToDo anzeigbar  | Muss      |
 | verwalten | Organisator | die ToDo-Liste verwalten           | ich Punkte hinzufügen / entfernen kann   | ToDo verwaltbar | Muss      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/ToDo.png)
+![Use Case ToDo](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/ToDo.jpg)
 
 ##### Kostenübersicht
 
@@ -406,7 +404,7 @@ Die Kostenübersicht ist nur von dem Organisator einsehbar. Dieser kann hier jed
 | anzeigen  | Organisator | mir alle bisherigen Kosten ansehen | ich über alle Kosten informiert bin | Kosten anzeigbar  | Muss      |
 | verwalten | Organisator | neue Kosten hinzufügen             | ich die Liste aktuell halten kann   | Kosten verwaltbar | Muss      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Kostenübersicht.png)
+![Use Case Kosten](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Kosten.jpg)
 
 ##### Galerie
 
@@ -424,7 +422,7 @@ Optional kann auch eine Übersicht aller Galerien für einen Benutzer implementi
 | Fotos downloaden    | Gast  | Fotos downloaden können            | ich bestimmte Fotos sichern kann         | Fotos downloadbar    | Muss      |
 | Fotos kommentieren  | Gast  | Fotos kommentieren können          | ich mit anderen zu dem Foto interagieren kann | Fotos kommentierbar  | Soll      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Galerie.png)
+![Use Case Galerie](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Galerie.jpg)
 
 ##### Kommunikation
 
@@ -440,7 +438,7 @@ Optional können auch Chats unter registrierten Usern oder Gruppenchat implement
 | Privatchats  | User  | mit einem anderen User schreiben können  | wir privat kommunizieren können          | Privatchats möglich   | Soll      |
 | Gruppenchats | User  | mit einer Gruppe von anderen Usern schreiben können | wir privat kommunizieren können          | Gruppenchats möglich  | Soll      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Kommunikation.png)
+![Use Case Kommunikation](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Kommunikation.jpg)
 
 ##### Abstimmung
 
@@ -455,7 +453,7 @@ Der Organisator kann Abstimmungen erstellen. Dazu kann er eine Fragestellung ein
 | anzeigen   | Gast        | mir Abstimmungen ansehen können          | ich sehe, wo meine Meinung benötigt wird | Abstimmung anzeigbar   | Muss      |
 | abstimmen  | Gast        | abstimmen können                         | ich meine Meinung mitteilen kann         | Abstimmen möglich      | Muss      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Abstimmungen.png)
+![Use Case Abstimmung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Abstimmung.jpg)
 
 ##### Bewertung
 
@@ -467,7 +465,7 @@ Nach der Veranstaltung können die Gäste eine Bewertung der Veranstaltung abgeb
 | abgeben    | Gast  | eine Bewertung zur Party abgeben können | ich meine Meinung mitteilen kann         | Bewertung abgebbar    | Soll      |
 | bearbeiten | Gast  | eine Bewertung ändern können            | ich Meinung ändern kann                  | Bewertung bearbeitbar | Soll      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Bewertung.png)
+![Use Case Bewertung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Bewertung.jpg)
 
 ##### Einchecken
 
@@ -481,7 +479,7 @@ Auch eine Übersicht zu allen Gästen wird angezeigt.
 | Scannen    | Organisator | Gast-QR-Codes einscannen können      | ich Gäste einchecken kann  | Scannen möglich            | Soll      |
 | Einchecken | Organisator | Gäste auch manuell einchecken können | die Gästeliste aktuell ist | Manuell einchecken möglich | Soll      |
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Einchecken.png)
+![Use Case Einchecken](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Einchecken.jpg)
 
 ##### Social-Network
 
@@ -493,6 +491,8 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 | -------- | ----- | ---------------------------------------- | ---------------------------------------- | ---------------- | --------- |
 | anmelden | User  | mich über andere Social-Media-Profile anmelden | ich möglichst wenige Profile habe        | Anmelden möglich | Soll      |
 | teilen   | User  | Inhalte auf anderen Plattformen teilen   | möglichst viele Menschen an meinen Erlebnissen teilhaben | Inhalte teilbar  | Soll      |
+
+![Use-Case Social Network](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/SocialNetwork.jpg)
 
 ## ER-Modell
 
