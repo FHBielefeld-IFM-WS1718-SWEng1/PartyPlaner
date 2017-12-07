@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>13</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLActor</id>
     <coordinates>
       <x>0</x>
-      <y>13</y>
-      <w>78</w>
-      <h>143</h>
+      <y>10</y>
+      <w>60</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>User</panel_attributes>
     <additional_attributes/>
@@ -15,10 +15,10 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>104</x>
-      <y>182</y>
-      <w>130</w>
-      <h>143</h>
+      <x>80</x>
+      <y>140</y>
+      <w>100</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>Organisator</panel_attributes>
     <additional_attributes/>
@@ -26,44 +26,44 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>455</x>
+      <x>340</x>
       <y>0</y>
-      <w>377</w>
-      <h>364</h>
+      <w>290</w>
+      <h>220</h>
     </coordinates>
-    <panel_attributes>Berechtigungen
+    <panel_attributes>Benutzerverwaltung
 halign=left</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>494</x>
-      <y>117</y>
-      <w>299</w>
-      <h>52</h>
+      <x>370</x>
+      <y>90</y>
+      <w>230</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>Berechtigung erteilen</panel_attributes>
+    <panel_attributes>Benutzerprofil ändern</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>494</x>
-      <y>39</y>
-      <w>299</w>
-      <h>52</h>
+      <x>370</x>
+      <y>30</y>
+      <w>230</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>Berechtigung ansehen</panel_attributes>
+    <panel_attributes>Benutzerprofil erstellen</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>65</x>
-      <y>39</y>
-      <w>455</w>
-      <h>52</h>
+      <x>40</x>
+      <y>30</y>
+      <w>350</w>
+      <h>40</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;330.0;20.0</additional_attributes>
@@ -71,10 +71,10 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>39</x>
-      <y>130</y>
-      <w>143</w>
-      <h>130</h>
+      <x>20</x>
+      <y>100</y>
+      <w>110</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;</panel_attributes>
     <additional_attributes>90.0;80.0;10.0;80.0;10.0;10.0</additional_attributes>
@@ -82,56 +82,34 @@ halign=left</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>182</x>
-      <y>130</y>
-      <w>338</w>
-      <h>130</h>
+      <x>40</x>
+      <y>40</y>
+      <w>350</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;80.0;240.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;330.0;70.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>494</x>
-      <y>195</y>
-      <w>299</w>
-      <h>52</h>
+      <x>370</x>
+      <y>150</y>
+      <w>230</w>
+      <h>40</h>
     </coordinates>
-    <panel_attributes>Berechtigung entziehen</panel_attributes>
+    <panel_attributes>Benutzerprofil löschen</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>182</x>
-      <y>195</y>
-      <w>338</w>
-      <h>65</h>
+      <x>40</x>
+      <y>40</y>
+      <w>350</w>
+      <h>150</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;30.0;240.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>494</x>
-      <y>273</y>
-      <w>299</w>
-      <h>52</h>
-    </coordinates>
-    <panel_attributes>Übersicht ansehen</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>182</x>
-      <y>221</y>
-      <w>338</w>
-      <h>104</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;10.0;240.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;330.0;130.0</additional_attributes>
   </element>
 </diagram>
