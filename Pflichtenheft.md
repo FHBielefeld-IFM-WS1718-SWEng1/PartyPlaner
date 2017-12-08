@@ -347,11 +347,12 @@ Der Organisator kann andere Gäste zu Organisatoren machen oder andere auf den S
 
 Auch muss es eine Ansicht geben, in der alle Berechtigungen aufgelistet sind.
 
-| Name                     | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                 | Priorität |
-| ------------------------ | ----------- | ---------------------------------------- | ---------------------------------------- | ------------------------- | --------- |
-| Berechtigungen erteilen  | Organisator | andere Gäste ebenfalls zu Organisatoren ernennen können | ich nicht alles alleine organisieren muss | Berechtigungen erteilbar  | Muss      |
-| Berechtigungen entziehen | Organisator | andere Organisatoren wieder zu Gästen zurückstufen | ich die Berechtigungen verwalten kann    | Berechtigungen entziehbar | Muss      |
-| Berechtigungen anzeigen  | Organisator | mir alle Berechtigungen zur Veranstaltung anzeigen lassen | ich diese anschließend verwalten kann    | Berechtigungen anzeigbar  | Muss      |
+| Name                           | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                 | Priorität |
+| ------------------------------ | ----------- | ---------------------------------------- | ---------------------------------------- | ------------------------- | --------- |
+| Eigene Berechtigungen anzeigen | User        | Mir meine Berechtigungen für die Veranstaltung anzeigen lassen | ich weiß, was ich darf                   | Berechtigung ansehbar     | Muss      |
+| Berechtigungen erteilen        | Organisator | andere Gäste ebenfalls zu Organisatoren ernennen können | ich nicht alles alleine organisieren muss | Berechtigungen erteilbar  | Muss      |
+| Berechtigungen entziehen       | Organisator | andere Organisatoren wieder zu Gästen zurückstufen | ich die Berechtigungen verwalten kann    | Berechtigungen entziehbar | Muss      |
+| Berechtigungen anzeigen        | Organisator | mir alle Berechtigungen zur Veranstaltung anzeigen lassen | ich diese anschließend verwalten kann    | Berechtigungen anzeigbar  | Muss      |
 
 ![Use Case Berechtigungen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Berechtigung.jpg)
 
