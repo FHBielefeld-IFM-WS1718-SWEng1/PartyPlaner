@@ -500,9 +500,13 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ![Use-Case Social Network](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/SocialNetwork.jpg)
 
+## Analyseklassendiagramm
+
+![Analyseklassendiagramm](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/Analyseklassendiagramm/Analyseklassendiagramm.png)
+
 ## ER-Modell
 
-![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/datenbank/erm.jpg)
+![ER-Modell](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/datenbank/ERM.jpg)
 
 ## Mockups
 
