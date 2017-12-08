@@ -255,14 +255,15 @@ Es muss eine Übersicht geben, wo der User all seine Veranstaltungen auf denen e
 
 Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hinzuzufügen, hat man auf fremden Profilen die Möglichkeit, diesen als Kontakt zu markieren oder demarkieren. Damit man fremde Kontakte finden kann, muss es eine Suchfunktion geben.
 
-| Name                               | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                  | Priorität |
-| ---------------------------------- | ----- | ---------------------------------------- | ---------------------------------------- | -------------------------- | --------- |
-| Alle Veranstaltungen anzeigen      | User  | mir all meine Veranstaltungen anzeigen lassen | ich einen Überblick über alle Veranstaltungen bekomme | Übersicht einsehbar        | muss      |
-| Erstellte Veranstaltungen anzeigen | User  | mir all meine selber erstellten Veranstaltungen anzeigen lassen | ich mir einen Überblick über diese verschaffen kann | Übersicht einsehbar        | muss      |
-| Einladungen anzeigen               | User  | mir meine Einladungen anzeigen lassen    | ich den Überblick habe, wo ich noch eingeladen bin | Einladungen einsehbar      | muss      |
-| Kontakte anzeigen                  | User  | mir meine Kontakte anzeigen lassen       | ich weiß, mit wem ich alles befreundet bin | Kontakte anzeigbar         | muss      |
-| Kontakt hinzufügen                 | User  | einen anderen User als Kontakt hinzufügen | ich mit diesem auf der Platform befreundet bin | Kontakt hinzufügen möglich | muss      |
-| Profil suchen                      | User  | ein anderen User suchen                  | mit diesem interagieren kann             | Profil suchbar             | muss      |
+| Name                           | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                  | Priorität |
+| ------------------------------ | ----- | ---------------------------------------- | ---------------------------------------- | -------------------------- | --------- |
+| Alle Veranstaltungen anzeigen  | User  | mir all meine Veranstaltungen anzeigen lassen | ich einen Überblick über alle Veranstaltungen bekomme | Übersicht einsehbar        | muss      |
+| Meine Veranstaltungen anzeigen | User  | mir all meine selber erstellten Veranstaltungen anzeigen lassen | ich mir einen Überblick über diese verschaffen kann | Übersicht einsehbar        | muss      |
+| Einladungen anzeigen           | User  | mir meine Einladungen anzeigen lassen    | ich den Überblick habe, wo ich noch eingeladen bin | Einladungen einsehbar      | muss      |
+| Kontakte anzeigen              | User  | mir meine Kontakte anzeigen lassen       | ich weiß, mit wem ich alles befreundet bin | Kontakte anzeigbar         | muss      |
+| Kontakt hinzufügen             | User  | einen anderen User als Kontakt hinzufügen | ich mit diesem auf der Platform befreundet bin | Kontakt hinzufügen möglich | muss      |
+| Kontakt löschen                | User  | einen anderen User als Kontakt löschen   | ich mit diesem User nicht mehr befreundet bin | Kontakt löschen möglich    | muss      |
+| Profil suchen                  | User  | ein anderen User suchen                  | mit diesem interagieren kann             | Profil suchbar             | muss      |
 
 ![Use Case Grundfunktionen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Benutzerprofil.jpg)
 
