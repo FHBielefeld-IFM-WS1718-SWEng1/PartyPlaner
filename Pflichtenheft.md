@@ -218,10 +218,12 @@ Die Hilfe zur Anwendung muss jederzeit erreichbar sein.
 
 Zusammenfassung der Kontaktdaten des Entwicklers. Hierzu gehören Firmenname, E-Mail, Adresse, Telefon und Angaben zur Erreichbarkeit.
 
-| Name                     | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz                 | Priorität |
-| ------------------------ | ----- | --------------------------------------- | ---------------------------------------- | ------------------------- | --------- |
-| Kontakformular anzeigen  | User  | mir das Kontaktformular anzeigen lassen | ich mein Anliegen an den Betreiber formulieren kann | Kontaktformular einsehbar | muss      |
-| Kontaktformular bedienen | User  | das Kontaktformular absenden            | der Betreiber mein Anliegen bearbeiten kann | Kontaktformular nutzbar   | muss      |
+| Name              | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz                 | Priorität |
+| ----------------- | ----- | --------------------------------------- | ---------------------------------------- | ------------------------- | --------- |
+| Formular anzeigen | User  | mir das Kontaktformular anzeigen lassen | ich mein Anliegen an den Betreiber formulieren kann | Kontaktformular einsehbar | muss      |
+| Formular bedienen | User  | das Kontaktformular absenden            | der Betreiber mein Anliegen bearbeiten kann | Kontaktformular nutzbar   | muss      |
+
+![Use Case Kontaktformular](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Kontaktformular.jpg)
 
 ##### Benutzerverwaltung
 
