@@ -237,11 +237,11 @@ Wie man sich einloggen möchte, muss auf der Anmeldeseite abgefragt werden. Auf 
 
 Es muss jeder Zeit möglich sein sich auszuloggen.
 
-| Name               | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz            | Priorität |
-| ------------------ | ----- | --------------------------------------- | ---------------------------------------- | -------------------- | --------- |
-| Benutzer erstellen | User  | mir ein Benutzerprofil erstellen können | ich alle Funktionen der Anwendung nutzen kann | Registration möglich | muss      |
-| Benutzer verwalten | User  | mein Benutzerprofil verwalten können    | ich Änderungen durchführen kann          | Benutzer verwaltbar  | muss      |
-| Benutzer löschen   | User  | mein Benutzerprofil löschen können      | ich meine Profil und alle Daten entfernen kann | Benutzer löschbar    | muss      |
+| Name                     | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz            | Priorität |
+| ------------------------ | ----- | --------------------------------------- | ---------------------------------------- | -------------------- | --------- |
+| Benutzerprofil erstellen | User  | mir ein Benutzerprofil erstellen können | ich alle Funktionen der Anwendung nutzen kann | Registration möglich | muss      |
+| Benutzerprofil verwalten | User  | mein Benutzerprofil verwalten können    | ich Änderungen durchführen kann          | Benutzer verwaltbar  | muss      |
+| Benutzerprofil löschen   | User  | mein Benutzerprofil löschen können      | ich meine Profil und alle Daten entfernen kann | Benutzer löschbar    | muss      |
 
 ![Use Case Benutzerverwaltung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Benutzerverwaltung.jpg)
 
