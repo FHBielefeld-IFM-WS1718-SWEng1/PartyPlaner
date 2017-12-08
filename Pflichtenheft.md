@@ -277,6 +277,8 @@ User erhalten per Push-Nachricht Erinnerungen zu ihren Veranstaltungen auf das S
 | ------------------------ | ----- | ------------------------------ | ----------------------------- | ------------------------ | --------- |
 | Push-Nachricht empfangen | User  | ich Push-Nachrichten empfangen | ich an Termine erinnert werde | Push-Nachricht erhaltbar | Muss      |
 
+![Use Case Push-Nachrichten](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Push.jpg)
+
 #### Veranstaltung
 
 ##### Allgemein
