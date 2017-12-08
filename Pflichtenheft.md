@@ -286,7 +286,7 @@ Der Name der Veranstaltung.
 
 | Name           | Rolle       | In meiner Rolle möchte ich               | so dass                          | Akzeptanz       | Priorität |
 | -------------- | ----------- | ---------------------------------------- | -------------------------------- | --------------- | --------- |
-| Name anzeigen  | Gast        | mir den Namen der Veranstaltung anzeigen lassen | ich weiß, wie die Party heisst   | Name anzeigbar  | Muss      |
+| Name anzeigen  | User        | mir den Namen der Veranstaltung anzeigen lassen | ich weiß, wie die Party heisst   | Name anzeigbar  | Muss      |
 | Name verwalten | Organisator | den Namen der Änderung ändern können     | jeder weiß, wie die Party heisst | Name verwaltbar | Muss      |
 
 ###### Beschreibung
@@ -295,7 +295,7 @@ Ein freier Beschreibungstext zur Veranstaltung.
 
 | Name                   | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                | Priorität |
 | ---------------------- | ----------- | ---------------------------------------- | ---------------------------------------- | ------------------------ | --------- |
-| Beschreibung anzeigen  | Gast        | Mir die Beschreibung zur Party anzeigen lassen | ich weitere Informationen erhalte        | Beschreibung lesbar      | Muss      |
+| Beschreibung anzeigen  | User        | Mir die Beschreibung zur Party anzeigen lassen | ich weitere Informationen erhalte        | Beschreibung lesbar      | Muss      |
 | Beschreibung verändern | Organisator | die Beschreibung verändern können        | ich weitere Informationen mitteilen kann | Beschreibung veränderbar | Muss      |
 
 ###### Gastgeber / Ansprechpartner
@@ -304,7 +304,7 @@ Hier stehen der Gastgeber, bzw. die Organisatoren.
 
 | Name              | Rolle | In meiner Rolle möchte ich | so dass                               | Akzeptanz           | Priorität |
 | ----------------- | ----- | -------------------------- | ------------------------------------- | ------------------- | --------- |
-| Gastgeber ansehen | Gast  | Mir die Gastgeber ansehen  | ich weiß, wer der Ansprechpartner ist | Gastgeber einsehbar | Muss      |
+| Gastgeber ansehen | User  | Mir die Gastgeber ansehen  | ich weiß, wer der Ansprechpartner ist | Gastgeber einsehbar | Muss      |
 
 ###### Ort
 
@@ -312,8 +312,8 @@ Ort der Veranstaltung. Hier muss nicht zwingend eine gültige Adresse eingegeben
 
 | Name                 | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz             | Priorität |
 | -------------------- | ----------- | ---------------------------------------- | ---------------------------------------- | --------------------- | --------- |
-| Ort anzeigen         | Gast        | Mir den Ort anzeigen lassen              | ich weiß, wo die Party stattfindet       | Ort anzeigbar         | Muss      |
-| Ort in Maps aufrufen | Gast        | Mir den Ort in einer Kartenanwendung anzeigen lassen | ich die Navi-Funktionen dieser Dienste nutzen kann | Ort in Apps aufrufbar | Muss      |
+| Ort anzeigen         | User        | Mir den Ort anzeigen lassen              | ich weiß, wo die Party stattfindet       | Ort anzeigbar         | Muss      |
+| Ort in Maps aufrufen | User        | Mir den Ort in einer Kartenanwendung anzeigen lassen | ich die Navi-Funktionen dieser Dienste nutzen kann | Ort in Apps aufrufbar | Muss      |
 | Ort verwalten        | Organisator | den Ort verändern können                 | jeder weiß, wo die Party stattfindet     | Ort veränderbar       | Muss      |
 
 ###### Zeitpunkt
@@ -322,8 +322,8 @@ Datum und Uhrzeit der Veranstaltung. Es muss eine Verbindung zu den Systemkalend
 
 | Name            | Rolle       | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz        | Priorität |
 | --------------- | ----------- | ---------------------------------------- | ---------------------------------------- | ---------------- | --------- |
-| Zeit anzeigen   | Gast        | mir Datum und Zeit anzeigen lassen       | ich weiß, wann die Party stattfindet     | Zeit einsehbar   | Muss      |
-| Zeit übertragen | Gast        | Mir Datum und Uhrzeit in Systemkalender übertragen | ich die party in meinem allgemeinen Kalender sehe | Zeit übertragbar | Muss      |
+| Zeit anzeigen   | User        | mir Datum und Zeit anzeigen lassen       | ich weiß, wann die Party stattfindet     | Zeit einsehbar   | Muss      |
+| Zeit übertragen | User        | Mir Datum und Uhrzeit in Systemkalender übertragen | ich die party in meinem allgemeinen Kalender sehe | Zeit übertragbar | Muss      |
 | Zeit ändern     | Organisator | Datum und Uhrzeit ändern können          | jeder weiß, wann die Party stattfindet   | Zeit änderbar    | Muss      |
 
 ###### Gästeliste
@@ -332,7 +332,7 @@ Es gibt eine Übersicht, in der die Gästeliste für alle einsehbar angezeigt wi
 
 | Name                | Rolle | In meiner Rolle möchte ich         | so dass                       | Akzeptanz            | Priorität |
 | ------------------- | ----- | ---------------------------------- | ----------------------------- | -------------------- | --------- |
-| Gästeliste anzeigen | Gast  | mir die Gästeliste angucken können | ich weiß, wer zur Party kommt | Gästeliste einsehbar | Muss      |
+| Gästeliste anzeigen | User  | mir die Gästeliste angucken können | ich weiß, wer zur Party kommt | Gästeliste einsehbar | Muss      |
 
 ![Use Case Veranstaltung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Veranstaltung.jpg)
 
@@ -365,7 +365,7 @@ Optional kann implementiert werden, dass Einladungen auch wieder zurückgenommen
 | Profil        | Organisator | Einladungen via Profil verschicken       | ich andere User einladen kann         | Einladung via Profil möglich        | Muss      |
 | Zurücknehmen  | Organisator | Einladungen zurücknehmen                 | ich die Einladungen verwalten kann    | Einladung zurücknehmbar             | Soll      |
 | Übersicht     | Organisator | eine Übersicht über alle Eingeladene und deren Status habe | ich die Einladungen koordinieren kann | Übersicht der Einladungen anzeigbar | Muss      |
-| Zu- / Absagen | Gast        | Einladungen zu- oder absagen             | ich meinen Status mitteilen kann      |                                     |           |
+| Zu- / Absagen | User        | Einladungen zu- oder absagen             | ich meinen Status mitteilen kann      | Veranstaltung annehmbar             | Muss      |
 
 ![Use Case Einladungen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Einladungen.jpg)
 
@@ -375,10 +375,10 @@ Liste mit Aufgaben, die noch erledigt werden müssen. Mit dieser Funktion könne
 
 | Name       | Rolle       | In meiner Rolle möchte ich | so dass                                 | Akzeptanz           | Priorität |
 | ---------- | ----------- | -------------------------- | --------------------------------------- | ------------------- | --------- |
-| anzeigen   | Gast        | alle Aufgaben einsehen     | ich eine übernehmen kann                | Aufgabe übernehmbar | Muss      |
+| anzeigen   | User        | alle Aufgaben einsehen     | ich eine übernehmen kann                | Aufgabe übernehmbar | Muss      |
 | verwalten  | Organisator | die Aufgaben verwalten     | ich die Aufgaben anlegen/entfernen kann | Aufgabe verwaltbar  | Muss      |
 | verteilen  | Organisator | anderen Aufgaben zuweisen  | ich die Aufgaben koordienieren kann     | Aufgabe verteilbar  | Muss      |
-| übernehmen | Gast        | Aufgaben übernehmen können | dem Gastgeber helfen kann               | Aufgabe übernehmbar | Muss      |
+| übernehmen | User        | Aufgaben übernehmen können | dem Gastgeber helfen kann               | Aufgabe übernehmbar | Muss      |
 
 ![Use Case Aufgaben](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Aufgaben.jpg)
 
@@ -416,11 +416,11 @@ Optional kann auch eine Übersicht aller Galerien für einen Benutzer implementi
 
 | Name                | Rolle | In meiner Rolle möchte ich         | so dass                                  | Akzeptanz            | Priorität |
 | ------------------- | ----- | ---------------------------------- | ---------------------------------------- | -------------------- | --------- |
-| Startseite anzeigen | Gast  | die Startseite einer Galerie sehen | ich einen ersten Eindruck der Bilder erhalte | Startseite anzeigbar | Muss      |
-| Foto anzeigen       | Gast  | mir einzelne Fotos anzeigen lassen | ich mir diese genauer angucken kann      | Foto anzeigbar       | Muss      |
-| Fotos hochladen     | Gast  | Fotos hochladen können             | ich meine Fotos mit anderen teilen kann  | Fotos hochladbar     | Muss      |
-| Fotos downloaden    | Gast  | Fotos downloaden können            | ich bestimmte Fotos sichern kann         | Fotos downloadbar    | Muss      |
-| Fotos kommentieren  | Gast  | Fotos kommentieren können          | ich mit anderen zu dem Foto interagieren kann | Fotos kommentierbar  | Soll      |
+| Startseite anzeigen | User  | die Startseite einer Galerie sehen | ich einen ersten Eindruck der Bilder erhalte | Startseite anzeigbar | Muss      |
+| Foto anzeigen       | User  | mir einzelne Fotos anzeigen lassen | ich mir diese genauer angucken kann      | Foto anzeigbar       | Muss      |
+| Fotos hochladen     | User  | Fotos hochladen können             | ich meine Fotos mit anderen teilen kann  | Fotos hochladbar     | Muss      |
+| Fotos downloaden    | User  | Fotos downloaden können            | ich bestimmte Fotos sichern kann         | Fotos downloadbar    | Muss      |
+| Fotos kommentieren  | User  | Fotos kommentieren können          | ich mit anderen zu dem Foto interagieren kann | Fotos kommentierbar  | Soll      |
 
 ![Use Case Galerie](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Galerie.jpg)
 
@@ -432,9 +432,9 @@ Optional können auch Chats unter registrierten Usern oder Gruppenchat implement
 
 | Name         | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz             | Priorität |
 | ------------ | ----- | ---------------------------------------- | ---------------------------------------- | --------------------- | --------- |
-| erstellen    | Gast  | Kommentare zur Veranstaltung erstellen können | ich mit anderen Gästen interagieren kann | Kommentar erstelbar   | Muss      |
-| bearbeiten   | Gast  | meine Kommentare bearbeiten können       | ich Fehler korrigieren kann              | Kommentar bearbeitbar | Muss      |
-| löschen      | Gast  | meine Kommentare löschen können          | diese nicht mehr lesbar sind             | Kommentar löschbar    | Muss      |
+| erstellen    | User  | Kommentare zur Veranstaltung erstellen können | ich mit anderen Gästen interagieren kann | Kommentar erstelbar   | Muss      |
+| bearbeiten   | User  | meine Kommentare bearbeiten können       | ich Fehler korrigieren kann              | Kommentar bearbeitbar | Muss      |
+| löschen      | User  | meine Kommentare löschen können          | diese nicht mehr lesbar sind             | Kommentar löschbar    | Muss      |
 | Privatchats  | User  | mit einem anderen User schreiben können  | wir privat kommunizieren können          | Privatchats möglich   | Soll      |
 | Gruppenchats | User  | mit einer Gruppe von anderen Usern schreiben können | wir privat kommunizieren können          | Gruppenchats möglich  | Soll      |
 
@@ -450,8 +450,8 @@ Der Organisator kann Abstimmungen erstellen. Dazu kann er eine Fragestellung ein
 | ---------- | ----------- | ---------------------------------------- | ---------------------------------------- | ---------------------- | --------- |
 | erstellen  | Organisator | Abstimmungen in der Veranstaltung erstellen können | ich andere Meinungen abfragen kann       | Abstimmung erstellbar  | Muss      |
 | bearbeiten | Organisator | Abstimmungen bearbeiten können           | ich das beste Ergebniss halte            | Abstimmung bearbeitbar | Muss      |
-| anzeigen   | Gast        | mir Abstimmungen ansehen können          | ich sehe, wo meine Meinung benötigt wird | Abstimmung anzeigbar   | Muss      |
-| abstimmen  | Gast        | abstimmen können                         | ich meine Meinung mitteilen kann         | Abstimmen möglich      | Muss      |
+| anzeigen   | User        | mir Abstimmungen ansehen können          | ich sehe, wo meine Meinung benötigt wird | Abstimmung anzeigbar   | Muss      |
+| abstimmen  | User        | abstimmen können                         | ich meine Meinung mitteilen kann         | Abstimmen möglich      | Muss      |
 
 ![Use Case Abstimmung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Abstimmung.jpg)
 
@@ -461,9 +461,9 @@ Nach der Veranstaltung können die Gäste eine Bewertung der Veranstaltung abgeb
 
 | Name       | Rolle | In meiner Rolle möchte ich              | so dass                                  | Akzeptanz             | Priorität |
 | ---------- | ----- | --------------------------------------- | ---------------------------------------- | --------------------- | --------- |
-| anzeigen   | Gast  | das Ergebniss sehen                     | ich sehen kann, wie andere die Party fanden | Bewertung anzeigbar   | Soll      |
-| abgeben    | Gast  | eine Bewertung zur Party abgeben können | ich meine Meinung mitteilen kann         | Bewertung abgebbar    | Soll      |
-| bearbeiten | Gast  | eine Bewertung ändern können            | ich Meinung ändern kann                  | Bewertung bearbeitbar | Soll      |
+| anzeigen   | User  | das Ergebniss sehen                     | ich sehen kann, wie andere die Party fanden | Bewertung anzeigbar   | Soll      |
+| abgeben    | User  | eine Bewertung zur Party abgeben können | ich meine Meinung mitteilen kann         | Bewertung abgebbar    | Soll      |
+| bearbeiten | User  | eine Bewertung ändern können            | ich Meinung ändern kann                  | Bewertung bearbeitbar | Soll      |
 
 ![Use Case Bewertung](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/use_case/Bewertung.jpg)
 
@@ -475,7 +475,7 @@ Auch eine Übersicht zu allen Gästen wird angezeigt.
 
 | Name       | Rolle       | In meiner Rolle möchte ich           | so dass                    | Akzeptanz                  | Priorität |
 | ---------- | ----------- | ------------------------------------ | -------------------------- | -------------------------- | --------- |
-| Gast_QR    | Gast        | meinen Gast-QR-Code anzeigen lassen  | ich einchecken kann        | QR-Eincheckbar             | Soll      |
+| Gast_QR    | User        | meinen Gast-QR-Code anzeigen lassen  | ich einchecken kann        | QR-Eincheckbar             | Soll      |
 | Scannen    | Organisator | Gast-QR-Codes einscannen können      | ich Gäste einchecken kann  | Scannen möglich            | Soll      |
 | Einchecken | Organisator | Gäste auch manuell einchecken können | die Gästeliste aktuell ist | Manuell einchecken möglich | Soll      |
 
@@ -741,8 +741,6 @@ Anmeldung bei der Anwendung.
 ### Gast
 
 Besucher einer Party ohne organisatorischen Aufgaben.
-
-Als Rolle: Gastrolle in einer Veranstaltung ohne weitergehende Funktionen.
 
 ### Gästeliste
 
