@@ -4,11 +4,14 @@
 
 #### Einloggen
 
-| Testart | Ereignis                    | Überprüfung                              | Ergebnis                     | Testname                 |
-| ------- | --------------------------- | ---------------------------------------- | ---------------------------- | ------------------------ |
-| Negativ | E-Mail ohne @               | Überprüfen ob @ enthalten ist            | Fehlermeldung anzeigen       | Login_Negativ_Email_1    |
-| Negativ | Kennwort zu kurz            | Länge prüfen                             | Fehlermeldung anzeigen       | Login_Negativ_Password_1 |
-| Negativ | Beides falsch eingegeben    | API antwortet mit Status 400             | Fehlermeldung anzeigen       | Login_Negativ_All        |
-| Positiv | Korrekte Daten eingegeben   | API antwortet mit Status 200 und API-Key | Weiterleitung zur Hauptseite | Login_Positiv            |
-| I/O     | API nicht erreichbar        | Timeout bei Warten auf Antwort der API   | Fehlermeldung anzeigen       | Login_IO_API_1           |
-| I/O     | Antwort-JSON ist fehlerhaft | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen       | Login_IO_API_2           |
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                     | Testname                  |
+| ------- | ---------------------------------------- | ---------------------------------------- | ---------------------------- | ------------------------- |
+| Negativ | E-Mail ungültig                          | Überprüfen ob @ und . enthalten sind     | Fehlermeldung anzeigen       | Login_Negativ_Email_1     |
+| Negativ | E-Mail leer                              | Überprüfen ob E-Mail nicht leer ist      | Fehlermeldung anzeigen       | Login_Negativ_Email_2     |
+| Negativ | Kennwort zu kurz                         | Länge prüfen                             | Fehlermeldung anzeigen       | Login_Negativ_Password_1  |
+| Negativ | Kennwort leer                            | Überprüfen ob Passwort nicht leer ist    | Fehlermeldung anzeigen       | Login_Negativ_Password_2  |
+| Negativ | Kombination stimmt nicht                 | API antwortet mit Status 400             | Fehlermeldung anzeigen       | Login_Negativ_Combination |
+| Positiv | Korrekte Daten eingegeben                | API antwortet mit Status 200 und API-Key | Weiterleitung zur Hauptseite | Login_Positiv             |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen       | Login_IO_API_1            |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen       | Login_IO_API_2            |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen       | Login_IO_API_3            |
