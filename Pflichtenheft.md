@@ -253,7 +253,7 @@ Es muss jeder Zeit möglich sein sich auszuloggen.
 
 Es muss eine Übersicht geben, wo der User all seine Veranstaltungen auf denen er war oder auch Kommende sehen kann. Auch muss es eine Übersicht aller aktuellen Einladungen und der Veranstaltungen, die man selber erstellt hat, geben.
 
-Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hinzuzufügen, hat man auf fremden Profilen die Möglichkeit, diesen als Kontakt zu markieren oder demarkieren. Damit man fremde Kontakte finden kann, muss es eine Suchfunktion geben.
+Ebenfalls kann man sich all seine Kontakte anzeigen lassen. Um einen Kontakt hinzuzufügen, hat man auf fremden Profilen die Möglichkeit, diesem eine Kontaktanfrage zu schicken. Wird diese Anfrage abgelehnt, wird die Anfrage einfach gelöscht und es kann eine neue Anfrage gestellt werden. Damit man fremde Kontakte finden kann, muss es eine Suchfunktion geben.
 
 | Name                           | Rolle | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                  | Priorität |
 | ------------------------------ | ----- | ---------------------------------------- | ---------------------------------------- | -------------------------- | --------- |
