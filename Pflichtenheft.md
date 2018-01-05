@@ -532,7 +532,7 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ##### Einladung annehmen
 
-![Einladung annehmen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Einladung annehmen.png)
+![Einladung annehmen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Einladung Annehmen.png)
 
 #### Home
 
