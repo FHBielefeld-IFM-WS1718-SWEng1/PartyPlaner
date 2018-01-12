@@ -45,18 +45,29 @@
 
 ### Benutzerprofil verwalten/ändern
 
-| Testart | Ereignis | Überprüfung | Ergebnis | Testname |
-| ------- | -------- | ----------- | -------- | -------- |
-| Positiv | Korrekte Daten eingegeben | API antwortet mit Status 200 | Aktualisiertes Benutzerprofil | Aenderung_Positiv  |
-| Negativ | Geburtsdatum liegt in der Zukunft | Überprüfen ob Geburtsdatum nicht in der Zukunft liegt | Fehlermeldung anzeigen | Aenderung_Negativ_Geburtsdatum_1 |
-| Negativ | Aktuelles Kennwort zu kurz | Länge von Kennwort prüfen | Fehlermeldung anzeigen | Aenderung_PruefAktPw_Negativ_Password_1  |
-| Negativ | Aktuelles Kennwort leer | Überprüfen ob Passwort nicht leer ist | Fehlermeldung anzeigen | Aenderung_PruefAktPw_Negativ_Password_2 |
-| Negativ | Aktuelles Kennwort falsch | Überprüfen ob Passwort nicht korrekt ist | Fehlermeldung anzeigen | Aenderung_PruefAktPw_Negativ_Password_3 |
-| Negativ | Neues Kennwort zu kurz | Länge von Kennwort prüfen  | Fehlermeldung anzeigen  | Aenderung_Negativ_Password_1  |
-| Negativ | Neues Kennwort leer | Überprüfen ob Passwort nicht leer ist  | Fehlermeldung anzeigen  | Aenderung_Negativ_Password_2  |
-| Negativ | Passwort-Überprüfen-Feld leer | Überprüfen ob Passwort-Überprüfen-Feld nicht leer ist | Fehlermeldung anzeigen | Aenderung_Negativ_Password_Check_1 |
-| Negativ | Passwort-Überprüfen-Feld zu kurz | Länge von Passwort-Überprüfen-Feld prüfen | Fehlermeldung anzeigen | Aenderung_Negativ_Password_Check_2 |
-| Negativ | Passwort stimmt nicht mit Passwort-Überprüfen-Feld überein | Überprüfen ob Passwort und Passwort-Überprüfen-Feld übereinstimmen | Fehlermeldung anzeigen  | Aenderung_Negativ_Password_Check_3 |
-| I/O     | API nicht erreichbar  | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen  | Aenderung_IO_API_1    |
-| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus  | Fehlermeldung anzeigen | Aenderung_IO_API_2            |
-| I/O     | Antwort-JSON ist fehlerhaft  | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen  | Aenderung_IO_API_3    |
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                      | Testname                                |
+| ------- | ---------------------------------------- | ---------------------------------------- | ----------------------------- | --------------------------------------- |
+| Positiv | Korrekte Daten eingegeben                | API antwortet mit Status 200             | Aktualisiertes Benutzerprofil | Aenderung_Positiv                       |
+| Negativ | Geburtsdatum liegt in der Zukunft        | Überprüfen ob Geburtsdatum nicht in der Zukunft liegt | Fehlermeldung anzeigen        | Aenderung_Negativ_Geburtsdatum_1        |
+| Negativ | Aktuelles Kennwort zu kurz               | Länge von Kennwort prüfen                | Fehlermeldung anzeigen        | Aenderung_PruefAktPw_Negativ_Password_1 |
+| Negativ | Aktuelles Kennwort leer                  | Überprüfen ob Passwort nicht leer ist    | Fehlermeldung anzeigen        | Aenderung_PruefAktPw_Negativ_Password_2 |
+| Negativ | Aktuelles Kennwort falsch                | Überprüfen ob Passwort nicht korrekt ist | Fehlermeldung anzeigen        | Aenderung_PruefAktPw_Negativ_Password_3 |
+| Negativ | Neues Kennwort zu kurz                   | Länge von Kennwort prüfen                | Fehlermeldung anzeigen        | Aenderung_Negativ_Password_1            |
+| Negativ | Neues Kennwort leer                      | Überprüfen ob Passwort nicht leer ist    | Fehlermeldung anzeigen        | Aenderung_Negativ_Password_2            |
+| Negativ | Passwort-Überprüfen-Feld leer            | Überprüfen ob Passwort-Überprüfen-Feld nicht leer ist | Fehlermeldung anzeigen        | Aenderung_Negativ_Password_Check_1      |
+| Negativ | Passwort-Überprüfen-Feld zu kurz         | Länge von Passwort-Überprüfen-Feld prüfen | Fehlermeldung anzeigen        | Aenderung_Negativ_Password_Check_2      |
+| Negativ | Passwort stimmt nicht mit Passwort-Überprüfen-Feld überein | Überprüfen ob Passwort und Passwort-Überprüfen-Feld übereinstimmen | Fehlermeldung anzeigen        | Aenderung_Negativ_Password_Check_3      |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen        | Aenderung_IO_API_1                      |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen        | Aenderung_IO_API_2                      |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen        | Aenderung_IO_API_3                      |
+
+### Benutzerprofil löschen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                | Testname            |
+| ------- | ---------------------------------------- | ---------------------------------------- | --------------------------------------- | ------------------- |
+| Positiv | Löschen des Benutzers doppelt bestätigt, Löschen erfolgreich | API antwortet mit Status 200             | Ausloggen, Weiterleitung zur Hauptseite | DeleteUser_Positiv  |
+| Negativ | Fehler beim Löschen des Users            | API antwortet mit Status 400             | Fehlermeldung anzeigen                  | DeleteUser_Negativ  |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                  | DeleteUser_IO_API_1 |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                  | DeleteUser_IO_API_2 |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                  | DeleteUser_IO_API_3 |
+
