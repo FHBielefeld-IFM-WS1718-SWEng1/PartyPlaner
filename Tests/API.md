@@ -9,18 +9,18 @@
 | Positiv | Request entspricht der Dokumentation, Daten stimmen überein | Passwort passt zur E-Mail             | Status 200 | Login_Positiv_Correct   |
 | Positiv | E-Mail existiert nicht                   | E-Mail steht nicht in DB              | Status 400 | Login_Positiv_NoEmail   |
 | Positiv | Daten stimmen nicht überein              | Passwort passt nicht zur E-Mail       | Status 400 | Login_Positiv_Incorrect |
-| Negativ | Request entspricht nicht der Dokumentation |                                       | Status 400 | Login_Negativ_Request_1 |
-| I/O     | DB nicht erreichbar                      | Timeout bei Warten auf Antwort der DB | Status 500 | Login_IO_DB_1           |
+| Negativ | Request entspricht nicht der Dokumentation |                                       | Status 400 | Login_Negativ_Request   |
+| I/O     | DB nicht erreichbar                      | Timeout bei Warten auf Antwort der DB | Status 500 | Login_IO_DB             |
 
 ### Logout
 
 #### DELETE
 
-| Testart | Ereignis            | Überprüfung                           | Ergebnis                       | Testname         |
-| ------- | ------------------- | ------------------------------------- | ------------------------------ | ---------------- |
-| Positiv | API Key gültig      | API Key existiert in DB               | User wird gelöscht, Status 200 | Logout_Positiv_1 |
-| Negativ | API Key ungültig    | API Key existiert nicht in DB         | Status 400                     | Logout_Negativ_1 |
-| I/O     | DB nicht erreichbar | Timeout bei Warten auf Antwort der DB | Status 500                     | Login_IO_DB_1    |
+| Testart | Ereignis            | Überprüfung                           | Ergebnis                       | Testname               |
+| ------- | ------------------- | ------------------------------------- | ------------------------------ | ---------------------- |
+| Positiv | API Key gültig      | API Key existiert in DB               | User wird gelöscht, Status 200 | Logout_Positiv_Correct |
+| Negativ | API Key ungültig    | API Key existiert nicht in DB         | Status 400                     | Logout_Negativ_Key     |
+| I/O     | DB nicht erreichbar | Timeout bei Warten auf Antwort der DB | Status 500                     | Logout_IO_DB           |
 
 ### Register
 
@@ -30,22 +30,21 @@
 | ------- | ---------------------------------------- | ------------------------------------- | ------------------------------ | ------------------------ |
 | Positiv | Request entspricht der Dokumentation     | E-Mail und Passwort sind gefüllt      | User wird angelegt, Status 200 | Register_Positiv_Correct |
 | Positiv | Benutzer ist schon vorhanden             | E-Mail existiert in DB                | Status 400                     | Register_Positiv_User    |
-| Negativ | Request entspricht nicht der Dokumentation |                                       | Status 400                     | Register_Negativ_1       |
-| I/O     | DB nicht erreichbar                      | Timeout bei Warten auf Antwort der DB | Status 500                     | Register_IO_DB_1         |
+| Negativ | Request entspricht nicht der Dokumentation |                                       | Status 400                     | Register_Negativ_Request |
+| I/O     | DB nicht erreichbar                      | Timeout bei Warten auf Antwort der DB | Status 500                     | Register_IO_DB           |
 
 
 
 ### Party
 
-####GET
+#### GET
 
 
 
-####GET/{id}
+#### GET/{id}
 
 
 
-####POST
 
 
 
@@ -61,7 +60,14 @@
 
 #### PUT
 
-
+| Testart | Ereignis                                 | Überprüfung                           | Ergebnis                        | Testname                 |
+| ------- | ---------------------------------------- | ------------------------------------- | ------------------------------- | ------------------------ |
+| Positiv | API Key und ID gültig                    | API Key und ID existieren in DB       | User wird angepasst, Status 200 | User_PUT_Positiv_Correct |
+| Negativ | Request entspricht nicht der Dokumentation |                                       | Status 400                      | User_PUT_Negativ_Request |
+| Negativ | ID ungültig                              | ID existiert nicht in DB              | Status 400                      | User_PUT_Negativ_ID      |
+| Negativ | API Key ungültig                         | API Key existiert nicht in DB         | Status 400                      | User_PUT_Negativ_Key     |
+| Negativ | API Key gehört nicht zu User             | Abgleichen von API-Key und User       | Status 400                      | User_PUT_Negativ_        |
+| I/O     | DB nicht erreichbar                      | Timeout bei Warten auf Antwort der DB | Status 500                      | User_PUT_IO_DB           |
 
 #### GET
 
