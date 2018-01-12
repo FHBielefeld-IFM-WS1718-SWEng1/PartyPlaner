@@ -48,7 +48,7 @@
 | Testart | Ereignis | Überprüfung | Ergebnis | Testname |
 | ------- | -------- | ----------- | -------- | -------- |
 | Positiv | Korrekte Daten eingegeben | API antwortet mit Status 200 | Aktualisiertes Benutzerprofil | Aenderung_Positiv  |
-| Negativ | Geburtsdatum liegt in der Zukunft | Überprüfen ob Geburtsdatum nicht in der Zukunft liegt | Fehlermeldung anzeigen | | Aenderung__Negativ_Geburtsdatum_1 |
+| Negativ | Geburtsdatum liegt in der Zukunft | Überprüfen ob Geburtsdatum nicht in der Zukunft liegt | Fehlermeldung anzeigen | Aenderung_Negativ_Geburtsdatum_1 |
 | Negativ | Aktuelles Kennwort zu kurz | Länge von Kennwort prüfen | Fehlermeldung anzeigen | Aenderung_PruefAktPw_Negativ_Password_1  |
 | Negativ | Aktuelles Kennwort leer | Überprüfen ob Passwort nicht leer ist | Fehlermeldung anzeigen | Aenderung_PruefAktPw_Negativ_Password_2 |
 | Negativ | Aktuelles Kennwort falsch | Überprüfen ob Passwort nicht korrekt ist | Fehlermeldung anzeigen | Aenderung_PruefAktPw_Negativ_Password_3 |
