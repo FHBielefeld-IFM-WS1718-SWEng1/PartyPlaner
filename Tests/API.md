@@ -1,6 +1,6 @@
 ## API
 
-### Login
+### login
 
 #### POST
 
@@ -12,7 +12,7 @@
 | Negativ | Request entspricht nicht der Dokumentation |                                       | Status 400 | Login_Negativ_Request   |
 | I/O     | DB nicht erreichbar                      | Timeout bei Warten auf Antwort der DB | Status 500 | Login_IO_DB             |
 
-### Logout
+### logout
 
 #### DELETE
 
@@ -22,7 +22,7 @@
 | Negativ | API Key ungültig    | API Key existiert nicht in DB         | Status 400                     | Logout_Negativ_Key     |
 | I/O     | DB nicht erreichbar | Timeout bei Warten auf Antwort der DB | Status 500                     | Logout_IO_DB           |
 
-### Register
+### register
 
 #### POST
 
@@ -35,15 +35,17 @@
 
 
 
-### Party
+### party
 
 #### GET
 
 
 
+#### POST
+
+
+
 #### GET/{id}
-
-
 
 
 
@@ -56,9 +58,45 @@
 
 
 
-### User
+#### party/guest
 
-#### PUT
+##### POST
+
+##### PUT
+
+##### DELETE
+
+
+
+####party/rating
+
+##### POST
+
+
+
+#### party/todo
+
+##### POST
+
+##### PUT
+
+##### DELETE
+
+
+
+#### party/task
+
+##### POST
+
+##### PUT
+
+##### DELETE
+
+
+
+### user
+
+#### PUT/{id}
 
 | Testart | Ereignis                                 | Überprüfung                           | Ergebnis                        | Testname                 |
 | ------- | ---------------------------------------- | ------------------------------------- | ------------------------------- | ------------------------ |
@@ -77,19 +115,27 @@
 
 
 
-### Contactlist
+#### user/contact
 
-#### GET
-
-
-
-#### POST
+##### GET
 
 
 
-#### DELETE
+##### POST
+
+
+
+##### DELETE
 
 
 
 #### PUT
+
+
+
+### image
+
+#### POST
+
+#### GET/{id}
 
