@@ -21,7 +21,7 @@
 | Testart | Ereignis                                 | Überprüfung                              | Ergebnis                     | Testname        |
 | ------- | ---------------------------------------- | ---------------------------------------- | ---------------------------- | --------------- |
 | Positiv | User war angemeldet                      | API antwortet mit Status 200             | Weiterleitung zur Startseite | Logout_Positiv  |
-| Negativ | Kombination stimmt nicht                 | API antwortet mit Status 400             | Fehlermeldung anzeigen       | Logout_Negativ  |
+| Negativ | User war nicht angemeldet                | API antwortet mit Status 400             | Fehlermeldung anzeigen       | Logout_Negativ  |
 | I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen       | Logout_IO_API_1 |
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen       | Logout_IO_API_2 |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit Status 200 noch mit Status 400 | Fehlermeldung anzeigen       | Logout_IO_API_3 |
@@ -38,7 +38,7 @@
 | Negativ | Passwort leer                            | Überprüfen ob Passwort nicht leer ist    | Fehlermeldung anzeigen  | Register_Negativ_Password_2       |
 | Negativ | Passwort-Überprüfen-Feld leer            | Überprüfen ob Passwort-Überprüfen-Feld nicht leer ist | Fehlermeldung anzeigen  | Register_Negativ_Password_Check_1 |
 | Negativ | Passwort-Überprüfen-Feld zu kurz         | Länge von Passwort-Überprüfen-Feld prüfen | Fehlermeldung anzeigen  | Register_Negativ_Password_Check_2 |
-| Negativ | Passwort stimmt mit Passwort-Überprüfen-Feld überein | Überprüfen ob Passwort und Passwort-Überprüfen-Feld übereinstimmen | Fehlermeldung anzeigen  | Register_Negativ_Password_Check_3 |
+| Negativ | Passwort stimmt nicht mit Passwort-Überprüfen-Feld überein | Überprüfen ob Passwort und Passwort-Überprüfen-Feld übereinstimmen | Fehlermeldung anzeigen  | Register_Negativ_Password_Check_3 |
 | I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen  | Register_IO_API_1                 |
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen  | Register_IO_API_2                 |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit Status 200 noch mit Status 400 | Fehlermeldung anzeigen  | Register_IO_API_3                 |
