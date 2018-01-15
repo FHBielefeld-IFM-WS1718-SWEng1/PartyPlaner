@@ -80,3 +80,13 @@
 | I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                  | ShowEvents_IO_API_1 |
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                  | ShowEvents_IO_API_2 |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                  | ShowEvents_IO_API_3 |
+
+### Meine erstellten Veranstaltungen anzeigen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                | Testname            |
+| ------- | ---------------------------------------- | ---------------------------------------- | --------------------------------------- | ------------------- |
+| Positiv | Eigene Veranstaltungen werden korrekt angezeigt | API antwortet mit Status 200             | Übersicht der eigenen Veranstaltungen | ShowOwnEvents_Positiv  |
+| Negativ | Fehler beim anzeigen der eigenen Veranstaltungen | API antwortet mit Status 400             | Fehlermeldung anzeigen                  | ShowOwnEvents_Negativ  |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                  | ShowOwnEvents_IO_API_1 |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                  | ShowOwnEvents_IO_API_2 |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                  | ShowOwnEvents_IO_API_3 |
