@@ -1,4 +1,4 @@
-## Clients
+Clients
 
 ## Grundfunktionen
 
@@ -73,20 +73,160 @@
 
 ### Alle Veranstaltungen anzeigen
 
-| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                | Testname            |
-| ------- | ---------------------------------------- | ---------------------------------------- | --------------------------------------- | ------------------- |
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                      | Testname            |
+| ------- | ---------------------------------------- | ---------------------------------------- | ----------------------------- | ------------------- |
 | Positiv | Veranstaltungen werden korrekt angezeigt | API antwortet mit Status 200             | Übersicht der Veranstaltungen | ShowEvents_Positiv  |
-| Negativ | Fehler beim anzeigen der Veranstaltungen | API antwortet mit Status 400             | Fehlermeldung anzeigen                  | ShowEvents_Negativ  |
-| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                  | ShowEvents_IO_API_1 |
-| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                  | ShowEvents_IO_API_2 |
-| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                  | ShowEvents_IO_API_3 |
+| Negativ | Fehler beim anzeigen der Veranstaltungen | API antwortet mit Status 400             | Fehlermeldung anzeigen        | ShowEvents_Negativ  |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen        | ShowEvents_IO_API_1 |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen        | ShowEvents_IO_API_2 |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen        | ShowEvents_IO_API_3 |
 
 ### Meine erstellten Veranstaltungen anzeigen
 
-| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                | Testname            |
-| ------- | ---------------------------------------- | ---------------------------------------- | --------------------------------------- | ------------------- |
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                              | Testname               |
+| ------- | ---------------------------------------- | ---------------------------------------- | ------------------------------------- | ---------------------- |
 | Positiv | Eigene Veranstaltungen werden korrekt angezeigt | API antwortet mit Status 200             | Übersicht der eigenen Veranstaltungen | ShowOwnEvents_Positiv  |
-| Negativ | Fehler beim anzeigen der eigenen Veranstaltungen | API antwortet mit Status 400             | Fehlermeldung anzeigen                  | ShowOwnEvents_Negativ  |
-| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                  | ShowOwnEvents_IO_API_1 |
-| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                  | ShowOwnEvents_IO_API_2 |
-| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                  | ShowOwnEvents_IO_API_3 |
+| Negativ | Fehler beim anzeigen der eigenen Veranstaltungen | API antwortet mit Status 400             | Fehlermeldung anzeigen                | ShowOwnEvents_Negativ  |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                | ShowOwnEvents_IO_API_1 |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                | ShowOwnEvents_IO_API_2 |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                | ShowOwnEvents_IO_API_3 |
+
+
+### Profil suchen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                              | Testname                      |
+| ------- | ---------------------------------------- | ---------------------------------------- | ------------------------------------- | ----------------------------- |
+| Positiv | Gefunden User werden korrekt angezeigt   | API antwortet mit Status 200             | Übersicht aller gefunden User         | SearchUser_Positiv            |
+| Positiv | User nicht gefunden                      |                                          | Anzeige "User nicht vorhanden"        | SearchNonExcitingUser_Positiv |
+| Negativ | Fehler beim anzeigen der gesuchten User  | API antwortet mit Status 400             | Fehlermeldung anzeigen gesuchter User | SearchUser_Negativ            |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                | SearchUser_IO_API_1           |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                | SearchUser_IO_API_2           |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                | SearchUser_IO_API_3           |
+
+### Meine Kontakte anzeigen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                            | Testname              |
+| ------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------- | --------------------- |
+| Positiv | Kontakte korrekt anzeigen                | API antwortet mit Status 200             | Übersicht Kontakte                  | ShowContact_Positiv   |
+| Positiv | Keine Kontakte vorhanden                 |                                          | Anzeigen leerer Kontaktliste        | ShowNoContact_Positiv |
+| Negativ | Fehler beim anzeigen der Kontakte        | API antwortet mit Status 400             | Fehlermeldung anzeigen Kontaktliste | ShowContact_Negativ   |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen              | ShowContact_IO_API_1  |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen              | ShowContact_IO_API_2  |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen              | ShowContact_IO_API_3  |
+
+
+
+### Profil als Kontakt hinzufügen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                              | Testname                  |
+| ------- | ---------------------------------------- | ---------------------------------------- | ------------------------------------- | ------------------------- |
+| Positiv | Kontakt hinzufügen                       | API antwortet mit Status 200             | Kontakt zur liste hinzufügen          | AddContact_Positiv        |
+| Negativ | Kontakt geblockt                         |                                          | Kontakt nicht zur liste hinzufügen    | AddBlockedContact_Negativ |
+| Negativ | Fehler beim hinzufügen des Kontaktes     | API antwortet mit Status 400             | Fehlermeldung hinzufügen Kontaktliste | AddContact_Negativ        |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                | AddContact_IO_API_1       |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                | AddContact_IO_API_2       |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                | AddContact_IO_API_3       |
+
+### Profil als Kontakt entfernen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                               | Testname                 |
+| ------- | ---------------------------------------- | ---------------------------------------- | -------------------------------------- | ------------------------ |
+| Positiv | Kontakt entferenen                       | API antwortet mit Status 200             | Kontakt von der  liste entferenen      | RemoveContact_Positiv    |
+| Negativ | Kontakt nicht befreundet                 |                                          | Kontakt kann nicht entfernt werden     | RemoveNonContact_Negativ |
+| Negativ | Fehler beim entfernen des Kontaktes      | API antwortet mit Status 400             | Fehlermeldung entferenen des Kontaktes | RemoveContact_Negativ    |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                 | RemoveContact_IO_API_1   |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                 | RemoveContact_IO_API_2   |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                 | RemoveContact_IO_API_3   |
+
+
+
+### Einladungen anzeigen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                           | Testname             |
+| ------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------- | -------------------- |
+| Positiv | Einladungen anzeigen                     | API antwortet mit Status 200             | Einladungsliste anzeigen           | showInvite_Positiv   |
+| Negativ | Keine Einladungen                        |                                          | Leere Einladungsliste anzeigen     | showNoInvite_Negativ |
+| Negativ | Fehler beim anzeigen der Einladungen     | API antwortet mit Status 400             | Fehlermeldung anzeigen Einladungen | showInvite_Negativ   |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen             | showInvite_IO_API_1  |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen             | showInvite_IO_API_2  |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen             | showInvite_IO_API_3  |
+
+### Gästeliste anzeigen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                          | Testname                |
+| ------- | ---------------------------------------- | ---------------------------------------- | --------------------------------- | ----------------------- |
+| Positiv | Gästeliste anzeigen                      | API antwortet mit Status 200             | Gästeliste anzeigen               | showGuestList_Positiv   |
+| Negativ | Keine Gästeliste                         |                                          | Leere Gästeliste anzeigen         | showNoGuestList_Negativ |
+| Negativ | Fehler beim anzeigen der Gästeliste      | API antwortet mit Status 400             | Fehlermeldung anzeigen Gästeliste | showGuestList_Negativ   |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen            | showGuestList_IO_API_1  |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen            | showGuestList_IO_API_2  |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen            | showGuestList_IO_API_3  |
+
+### Zusagen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                 | Testname               |
+| ------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------- |
+| Positiv | Einladung annehmen                       | API antwortet mit Status 200             | Zur Gästeliste hinzufügen, Einladung entfernenen | sayYes_Positiv         |
+| Negativ | Keine Einladung bekommen                 | API antwortet mit Status 200             | Nicht zur Gästeliste hinzufügen          | sayYesNoInvite_Negativ |
+| Negativ | Fehler beim annehmen der Einladung       | API antwortet mit Status 400             | Fehlermeldung Einladung annehmen         | sayYes_Negativ         |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                   | sayYes_IO_API_1        |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                   | sayYes_IO_API_2        |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                   | sayYes_IO_API_3        |
+
+### Absagen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                         | Testname              |
+| ------- | ---------------------------------------- | ---------------------------------------- | -------------------------------- | --------------------- |
+| Positiv | Einladung ablehnen                       | API antwortet mit Status 200             | Einladung entfernen              | sayNo_Positiv         |
+| Negativ | Keine Einladung bekommen                 |                                          | Einladung entfernen              | sayNoNoInvite_Negativ |
+| Negativ | Fehler beim ablehnen der Einladung       | API antwortet mit Status 400             | Fehlermeldung Einladung ablehnen | sayNo_Negativ         |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen           | sayNo_IO_API_1        |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen           | sayNo_IO_API_2        |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen           | sayNo_IO_API_3        |
+
+### Aufgabe Anzeigen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                        | Testname                |
+| ------- | ---------------------------------------- | ---------------------------------------- | ------------------------------- | ----------------------- |
+| Positiv | Aufgaben anzeigen                        | API antwortet mit Status 200             | Aufgabenliste  anzeigen         | showTasks_Positiv       |
+| Positiv | Keine Aufgaben                           |                                          | Leere Aufgabeliste anzeigen     | showTasksNoTask_Positiv |
+| Negativ | Fehler beim anzeigen der Aufgaben        | API antwortet mit Status 400             | Fehlermeldung Aufgaben anzeigen | showTasks_Negativ       |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen          | showTasks_IO_API_1      |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen          | showTasks_IO_API_2      |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen          | showTasks_IO_API_3      |
+
+###  Berwertung abgeben
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                 | Testname                 |
+| ------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ------------------------ |
+| Positiv | Bewertung abgeben                        | API antwortet mit Status 200             | Bewertung abgeben                        | setRating_Positiv        |
+| Negativ | Mehrfach Bewertung abgeben               |                                          | ---------------------------------------- | ------------------------ |
+| Negativ | Negative Bewertung abgeben               |                                          | Fehlermeldung Negative Bewertung nicht möglich | setNegativRating_Negativ |
+| Negativ | Fehler beim abgegeben einer Bewertung    | API antwortet mit Status 400             | Fehlermeldung abgeben Bewertung          | setRating_Negativ        |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                   | setRating_IO_API_1       |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                   | setRating_IO_API_2       |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                   | setRating_IO_API_3       |
+
+### Berwertung ändern
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                 | Testname                    |
+| ------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------------------------- |
+| Positiv | Bewertung ändern                         | API antwortet mit Status 200             | Bewertung ändern                         | changeRating_Positiv        |
+| Negativ | Bewertung auf Negativ ändern             |                                          | Fehlermeldung Negative Bewertung nicht möglich | changeNegativRating_Negativ |
+| Negativ | Fehler beim ändern einer Bewertung       | API antwortet mit Status 400             | Fehlermeldung ändern Bewertung           | changeRating_Negativ        |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                   | changeRating_IO_API_1       |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                   | changeRating_IO_API_2       |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                   | changeRating_IO_API_3       |
+
+###  Bewertung Anzeigen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                           | Testname             |
+| ------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------- | -------------------- |
+| Positiv | Bewertung anzeigen                       | API antwortet mit Status 200             | Bewertung anzeigen                 | showRating_Positiv   |
+| Negativ | Keine Bewertungen abgeben                |                                          | Anzeigen Keiner Bewertungen (0?)   | showNoRating_Negativ |
+| Negativ | Fehler beim anzeigen der Bewertung       | API antwortet mit Status 400             | Fehlermeldung anzeigen Bewertungen | showRating_Negativ   |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen             | showRating_IO_API_1  |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen             | showRating_IO_API_2  |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen             | showRating_IO_API_3  |
+
+### 
