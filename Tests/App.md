@@ -43,6 +43,8 @@ Clients
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen  | Register_IO_API_2                 |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit Status 200 noch mit Status 400 | Fehlermeldung anzeigen  | Register_IO_API_3                 |
 
+## Benutzer
+
 ### Benutzerprofil verwalten/ändern
 
 | Testart | Ereignis                                 | Überprüfung                              | Ergebnis                      | Testname                                |
@@ -71,6 +73,8 @@ Clients
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                  | DeleteUser_IO_API_2 |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                  | DeleteUser_IO_API_3 |
 
+## Veranstaltung
+
 ### Alle Veranstaltungen anzeigen
 
 | Testart | Ereignis                                 | Überprüfung                              | Ergebnis                      | Testname            |
@@ -91,6 +95,7 @@ Clients
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                | ShowOwnEvents_IO_API_2 |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                | ShowOwnEvents_IO_API_3 |
 
+## Kontaktliste
 
 ### Profil suchen
 
@@ -138,7 +143,7 @@ Clients
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                 | RemoveContact_IO_API_2   |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                 | RemoveContact_IO_API_3   |
 
-
+## Gästeliste
 
 ### Einladungen anzeigen
 
@@ -184,6 +189,8 @@ Clients
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen           | sayNo_IO_API_2        |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen           | sayNo_IO_API_3        |
 
+## Aufgaben
+
 ### Aufgabe Anzeigen
 
 | Testart | Ereignis                                 | Überprüfung                              | Ergebnis                        | Testname                |
@@ -195,12 +202,13 @@ Clients
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen          | showTasks_IO_API_2      |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen          | showTasks_IO_API_3      |
 
-###  Berwertung abgeben
+## Bewertung
+
+###  Bewertung abgeben
 
 | Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                 | Testname                 |
 | ------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | ------------------------ |
 | Positiv | Bewertung abgeben                        | API antwortet mit Status 200             | Bewertung abgeben                        | setRating_Positiv        |
-| Negativ | Mehrfach Bewertung abgeben               |                                          | ---------------------------------------- | ------------------------ |
 | Negativ | Negative Bewertung abgeben               |                                          | Fehlermeldung Negative Bewertung nicht möglich | setNegativRating_Negativ |
 | Negativ | Fehler beim abgegeben einer Bewertung    | API antwortet mit Status 400             | Fehlermeldung abgeben Bewertung          | setRating_Negativ        |
 | I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                   | setRating_IO_API_1       |
