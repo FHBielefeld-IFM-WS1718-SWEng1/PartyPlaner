@@ -26,7 +26,17 @@
 | Testart | Ereignis                                 | Überprüfung                              | Ergebnis                           | Testname             |
 | ------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------- | -------------------- |
 | Positiv | Veranstaltung wird korrekt angezeigt | API antwortet mit Status 200  | Übersicht der Veranstaltung wird angezeigt| showEventOrganizer_Positiv   |
-| Negativ | Veranstaltung kann nicht angezeigt werden | API antwortet mit Status 400 | Fehlermeldung anzeigen | showEventOrganizer_Negativ_1 |
+| Negativ | Veranstaltung kann nicht angezeigt werden | API antwortet mit Status 400 | Fehlermeldung anzeigen | showEventOrganizer_Negativ |
 | I/O     | API nicht erreichbar | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen | showEventOrganizer_IO_API_1  |
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus | Fehlermeldung anzeigen | showEventOrganizer_IO_API_2  |
 | I/O     | Antwort-JSON ist fehlerhaft | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen             | showEventOrganizer_IO_API_3  |
+
+###  Veranstaltung anzeigen User
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                           | Testname             |
+| ------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------- | -------------------- |
+| Positiv | Veranstaltung wird korrekt angezeigt | API antwortet mit Status 200  | Übersicht der Veranstaltung wird angezeigt| showEventUser_Positiv   |
+| Negativ | Veranstaltung kann nicht angezeigt werden | API antwortet mit Status 400 | Fehlermeldung anzeigen | showEventUser_Negativ |
+| I/O     | API nicht erreichbar | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen | showEventOrganizer_IO_API_1  |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus | Fehlermeldung anzeigen | showEventUser_IO_API_2  |
+| I/O     | Antwort-JSON ist fehlerhaft | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen | showEventUser_IO_API_3  |
