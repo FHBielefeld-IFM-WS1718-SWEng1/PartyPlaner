@@ -30,6 +30,16 @@
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen             | showComment_IO_API_2  |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen             | showComment_IO_API_3  |
 
+### Kommentar löschen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                | Testname            |
+| ------- | ---------------------------------------- | ---------------------------------------- | --------------------------------------- | ------------------- |
+| Positiv | Löschen des Kommentars                   | API antwortet mit Status 200             | Kommentar gelöscht                      | DeleteComment_Positiv  |
+| Negativ | Fehler beim Löschen des Kommentars       | API antwortet mit Status 400             | Fehlermeldung anzeigen                  | DeleteComment_Negativ  |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                  | DeleteComment_IO_API_1 |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                  | DeleteComment_IO_API_2 |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                  | DeleteComment_IO_API_3 |
+
 ###  Antwort erstellen
 
 | Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                 | Testname                 |
@@ -60,3 +70,13 @@
 | I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen             | showResponse_IO_API_1  |
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen             | showResponse_IO_API_2  |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen             | showResponse_IO_API_3  |
+
+### Antwort löschen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis                                | Testname            |
+| ------- | ---------------------------------------- | ---------------------------------------- | --------------------------------------- | ------------------- |
+| Positiv | Löschen der Antwort                      | API antwortet mit Status 200             | Antwort gelöscht                        | DeleteResponse_Positiv  |
+| Negativ | Fehler beim Löschen der Antwort          | API antwortet mit Status 400             | Fehlermeldung anzeigen                  | DeleteResponse_Negativ  |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen                  | DeleteResponse_IO_API_1 |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen                  | DeleteResponse_IO_API_2 |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen                  | DeleteResponse_IO_API_3 |
