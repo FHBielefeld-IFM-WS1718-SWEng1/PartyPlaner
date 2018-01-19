@@ -156,6 +156,17 @@ Clients
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen             | showInvite_IO_API_2  |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen             | showInvite_IO_API_3  |
 
+### Einladen via Profil
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis               | Testname                     |
+| ------- | ---------------------------------------- | ---------------------------------------- | ---------------------- | ---------------------------- |
+| Positiv | Einladen funktioniert                    | API antwortet mit Status 200             | Bestätigung            | inviteProfile_Positiv        |
+| Negativ | Einladen schlägt fehl                    | API antwortet mit Status 400             | Fehlermeldung anzeigen | inviteProfile_Negativ        |
+| Negativ | User existiert nicht                     | API antwortet mit Status 400             | Fehlermeldung anzeigen | inviteProfile_NoUser_Negativ |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen | inviteProfile_IO_API_1       |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen | inviteProfile_IO_API_2       |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen | inviteProfile_IO_API_3       |
+
 ### Gästeliste anzeigen
 
 | Testart | Ereignis                                 | Überprüfung                              | Ergebnis                          | Testname                |
@@ -237,4 +248,28 @@ Clients
 | I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen             | showRating_IO_API_2  |
 | I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen             | showRating_IO_API_3  |
 
-### 
+## Galerie
+
+### Foto anzeigen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis               | Testname                   |
+| ------- | ---------------------------------------- | ---------------------------------------- | ---------------------- | -------------------------- |
+| Positiv | Foto kann geladen werden                 | API antwortet mit Status 200 und Bild    | Foto wird angezeigt    | showPhoto_Positiv          |
+| Negativ | Foto kann nicht geladen werden           | API antwortet mit Status 400             | Fehlermeldung anzeigen | showPhoto_Negativ          |
+| Negativ | Datei ist fehlerhaft übertragen          | Überprüfen ob Datei komplett ist         | Fehlermeldung anzeigen | showPhoto_Transfer_Negativ |
+| Negativ | Datei ist zu groß                        | Überprüfen der Dateigröße                | Fehlermeldung anzeigen | showPhoto_Size_Negativ     |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen | showPhoto_IO_API_1         |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen | showPhoto_IO_API_2         |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen | showPhoto_IO_API_3         |
+
+### Foto hochladen
+
+| Testart | Ereignis                                 | Überprüfung                              | Ergebnis               | Testname                   |
+| ------- | ---------------------------------------- | ---------------------------------------- | ---------------------- | -------------------------- |
+| Positiv | Foto wird hochgeladen                    | API antwortet mit Status 200             | Bestätigung            | uploadPhoto_Positiv        |
+| Negativ | Foto kann nicht hochgeladen werden       | API antwortet mit Status 400             | Fehlermeldung anzeigen | uploadPhoto_Negativ        |
+| Negativ | Datei existiert nicht                    | Überprüfen ob Datei existiert            | Fehlermeldung anzeigen | uploadPhoto_Exists_Negativ |
+| Negativ | Datei ist zu groß                        | Überprüfen der Dateigröße                | Fehlermeldung anzeigen | uploadPhoto_Size_Negativ   |
+| I/O     | API nicht erreichbar                     | Timeout bei Warten auf Antwort der API wird ausgelöst | Fehlermeldung anzeigen | uploadPhoto_IO_API_1       |
+| I/O     | API nicht erreichbar / kein Timeout vom Client | Test löst Timeout aus                    | Fehlermeldung anzeigen | uploadPhoto_IO_API_2       |
+| I/O     | Antwort-JSON ist fehlerhaft              | API antwortet weder mit API-Key noch mit Fehlermeldung | Fehlermeldung anzeigen | uploadPhoto_IO_API_3       |
