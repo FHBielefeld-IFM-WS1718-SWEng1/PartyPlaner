@@ -586,7 +586,7 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ##### Abstimmung ansehen
 
-![Abstimmung ansehen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party Abstimmung ansehen.png)
+![Abstimmung ansehen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party Abstimmung Ansehen.png)
 
 ##### Bewertung
 
@@ -624,11 +624,11 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ##### Abstimmung erstellen
 
-![Abstimmung erstellen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Abstimmung erstellen.png)
+![Abstimmung erstellen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Abstimmung Erstellen.png)
 
 ##### Abstimmung ansehen
 
-![Abstimmung ansehen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Abstimmung ansehen.png)
+![Abstimmung ansehen](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/Website/Party EV Abstimmung Ansehen.png)
 
 ### App
 
@@ -652,7 +652,7 @@ Es gibt die Möglichkeit über ein Social-Network-Profil anzumelden. Auch könne
 
 ##### Impressum
 
-![Impresssum](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Über uns.png)
+![Impresssum](https://raw.githubusercontent.com/FHBielefeld-IFM-WS1718-SWEng1/PartyPlaner/pflichtenheft/img/mockup/App/Über Uns.png)
 
 #### Profil
 
